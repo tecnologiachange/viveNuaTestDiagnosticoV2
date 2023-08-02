@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="item-container" *ngFor="let item of habilities">
+        <app-badge [percent]="getSummaryPercent(item.subhabilities)"/>
+        <p>{{item.name}}</p>
+        <img src="assets/imgs/right-arrow.svg" alt="right-down" (click)="onEmitEvent(item)" class="arrow-down"/>
+    </div>
+</div>

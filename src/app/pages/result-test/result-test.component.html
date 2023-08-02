@@ -1,0 +1,5 @@
+<app-gauge-bar-custom [secciones]="sectionsColors" [percent]="percent"></app-gauge-bar-custom>
+<div class="container-dual">
+    <app-brain-card></app-brain-card>
+    <app-accordion-category [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
+</div>
