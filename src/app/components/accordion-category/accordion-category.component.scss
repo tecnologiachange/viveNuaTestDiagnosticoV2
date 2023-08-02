@@ -1,0 +1,31 @@
+@import '../../../styles.scss';
+
+.container{
+    @extend .base-container;
+}
+
+p{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.item-container{
+    border: solid 2px rgb(159, 126, 238);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 1fr;
+}
+
+img{
+    width: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+<div class="container header">
+    <img src="assets/imgs/right-arrow.svg" alt="right-down" (click)="goBack()" class="arrow-down"/>
+    <p>Volver</p>
+</div>
+
+<!-- <div class="container">
+    <div class="subheader">
+        <app-badge [percent]="getSummaryPercent(item.subhabilities)"/>
+        <p>{{item.name}}</p>
+    </div>
+    <span>{{item.description}}</span>
+</div> -->
+<div class="container">
+    <app-category [percent]="getSummaryPercent()" [description]="item.description" [tittle]="item.name"></app-category>
+</div>
+
+<div class="container">
+    <app-category *ngFor="let subhability of item.subhabilities" [percent]="subhability.percent" [description]="subhability.descripcion" [tittle]="subhability.name"></app-category>
+</div>
