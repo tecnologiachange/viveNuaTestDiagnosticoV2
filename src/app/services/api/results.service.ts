@@ -10,11 +10,11 @@ export class ResultsService {
 
   public getHability(): any {
     const hability = {
-      name: 'Habilidad 1',
+      name: 'Macro Habilidad 1',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
       subhabilities: [
         {
-          name: 'Subhabilidad 1',
+          name: 'Micro Habilidad 1',
           descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
           badge: {
             color: '#2f9ea2',
@@ -23,7 +23,7 @@ export class ResultsService {
           percent: 30
         },
         {
-          name: 'Subhabilidad 2',
+          name: 'Micro Habilidad 2',
           descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
           badge: {
             color: '#9f7eee',
@@ -34,11 +34,11 @@ export class ResultsService {
       ],
     }
     const hability2 = {
-      name: 'Habilidad 2',
+      name: 'Macro Habilidad 2',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
       subhabilities: [
         {
-          name: 'Subhabilidad 1',
+          name: 'Micro Habilidad 1',
           descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
           badge: {
             color: '#5325a0',
@@ -47,7 +47,7 @@ export class ResultsService {
           percent: 60
         },
         {
-          name: 'Subhabilidad 2',
+          name: 'Micro Habilidad 2',
           descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
           badge: {
             color: '#311868',
