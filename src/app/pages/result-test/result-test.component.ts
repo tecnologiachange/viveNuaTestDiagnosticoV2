@@ -26,4 +26,5 @@ export class ResultTestComponent implements OnInit{
   public sendEmit(_item: any){
     this.router.navigateByUrl ('/detail', { state: { id:this.id , _item} ,  });
   }
+
 }

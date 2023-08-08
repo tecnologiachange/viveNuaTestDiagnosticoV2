@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { routeTransitionAnimations } from '../animations';
 import { Hability } from 'src/app/models/i.models';
-
 @Component({
   selector: 'app-result-detail',
   templateUrl: './result-detail.component.html',
