@@ -1,0 +1,9 @@
+<div class="container">
+    <canvas #chartRadar baseChart
+            [datasets]="radarChartDatasets"
+            [options]="radarChartOptions"
+            [labels]="radarChartLabels"
+            (chartClick)="chartClicked($event)"
+            [type]="'radar'">
+    </canvas>
+</div>

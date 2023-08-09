@@ -1,0 +1,6 @@
+@import '../../../styles.scss';
+
+.container{
+    @extend .base-container;
+    cursor: pointer;
+}
