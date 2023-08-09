@@ -16,6 +16,7 @@ export class ProcessService {
 
     public async get(id: string): Promise<any> {
         try{
+            this.results = [];
             const score = await Utils.transformObservableToPromise(this.getService.get('score')) as IScore[];
             score.forEach((hability: any) => {
                 this.results.push({

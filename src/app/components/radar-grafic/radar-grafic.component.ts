@@ -17,9 +17,18 @@ export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
   public radarChartOptions: ChartConfiguration<'radar'>['options'] = {
     responsive: true,
   };
+  public backgroundColor : string[] = ["#92d5ce", "#2f9ea2", "#9f7eee", "#5325a0", "#311868"] 
   public radarChartLabels: string[] = [];
   public radarChartDatasets: ChartConfiguration<'radar'>['data']['datasets'] = [
-    { data: [] , label: 'Habilidades'}
+    {  
+      data: [] , 
+      label: 'Habilidades' , 
+      backgroundColor: this.backgroundColor[0], 
+      borderColor: this.backgroundColor[1], 
+      pointBackgroundColor: this.backgroundColor[2], 
+      pointBorderColor: this.backgroundColor[3], 
+      pointHoverBackgroundColor: this.backgroundColor[4] , 
+      pointHoverBorderColor: this.backgroundColor[0]}
   ];
 
   constructor() { 
@@ -30,10 +39,12 @@ export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
   }
 
   ngAfterViewInit(): void {
-
+    
   }
 
   ngOnChanges(changes: SimpleChanges): void {
+    this.radarChartLabels = [];
+    this.radarChartDatasets[0].data = [];
     this.habilities.forEach((hability: Hability) => {
       this.radarChartLabels.push(hability.name);
       this.radarChartDatasets[0].data?.push(hability.percent);

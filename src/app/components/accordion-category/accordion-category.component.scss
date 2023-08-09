@@ -7,9 +7,10 @@
 p{
     display: inline-block;
     font-size: 1rem;
+    line-height: 1rem;
     margin-left: 10px;
     font-weight: 600;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 .item-container{
@@ -26,8 +27,8 @@ p{
 }
 
 img{
-    width: 2.5rem;
-    margin: 1rem;
+    width: 2rem;
+    margin: 10px;
     cursor: pointer;
 }
 

@@ -17,8 +17,9 @@ export class Utils {
     }
 
     public static getHost(): string{
-        return (window.location != window.parent.location)
+        const host = (window.location != window.parent.location)
             ? document.referrer
             : document.location.href;
+        return (host.indexOf('localhost') > -1) ? 'https://vive-nua-test-diagnostico-git-qa.vercel.app/' : host;
     }
 }
