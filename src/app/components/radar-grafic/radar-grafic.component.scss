@@ -4,3 +4,10 @@
     @extend .base-container;
     cursor: pointer;
 }
+
+canvas {
+    height: 50vh !important;
+    width: auto !important;
+    margin: auto !important;
+    display: block !important;
+}
