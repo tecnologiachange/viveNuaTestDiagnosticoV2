@@ -9,7 +9,7 @@ export const environment = {
     measurementId: 'G-09LB3MMKC5',
   },
   typeform: {
-    host: `https://api.typeform.com/forms/{NEXT_PUBLIC_FORM_ID}/responses?included_response_ids={ID}`,
+    host: `/api/{ID}`,
     // host: `http://localhost:3000/forms?included_response_ids={ID}`,
     token: {
       check : 'tfp_FVDaGEeaztGj3tBM8qWvGG6co2AESZnKDQgMs3CZ3q28_3pf1RFn5HUKh81',
