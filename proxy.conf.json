@@ -1,0 +1,11 @@
+{
+    "/forms": {
+      "target": "https://api.typeform.com/forms/",
+      "secure": true,
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "pathRewrite": {
+        "^/forms": ""
+      }
+    }
+  }

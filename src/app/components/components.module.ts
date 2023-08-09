@@ -5,7 +5,8 @@ import { BrainCardComponent } from './brain-card/brain-card.component';
 import { CategoryComponent } from './category/category.component';
 import { AccordionCategoryComponent } from './accordion-category/accordion-category.component';
 import { BadgeComponent } from './badge/badge.component';
-
+import { NgChartsModule } from 'ng2-charts';
+import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
 
 
 @NgModule({
@@ -14,17 +15,20 @@ import { BadgeComponent } from './badge/badge.component';
     BrainCardComponent,
     CategoryComponent,
     AccordionCategoryComponent,
-    BadgeComponent
+    BadgeComponent,
+    RadarGraficComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgChartsModule
   ],
   exports:[
     GaugeBarCustomComponent,
     BrainCardComponent,
     CategoryComponent,
     AccordionCategoryComponent,
-    BadgeComponent
+    BadgeComponent,
+    RadarGraficComponent
   ]
 })
 export class ComponentsModule { }

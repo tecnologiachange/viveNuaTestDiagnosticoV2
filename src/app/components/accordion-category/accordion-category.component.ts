@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Hability } from 'src/app/models/i.models';
 
 @Component({
   selector: 'app-accordion-category',
@@ -7,7 +8,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class AccordionCategoryComponent {
 
-  @Input() habilities: any[] = [];
+  @Input() habilities: Hability[] = [];
   @Output() event = new EventEmitter<any>();
 
   getSummaryPercent(subhabilities: any[]): number {
@@ -15,7 +16,11 @@ export class AccordionCategoryComponent {
     subhabilities.forEach(subhabilidad => {
       percent += subhabilidad.percent;
     });
-    return percent / subhabilities.length;
+    return percent / (subhabilities.length === 0 ? 1 : subhabilities.length);
+  }
+
+  public roundNumber(num: number): number {
+    return Math.round(num);
   }
 
   onEmitEvent(item: any){

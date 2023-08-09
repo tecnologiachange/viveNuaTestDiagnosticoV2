@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ResultsService } from 'src/app/services/api/results.service';
 import { routeTransitionAnimations } from '../animations';
+import { ProcessService } from 'src/app/services/proccess/process.service';
+import { Hability } from 'src/app/models/i.models';
+
 
 @Component({
   selector: 'app-result-test',
@@ -13,14 +15,14 @@ export class ResultTestComponent implements OnInit{
 
   public sectionsColors = [ "#2f9ea2", "#9f7eee", "#5325a0", "#311868" ];
   public percent = 50;
-  public results: any[] = [];
+  public results: Hability[] = [];
   private id: string = '';
 
-  constructor(private route: ActivatedRoute, private router: Router, private service: ResultsService) { }
+  constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService ) { }
 
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id')!;
-    this.service.getHability().subscribe((res: any) => { this.results = res; });
+    this.process.get(this.id).then((res: any) => { this.results = res; });
   }
 
   public sendEmit(_item: any){
