@@ -9,6 +9,6 @@ export const environment = {
     measurementId: 'G-09LB3MMKC5',
   },
   typeform: {
-    host: `/api/{ID}`,
+    host: `api/{ID}`,
   }
 };
