@@ -24,11 +24,4 @@ export class ResultDetailComponent {
     this.router.navigate(["./response/"+this.id]);
   }
 
-  getSummaryPercent(): number {
-    let percent = 0;
-    this.item.subhabilities.forEach(subhabilidad => {
-      percent += subhabilidad.percent;
-    });
-    return percent / this.item.subhabilities.length;
-  }
 }

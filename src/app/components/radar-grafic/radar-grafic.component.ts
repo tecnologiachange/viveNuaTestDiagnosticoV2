@@ -1,5 +1,5 @@
-import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
-import { Chart, ChartConfiguration, ChartEvent, ChartType } from 'chart.js';
+import { AfterViewInit, Component,  EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges, ViewChild } from '@angular/core';
+import { ChartConfiguration} from 'chart.js';
 import { BaseChartDirective } from 'ng2-charts';
 import { Hability } from 'src/app/models/i.models';
 
@@ -12,7 +12,7 @@ import { Hability } from 'src/app/models/i.models';
 export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
 
   @Input() habilities: Hability[] = [];
-
+  @Output() onElementSelect: EventEmitter<Hability> = new EventEmitter<Hability>();
   @ViewChild(BaseChartDirective) chart?: BaseChartDirective;
   public radarChartOptions: ChartConfiguration<'radar'>['options'] = {
     responsive: true,
@@ -47,12 +47,12 @@ export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
     this.radarChartDatasets[0].data = [];
     this.habilities.forEach((hability: Hability) => {
       this.radarChartLabels.push(hability.name);
-      this.radarChartDatasets[0].data?.push(hability.percent);
+      this.radarChartDatasets[0].data?.push(hability.percent *100);
     });
     this.chart?.update();
   }
 
   public chartClicked($event: any) { 
-    console.log($event);
+    this.onElementSelect.emit(this.habilities[$event.active[0].index]);
   }
 }

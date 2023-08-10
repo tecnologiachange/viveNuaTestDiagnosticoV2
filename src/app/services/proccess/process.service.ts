@@ -30,15 +30,32 @@ export class ProcessService {
             const micro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.micro)) as IHability[];
             
             let results = this.setMacroHability(macro);
+            results = this.setValuePercent(results , micro , resultTest, macro);
             return results;
         }catch(_e){
             console.error(_e);
         }
     }
 
-    private setValuePercent(result: Hability[] , micro:Hability[] , values: ITransformResponseTransform[]):Hability[]{
-        
+    private setValuePercent(result: Hability[] , micro: IHability[] , values: ITransformResponseTransform[] , macro: IHability[]):Hability[]{
+        result.forEach((item: Hability) => {
+            const itemMacro: any = macro.find((itemMacro: IHability) => Utils.transformCapitalizeToString(itemMacro.name) === item.name);
+            item.subhabilities = this.setPercentSubhabilities(item.subhabilities , micro , values, itemMacro.types);
+            item.percent = item.subhabilities.reduce((prev: number, current: Subhability) => prev + current.percent, 0);
+        });
         return result;
+    }
+
+    private setPercentSubhabilities(subhabilities: Subhability[], microHabilities: IHability[] , values: ITransformResponseTransform[], sub: IType[]): Subhability[]{
+        return subhabilities.map((subhability: Subhability) => {
+            const objectHabilies: IHability | any = microHabilities.find((item: IHability) => Utils.transformCapitalizeToString(item.name) === subhability.name);
+            const parent: any = sub.find((item: IType) => Utils.transformCapitalizeToString(item.name) === subhability.name);
+            objectHabilies.type.forEach((type: IType) => {
+                const trans: ITransformResponseTransform | any = values.find( (value: ITransformResponseTransform) =>  value.name === type.question);
+                subhability.percent += ((trans.value / 5 ) * type.weigh)*parent.weigh; 
+            });
+            return subhability;
+        });
     }
 
     private setMacroHability(hability: IHability[]): Hability[]{
