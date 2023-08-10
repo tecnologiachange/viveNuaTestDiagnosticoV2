@@ -1,7 +1,7 @@
 <div style="display: block;height: 100%;">
     <app-gauge-bar-custom [secciones]="sectionsColors" [percent]="percent"></app-gauge-bar-custom>
     <div class="container-dual">
-        <app-radar-grafic [habilities]="results"></app-radar-grafic>
+        <app-radar-grafic [habilities]="results" (onElementSelect)="sendEmit($event)"></app-radar-grafic>
         <app-accordion-category [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
     </div>
 </div>

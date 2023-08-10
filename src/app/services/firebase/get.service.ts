@@ -77,7 +77,7 @@ export class GetService {
       ],
     },
     {
-      id: "CREENCIA",
+      name: "CREENCIA",
       type: [
         {
           question: '60dd6649-6ca8-4e61-8c9a-4279e505b9f7',
