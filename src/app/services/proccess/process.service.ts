@@ -2,66 +2,90 @@ import { Injectable } from "@angular/core";
 import { HttpService } from "../api/http.service";
 import { GetService } from "../firebase/get.service";
 import { Utils } from "../utils/utils.service";
-import { Answer, Hability, IAttribute, IScore, IType, Item, TypeFormResponse } from "src/app/models/i.models";
+import { Answer, Hability,  IHability,IScore, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
+import { environment } from "src/environments/environment";
 
 @Injectable({
     providedIn: 'root'
   })
 export class ProcessService {
-
-    private results: Hability[] = [];
-
     constructor(private http: HttpService , private getService: GetService ) {
     }
 
     public async get(id: string): Promise<any> {
         try{
-            this.results = [];
-            const score = await Utils.transformObservableToPromise(this.getService.get('score')) as IScore[];
-            score.forEach((hability: any) => {
-                this.results.push({
-                    percent: 0,
-                    name: hability.id,
-                    description: '',
-                    subhabilities: []
-                });
-            });
-            const resultTest = await Utils.transformObservableToPromise(this.http.get(id)) as TypeFormResponse;
-            const attributes = await Utils.transformObservableToPromise(this.getService.get('attributes')) as IAttribute[];
-            this.dataResultTest(resultTest, attributes);
-            return this.results;
+            // const score = await Utils.transformObservableToPromise(this.getService.get('score')) as IScore[];
+            // score.forEach((hability: any) => {
+            //     this.results.push({
+            //         percent: 0,
+            //         name: hability.id,
+            //         description: '',
+            //         subhabilities: []
+            //     });
+            // });
+            const resultTest:ITransformResponseTransform[] = this.transformResult( 
+                await Utils.transformObservableToPromise(this.http.get(id)) as TypeFormResponse 
+            );
+            const macro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.macro)) as IHability[];
+            const micro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.micro)) as IHability[];
+            
+            let results = this.setMacroHability(macro);
+            return results;
         }catch(_e){
             console.error(_e);
         }
     }
 
-    private dataResultTest(resultTest: TypeFormResponse , attributes: IAttribute[]){
-        resultTest.items.forEach((item: Item ) => {
-            this.getItem(item, attributes);
-        });
+    private setValuePercent(result: Hability[] , micro:Hability[] , values: ITransformResponseTransform[]):Hability[]{
+        
+        return result;
     }
 
-    private getItem(item: Item, attributes: IAttribute[]){
-        item.answers.forEach((answer: Answer) => {
-            this.searchItemIntoAttributes(answer, attributes);
-        });
-    }
-
-    private searchItemIntoAttributes(answer: Answer, attributes: IAttribute[]){
-        attributes.forEach((attribute: IAttribute) => {
-            if(attribute.id === answer.field.ref){
-                attribute.type.forEach((type: IType) => {
-                    this.setResultsOfValue(type.name, (type.weigh * answer.number) );
+    private setMacroHability(hability: IHability[]): Hability[]{
+        let results: Hability[] = [];
+        hability.forEach((hability: IHability) => {
+            const name = Utils.transformCapitalizeToString( hability.name );
+            const indexFind = results.findIndex((item: Hability) => item.name === name);
+            if(indexFind === -1){
+                results.push({
+                    percent: 0,
+                    name,
+                    description: hability.descripcion,
+                    subhabilities: this.setMicroHability(hability.types)
                 });
             }
         });
+        return results;
     }
 
-    private setResultsOfValue(property: string , value: number): void {
-        const index = this.results.findIndex((hability: Hability) => { return hability.name === property });
-        if(index !== -1){
-            this.results[index].percent += value;
-        }
+    private setMicroHability(types: IType[]): Subhability[]{
+        let response: Subhability[] = [];
+        types.forEach((type: IType) => {
+            response.push({
+                badge: {
+                    color: '',
+                    text: ''
+                },
+                name: Utils.transformCapitalizeToString( type.name ),
+                descripcion: type.descripcion,
+                percent: 0
+            });
+        });
+        return response;
     }
 
+    private transformResult(result: TypeFormResponse): ITransformResponseTransform[]{
+        let response: ITransformResponseTransform[] = [];
+        result.items.forEach((item: Item) => {
+            item.answers.forEach((answer: Answer) => {
+                if(answer.type === 'number'){
+                    response.push({
+                        name: answer.field.ref,
+                        value: answer.number
+                    });
+                }
+            });
+        });
+        return response;
+    }
 }

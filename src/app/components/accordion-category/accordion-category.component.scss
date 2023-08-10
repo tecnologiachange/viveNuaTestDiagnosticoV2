@@ -2,6 +2,10 @@
 
 .container{
     @extend .base-container;
+    height: 49.2vh !important;
+    overflow: auto;
+    border: solid 0.8rem #f7f6f6;
+    padding: 0px;
 }
 
 p{

@@ -22,7 +22,10 @@ export class ResultTestComponent implements OnInit{
 
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id')!;
-    this.process.get(this.id).then((res: any) => { this.results = res; });
+    this.process.get(this.id).then((res: any) => {
+      console.log(res);
+       this.results = res; 
+    });
   }
 
   public sendEmit(_item: any){

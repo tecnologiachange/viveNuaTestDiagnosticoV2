@@ -22,4 +22,8 @@ export class Utils {
             : document.location.href;
         return (host.indexOf('localhost') > -1) ? 'https://vive-nua-test-diagnostico-git-qa.vercel.app/' : host;
     }
+
+    public static transformCapitalizeToString(_str: string): string{
+        return _str.charAt(0).toUpperCase() + _str.slice(1).toLowerCase();
+    }
 }
