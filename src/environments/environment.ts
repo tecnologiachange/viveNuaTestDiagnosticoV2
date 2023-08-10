@@ -10,5 +10,9 @@ export const environment = {
   },
   typeform: {
     host: `api/{ID}`,
+  },
+  storage: {
+    micro : 'microhabilities',
+    macro : 'macrohabilities',
   }
 };

@@ -13,7 +13,6 @@ export class HttpService {
   public get(id: string): any {
     let url = Utils.getHost().concat(environment.typeform.host);
     url = url.replace('{ID}', id);
-    console.log('url', url);
     const headers = { 
       'Content-Type': 'application/json',
     };

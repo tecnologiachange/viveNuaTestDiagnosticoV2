@@ -62,3 +62,21 @@ export interface Hability {
     email: string;
     number: number;
   };
+
+  export interface IType{
+    question: string;
+    name: string;
+    descripcion: string;
+    weigh: number;
+  }
+
+  export interface IHability{
+      name: string;
+      descripcion: string;
+      types: IType[];
+  }
+
+  export interface ITransformResponseTransform{
+    name: string;
+    value: number;
+  }
