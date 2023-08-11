@@ -36,3 +36,15 @@ p{
          top: -1rem;
     }
 }
+
+.more{
+    width: 2rem;
+    cursor: pointer;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: 1fr 2rem;
+    grid-template-rows: auto;
+    margin: 5px;
+}

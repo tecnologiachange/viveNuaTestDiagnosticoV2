@@ -14,24 +14,15 @@ export class ProcessService {
 
     public async get(id: string): Promise<any> {
         try{
-            // const score = await Utils.transformObservableToPromise(this.getService.get('score')) as IScore[];
-            // score.forEach((hability: any) => {
-            //     this.results.push({
-            //         percent: 0,
-            //         name: hability.id,
-            //         description: '',
-            //         subhabilities: []
-            //     });
-            // });
-            const resultTest:ITransformResponseTransform[] = this.transformResult( 
+            const resultTest = this.transformResult( 
                 await Utils.transformObservableToPromise(this.http.get(id)) as TypeFormResponse 
             );
             const macro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.macro)) as IHability[];
             const micro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.micro)) as IHability[];
             
             let results = this.setMacroHability(macro);
-            results = this.setValuePercent(results , micro , resultTest, macro);
-            return results;
+            results = this.setValuePercent(results , micro , resultTest.transform, macro);
+            return {results , name: resultTest.name};
         }catch(_e){
             console.error(_e);
         }
@@ -92,10 +83,14 @@ export class ProcessService {
         return response;
     }
 
-    private transformResult(result: TypeFormResponse): ITransformResponseTransform[]{
+    private transformResult(result: TypeFormResponse): {transform: ITransformResponseTransform[], name: string}{
         let response: ITransformResponseTransform[] = [];
+        let name: string = '';
         result.items.forEach((item: Item) => {
             item.answers.forEach((answer: Answer) => {
+                if (answer.type === 'text' && answer.field.ref === '01H0TC37RA40ADR9G6BWYBS9HN'){
+                    name = answer.text;
+                }
                 if(answer.type === 'number'){
                     response.push({
                         name: answer.field.ref,
@@ -104,6 +99,6 @@ export class ProcessService {
                 }
             });
         });
-        return response;
+        return {transform: response, name};
     }
 }

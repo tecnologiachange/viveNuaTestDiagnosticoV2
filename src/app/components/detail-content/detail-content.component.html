@@ -1,0 +1,7 @@
+<div class="container">
+    <app-category [percent]="item.percent" [description]="item.description" [tittle]="item.name"></app-category>
+</div>
+
+<div class="container">
+    <app-category *ngFor="let subhability of item.subhabilities" [percent]="subhability.percent" [description]="subhability.descripcion" [tittle]="subhability.name"></app-category>
+</div>

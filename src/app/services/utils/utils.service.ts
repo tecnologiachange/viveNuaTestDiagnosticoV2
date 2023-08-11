@@ -26,4 +26,11 @@ export class Utils {
     public static transformCapitalizeToString(_str: string): string{
         return _str.charAt(0).toUpperCase() + _str.slice(1).toLowerCase();
     }
+
+    public static isDevice(): boolean {
+        var ua = navigator.userAgent;
+        if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(ua))
+           return true;
+        return false;
+    }
 }

@@ -10,7 +10,7 @@ import { Hability } from 'src/app/models/i.models';
 })
 export class ResultDetailComponent {
 
-  private id: string = '';
+  public id: string = '';
   public item: Hability = {} as Hability;
 
   constructor(private router: Router) {

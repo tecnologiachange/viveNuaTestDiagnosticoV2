@@ -1,4 +1,5 @@
-import { Component, Input, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Hability } from 'src/app/models/i.models';
 
 @Component({
   selector: 'app-gauge-bar-custom',
@@ -8,9 +9,12 @@ import { Component, Input, ViewChild } from '@angular/core';
 export class GaugeBarCustomComponent {
 
   @ViewChild('gaugeBar') gaugeBar: any;
+  @Input() item!: Hability;
+  @Input() id: string = '';
   @Input() secciones: string[] = [];
   @Input() percent: number = 0;
   @Input() title: string = '';
+  @Output() sendEmit: EventEmitter<Hability> = new EventEmitter<Hability>();
   public marginleft: number = 0;
 
   getStyle(index: number): any {
@@ -39,5 +43,9 @@ export class GaugeBarCustomComponent {
 
   public round(number: number): number {
     return Math.round(number* 100);
+  }
+
+  public more(){
+    this.sendEmit.emit(this.item);
   }
 }

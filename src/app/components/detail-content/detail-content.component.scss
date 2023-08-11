@@ -1,0 +1,26 @@
+@import '../../../styles.scss';
+
+.container{
+    @extend .base-container;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    grid-template-rows: 1fr;
+}
+
+p{
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding-top: 10px;
+}
+
+
+img{
+    width: 2rem;
+    rotate: 180deg;
+    margin: 0.5rem;
+    cursor: pointer;
+}
