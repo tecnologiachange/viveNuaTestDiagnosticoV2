@@ -1,8 +1,30 @@
+@import '../../../styles.scss';
+
+p{
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.container{
+    @extend .base-container;
+    cursor: pointer;
+    padding: 1rem;
+    p{
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+    div{
+        padding: .3rem;
+        text-align: justify;
+    }
+}
+
 .container-dual{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    height: 100%;
+    grid-template-columns: 30% 1fr ;
+    grid-template-rows: auto;
+    // height: 100%;
 }
 
 @media only screen and (max-width: 600px) {

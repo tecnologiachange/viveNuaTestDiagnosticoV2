@@ -1,7 +1,8 @@
 export interface Hability {
-    name: string
-    description: string
-    percent: number
+    name: string;
+    description: string;
+    percent: number;
+    isGraphic: boolean;
     subhabilities: Subhability[]
   }
   
@@ -73,6 +74,7 @@ export interface Hability {
   export interface IHability{
       name: string;
       descripcion: string;
+      isGraphic: boolean;
       types: IType[];
   }
 

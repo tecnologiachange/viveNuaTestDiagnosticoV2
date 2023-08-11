@@ -7,6 +7,7 @@ import { AccordionCategoryComponent } from './accordion-category/accordion-categ
 import { BadgeComponent } from './badge/badge.component';
 import { NgChartsModule } from 'ng2-charts';
 import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
+import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
     CategoryComponent,
     AccordionCategoryComponent,
     BadgeComponent,
-    RadarGraficComponent
+    RadarGraficComponent,
+    BarGraficComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +30,8 @@ import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
     CategoryComponent,
     AccordionCategoryComponent,
     BadgeComponent,
-    RadarGraficComponent
+    RadarGraficComponent,
+    BarGraficComponent
   ]
 })
 export class ComponentsModule { }

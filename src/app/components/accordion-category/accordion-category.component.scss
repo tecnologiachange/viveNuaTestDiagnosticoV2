@@ -2,11 +2,18 @@
 
 .container{
     @extend .base-container;
-    height: 49.2vh !important;
+    // height: 49.2vh !important;
     overflow: auto;
     border: solid 0.8rem #f7f6f6;
     padding: 0px;
+    display: grid;
+    height: fit-content;
+    // position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
+
+
 
 p{
     display: inline-block;
@@ -19,6 +26,7 @@ p{
 
 .item-container{
     border: solid 2px rgb(159, 126, 238);
+    margin: .5rem;
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 15px;
@@ -26,7 +34,7 @@ p{
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     display: grid;
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-columns: 3rem 1fr 2.6rem;
     grid-template-rows: 1fr;
 }
 
@@ -34,11 +42,17 @@ img{
     width: 2rem;
     margin: 10px;
     cursor: pointer;
+    // position: absolute;
+    // right: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
     .item-container{
-        grid-template-columns: 30% 1fr 30%;
+        grid-template-columns: 3rem 1fr 2.6rem;
+        grid-template-rows: 1fr;
+    }
+    .container{
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
 }
