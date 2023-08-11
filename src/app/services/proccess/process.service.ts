@@ -67,6 +67,7 @@ export class ProcessService {
                 results.push({
                     percent: 0,
                     name,
+                    isGraphic: hability.isGraphic,
                     description: hability.descripcion,
                     subhabilities: this.setMicroHability(hability.types)
                 });

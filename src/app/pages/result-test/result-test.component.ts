@@ -16,6 +16,7 @@ export class ResultTestComponent implements OnInit{
   public sectionsColors = [ "#2f9ea2", "#9f7eee", "#5325a0", "#311868" ];
   public percent = 50;
   public results: Hability[] = [];
+  public resultsEspecific: Hability[] = [];
   private id: string = '';
 
   constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService ) { }
@@ -23,7 +24,15 @@ export class ResultTestComponent implements OnInit{
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id')!;
     this.process.get(this.id).then((res: any) => {
-       this.results = res; 
+      this.results = [];
+      this.resultsEspecific = [];
+      res.forEach((item: Hability) => {
+        if(item.isGraphic) {
+          this.results.push(item);
+        } else {
+          this.resultsEspecific.push(item);
+        }
+      });
     });
   }
 

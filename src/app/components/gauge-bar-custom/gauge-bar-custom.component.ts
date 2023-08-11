@@ -10,6 +10,7 @@ export class GaugeBarCustomComponent {
   @ViewChild('gaugeBar') gaugeBar: any;
   @Input() secciones: string[] = [];
   @Input() percent: number = 0;
+  @Input() title: string = '';
   public marginleft: number = 0;
 
   getStyle(index: number): any {
@@ -32,7 +33,11 @@ export class GaugeBarCustomComponent {
   }
   ngAfterViewInit(): void {
     const widthContainer = this.gaugeBar.nativeElement.offsetWidth;
-    const marginLeft = parseInt( (widthContainer * (this.percent / 100) ) + '' );
+    const marginLeft = parseInt( (widthContainer * ( this.round(this.percent) / 100) ) + '' );
     this.marginleft = marginLeft - 21;
+  }
+
+  public round(number: number): number {
+    return Math.round(number* 100);
   }
 }

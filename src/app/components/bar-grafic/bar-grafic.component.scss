@@ -1,0 +1,13 @@
+@import '../../../styles.scss';
+
+.container{
+    @extend .base-container;
+    cursor: pointer;
+}
+
+canvas {
+    height: auto !important;
+    width: 50vw !important;
+    margin: auto !important;
+    display: block !important;
+}

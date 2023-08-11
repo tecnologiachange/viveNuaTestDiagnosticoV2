@@ -8,4 +8,8 @@ import { Component, Input } from '@angular/core';
 export class BadgeComponent {
 
   @Input() percent: number = 0;
+
+  public round(number: number): number {
+    return Math.round(number* 100);
+  }
 }

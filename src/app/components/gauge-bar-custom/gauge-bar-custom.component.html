@@ -1,10 +1,10 @@
  <div class="container">
-    <p>Burnout</p>
+    <p>{{title}}</p>
     <div class="bar-container" #gaugeBar>
         <div *ngFor="let item of secciones; let i = index" [ngStyle]="getStyle(i)" ></div>
         <div class="bar-label">
             <span class="arrow" [style.left]="marginleft + 'px'"></span>
-            <span class="label" [style.left]="marginleft + 'px'">{{percent}}%</span>
+            <span class="label" [style.left]="marginleft + 'px'">{{ round(percent)}}%</span>
         </div>
     </div>
 </div>
