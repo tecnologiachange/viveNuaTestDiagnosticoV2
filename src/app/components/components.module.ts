@@ -8,6 +8,8 @@ import { BadgeComponent } from './badge/badge.component';
 import { NgChartsModule } from 'ng2-charts';
 import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
 import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
+import { ModalComponent } from './modal/modal.component';
+import { DetailContentComponent } from './detail-content/detail-content.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
     AccordionCategoryComponent,
     BadgeComponent,
     RadarGraficComponent,
-    BarGraficComponent
+    BarGraficComponent,
+    ModalComponent,
+    DetailContentComponent
   ],
   imports: [
     CommonModule,
@@ -31,7 +35,9 @@ import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
     AccordionCategoryComponent,
     BadgeComponent,
     RadarGraficComponent,
-    BarGraficComponent
+    BarGraficComponent,
+    ModalComponent,
+    DetailContentComponent
   ]
 })
 export class ComponentsModule { }

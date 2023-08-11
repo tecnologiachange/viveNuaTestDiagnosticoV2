@@ -1,4 +1,4 @@
-<p>Hola, Pepito!!</p>
+<p>Hola, {{name}}!!</p>
 <div class="container">
     <p>Descripción</p>
     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
@@ -6,10 +6,32 @@
 <div style="display: block;height: 100%;">
     <div class="container-dual">
         <div>
-            <app-gauge-bar-custom *ngFor="let item of resultsEspecific" [secciones]="sectionsColors" [percent]="item.percent" [title]="item.name"></app-gauge-bar-custom>
+            <app-gauge-bar-custom *ngFor="let item of resultsEspecific" 
+            [id]="id" 
+            [item]="item" 
+            [secciones]="sectionsColors" 
+            [percent]="item.percent" 
+            [title]="item.name"
+            (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
         </div>
         <app-radar-grafic [habilities]="results" (onElementSelect)="sendEmit($event)"></app-radar-grafic>
         <!-- <app-bar-grafic [habilities]="results" (onElementSelect)="sendEmit($event)"></app-bar-grafic> -->
     </div>
     <app-accordion-category [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
 </div>
+
+<ng-template #detailContent>
+
+    <div class="mmodal">
+        <div class="mmodal-body">
+            <div class="mmodal-title">
+                <p>Detalle de habilidad</p>
+                <img src="assets/imgs/close.svg" alt="close" (click)="close()" class="close-style"/>
+            </div>
+            <app-detail-content [id]="id" [item]="item"></app-detail-content>
+        </div>
+    </div>
+    <div class="mmodal-background"></div>
+</ng-template>
+
+<app-modal #modal [content]="detailContent" [title]="'Ola'"></app-modal>
