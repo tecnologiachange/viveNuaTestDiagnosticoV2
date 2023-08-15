@@ -22,11 +22,16 @@ export class ResultTestComponent implements OnInit{
   public resultsEspecific: Hability[] = [];
   public id: string = '';
   public item: Hability = {} as Hability;
+  public burnout: Hability= { name: 'Burnout' , percent: 0 , subhabilities: [] , description: '' , isGraphic: false} as Hability;
+  public financieras: Hability = {} as Hability;
+  public fisicas: Hability = {} as Hability;
   @ViewChild('modal') modal!: ModalComponent;
+  public isLoad = false;
 
   constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService) { }
 
   ngOnInit(): void {
+    this.isLoad = true;
     this.id = this.route.snapshot.paramMap.get('id')!;
     this.process.get(this.id).then((res: any) => {
       this.results = [];
@@ -36,9 +41,20 @@ export class ResultTestComponent implements OnInit{
         if(item.isGraphic) {
           this.results.push(item);
         } else {
-          this.resultsEspecific.push(item);
+          console.log(item);
+          if(item.name == 'Burnout') {
+            this.burnout = item;
+            console.log(this.burnout);
+          }
+          if(item.name == 'Financieras') {
+            this.financieras = item;
+          }
+          if(item.name == 'Físicas') {
+            this.fisicas = item;
+          }
         }
       });
+      this.isLoad = false;
     });
   }
 
