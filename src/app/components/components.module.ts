@@ -10,6 +10,7 @@ import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
 import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
 import { ModalComponent } from './modal/modal.component';
 import { DetailContentComponent } from './detail-content/detail-content.component';
+import { LoadingComponent } from './loading/loading.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { DetailContentComponent } from './detail-content/detail-content.componen
     RadarGraficComponent,
     BarGraficComponent,
     ModalComponent,
-    DetailContentComponent
+    DetailContentComponent,
+    LoadingComponent
   ],
   imports: [
     CommonModule,
@@ -37,7 +39,8 @@ import { DetailContentComponent } from './detail-content/detail-content.componen
     RadarGraficComponent,
     BarGraficComponent,
     ModalComponent,
-    DetailContentComponent
+    DetailContentComponent,
+    LoadingComponent
   ]
 })
 export class ComponentsModule { }

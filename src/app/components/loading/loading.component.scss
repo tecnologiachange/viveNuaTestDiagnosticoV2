@@ -1,0 +1,53 @@
+@keyframes ldio-j6baqoqh2lm {
+    0%    { transform: translate(2px,2px) }
+   33.33% { transform: translate(102px,2px) }
+   66.66% { transform: translate(42px,102px) }
+  100%    { transform: translate(2px,2px) }
+}
+
+
+.ldio-j6baqoqh2lm > div {
+  transform: scale(0.92);
+  transform-origin: 100px 100px;
+}
+
+.ldio-j6baqoqh2lm > div > div {
+  animation: ldio-j6baqoqh2lm 1s linear infinite;
+  position: absolute
+}
+
+.ldio-j6baqoqh2lm > div > div div:nth-child(1) {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 12px solid #311868;
+  background: #9f7eee
+}
+
+.ldio-j6baqoqh2lm > div > div div:nth-child(2) {
+  width: 17px;
+  height:  51px;
+  transform: rotate(-45deg);
+  background: #311868;
+  border-radius: 0 0 8px 8px;
+  position: absolute;
+  top: 68px;
+  left: 85px
+}
+.loadingio-spinner-magnify-uuzk60x9t7r {
+  width: 200px;
+  height: 200px;
+  display: block;
+  overflow: hidden;
+  background: none;
+  margin: auto;
+}
+.ldio-j6baqoqh2lm {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-j6baqoqh2lm div { box-sizing: content-box; }

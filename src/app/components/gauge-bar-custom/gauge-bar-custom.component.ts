@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
+import { Component, EventEmitter, Input, OnChanges, Output, SimpleChanges, ViewChild } from '@angular/core';
 import { Hability } from 'src/app/models/i.models';
 
 @Component({
@@ -6,7 +6,8 @@ import { Hability } from 'src/app/models/i.models';
   templateUrl: './gauge-bar-custom.component.html',
   styleUrls: ['./gauge-bar-custom.component.scss']
 })
-export class GaugeBarCustomComponent {
+export class GaugeBarCustomComponent implements OnChanges {
+ 
 
   @ViewChild('gaugeBar') gaugeBar: any;
   @Input() item!: Hability;
@@ -35,10 +36,19 @@ export class GaugeBarCustomComponent {
     }
     return object;
   }
-  ngAfterViewInit(): void {
+
+  ngOnChanges(changes: SimpleChanges): void {
+    this.paint();
+  }
+  
+  private paint(){
     const widthContainer = this.gaugeBar.nativeElement.offsetWidth;
     const marginLeft = parseInt( (widthContainer * ( this.round(this.percent) / 100) ) + '' );
     this.marginleft = marginLeft - 21;
+  }
+
+  ngAfterViewInit(): void {
+    this.paint();
   }
 
   public round(number: number): number {

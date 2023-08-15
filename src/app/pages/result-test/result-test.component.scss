@@ -3,6 +3,9 @@
 p{
     font-weight: 700;
     margin: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
 }
 
 .container{
@@ -20,9 +23,19 @@ p{
     }
 }
 
+.container-dual__title{
+    p{
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+        text-align: start;
+        margin: 1.5rem 0.8rem;
+    }
+}
+
 .container-dual{
     display: grid;
-    grid-template-columns: 30% 1fr ;
+    grid-template-columns: 40% 1fr ;
     grid-template-rows: auto;
     // height: 100%;
 }
