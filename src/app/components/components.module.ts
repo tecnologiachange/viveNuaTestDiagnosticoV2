@@ -11,6 +11,7 @@ import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
 import { ModalComponent } from './modal/modal.component';
 import { DetailContentComponent } from './detail-content/detail-content.component';
 import { LoadingComponent } from './loading/loading.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { LoadingComponent } from './loading/loading.component';
     BarGraficComponent,
     ModalComponent,
     DetailContentComponent,
-    LoadingComponent
+    LoadingComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -40,7 +42,8 @@ import { LoadingComponent } from './loading/loading.component';
     BarGraficComponent,
     ModalComponent,
     DetailContentComponent,
-    LoadingComponent
+    LoadingComponent,
+    FooterComponent
   ]
 })
 export class ComponentsModule { }

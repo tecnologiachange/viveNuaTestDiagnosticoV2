@@ -30,7 +30,18 @@ export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
       legend: {
         display: false,
       },
-    }
+    },
+    // scales:{
+    //   radialLinear :{ 
+    //     min : 0,
+    //     max : 100,
+    //     ticks : {
+    //       showLabelBackdrop : false,
+    //       // stepSize: 10
+    //     }
+    //   }
+    //   // steo
+    // }
   };
   public backgroundColor : string[] = ["rgba(47, 158, 162 , 0.2)","#2f9ea2", "#9f7eee", "#5325a0", "#311868"] 
   public radarChartLabels: string[] = [];

@@ -54,7 +54,7 @@ p{
     position: fixed;
     top: 30px;
     bottom: 0;
-    left: 300px;
+    left: calc((100% - 60%)/2);
     width: 60%;
     border-radius: 1rem;
 }
@@ -94,7 +94,6 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
-
 .button{
     width: 14rem;
     height: 3rem;
@@ -116,4 +115,20 @@ p{
 
 .left{
     margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-extra-habilities{
+        grid-template-columns: 1fr;
+    }
+    .right{
+        margin-top: 2rem !important;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .left{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
 }
