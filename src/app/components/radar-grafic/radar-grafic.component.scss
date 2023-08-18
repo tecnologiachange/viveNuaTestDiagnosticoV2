@@ -12,15 +12,15 @@ canvas {
     // display: block !important;
     margin: auto !important;
     display: block !important;
-    // width: 40vw !important;
-    // height: 40vw !important;
+    width: 30rem !important;
+    height: 30rem !important;
 }
 
 @media only screen and (max-width: 600px) {
-    // canvas {
-    //     height: auto !important;
-    //     width: 100% !important;
-    //     margin: auto !important;
-    //     display: block !important;
-    // }
+    canvas {
+        height: auto !important;
+        width: 100% !important;
+        margin: auto !important;
+        display: block !important;
+    }
 }

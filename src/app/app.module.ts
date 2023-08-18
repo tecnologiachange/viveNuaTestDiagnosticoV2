@@ -9,6 +9,7 @@ import { environment } from '../environments/environment';
 // import { provideAnalytics,getAnalytics,ScreenTrackingService,UserTrackingService } from '@angular/fire/analytics';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideFunctions,getFunctions } from '@angular/fire/functions';
+import { ComponentsModule } from './components/components.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { provideFunctions,getFunctions } from '@angular/fire/functions';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ComponentsModule,
     HttpClientModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     // provideAnalytics(() => getAnalytics()),
