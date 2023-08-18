@@ -2,7 +2,8 @@
 
 .container{
     @extend .base-container;
-    height: 6.3rem;
+    // height: 6.3rem;
+    padding-bottom: 1.4rem;
 }
 
 p{
@@ -13,10 +14,17 @@ p{
 
 .bar-container{
     width: auto;
-    height: 1.2rem;
+    height: 1.3rem;
     padding: 5px;
     border-radius: 5rem;
-    border: 2px solid #a8a3a3;
+    border: 2px solid transparent;
+}
+
+.bar-description{
+    font-size: 14px;
+    padding: 0.5rem;
+    text-align: justify;
+    margin: 0.2rem;
 }
 
 .bar-label{

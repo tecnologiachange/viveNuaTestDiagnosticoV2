@@ -22,7 +22,7 @@ export class ProcessService {
             
             let results = this.setMacroHability(macro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
-            return {results , name: resultTest.name};
+            return {results , name: resultTest.name , email: resultTest.email};
         }catch(_e){
             console.error(_e);
         }
@@ -83,13 +83,18 @@ export class ProcessService {
         return response;
     }
 
-    private transformResult(result: TypeFormResponse): {transform: ITransformResponseTransform[], name: string}{
+    private transformResult(result: TypeFormResponse): {transform: ITransformResponseTransform[], name: string , email: string}{
         let response: ITransformResponseTransform[] = [];
         let name: string = '';
+        let email: string = '';
         result.items.forEach((item: Item) => {
             item.answers.forEach((answer: Answer) => {
-                if (answer.type === 'text' && answer.field.ref === '01H0TC37RA40ADR9G6BWYBS9HN'){
+                if (answer.type === 'text' && answer.field.ref === environment.fields.name){
                     name = answer.text;
+                }
+                if (answer.type === 'email' && answer.field.ref === environment.fields.email){
+                    // email = answer.email;
+                    email = 'aric.gutierrez@vivenua.com'
                 }
                 if(answer.type === 'number'){
                     response.push({
@@ -99,6 +104,6 @@ export class ProcessService {
                 }
             });
         });
-        return {transform: response, name};
+        return {transform: response, name , email};
     }
 }

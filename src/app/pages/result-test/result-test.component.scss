@@ -14,7 +14,7 @@ p{
     padding: 1rem;
     p{
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 18px;
         margin: 0.5rem;
     }
     div{
@@ -26,7 +26,7 @@ p{
 .container-dual__title{
     p{
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 18px;
         margin: 0.5rem;
         text-align: start;
         margin: 1.5rem 0.8rem;
@@ -87,4 +87,33 @@ p{
     display: grid;
     grid-template-columns: 1fr 3rem;
     grid-template-rows: auto;
+}
+
+.container-extra-habilities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.button{
+    width: 14rem;
+    height: 3rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background: #319ea2;
+    border-radius: 0.4rem;
+    color: white;
+    border: 0px;
+    font-family: 'Raleway';
+    cursor: pointer;
+}
+
+.right{
+    margin-right: 2rem;
+}
+
+.left{
+    margin-left: 2rem;
 }

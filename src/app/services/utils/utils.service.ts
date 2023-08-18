@@ -33,4 +33,11 @@ export class Utils {
            return true;
         return false;
     }
+
+    public static getStatus( percent: number): { text: string, color: string , background: string}{
+        if (percent < 0 && percent > 100) return { text: 'N.E.', color: '#311868', background: '#319ea2'};
+        if( percent >=0 && percent <= 30 ) return { text: 'Bajo', color: '#311868', background: '#92d5ce'};
+        if( percent >=31  && percent <= 70 ) return { text: 'Medio', color: 'white', background: '#9f7eee'};
+        return { text: 'Alto', color: 'white', background: '#311868'};
+    }
 }

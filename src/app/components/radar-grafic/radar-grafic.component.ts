@@ -15,20 +15,37 @@ export class RadarGraficComponent implements AfterViewInit , OnInit, OnChanges{
   @Output() onElementSelect: EventEmitter<Hability> = new EventEmitter<Hability>();
   @ViewChild(BaseChartDirective) chart?: BaseChartDirective;
   public radarChartOptions: ChartConfiguration<'radar'>['options'] = {
-    responsive: true,
+    responsive: false,
+    maintainAspectRatio: false,
+    font : {
+      size: 14,
+      family: 'Raleway'
+    },
+    layout:{
+      autoPadding: false,
+      padding: 1
+    },
+    normalized: true,
+    plugins: {
+      legend: {
+        display: false,
+      },
+    }
   };
-  public backgroundColor : string[] = ["rgba(47, 158, 162 , 0.3)","#2f9ea2", "#9f7eee", "#5325a0", "#311868"] 
+  public backgroundColor : string[] = ["rgba(47, 158, 162 , 0.2)","#2f9ea2", "#9f7eee", "#5325a0", "#311868"] 
   public radarChartLabels: string[] = [];
   public radarChartDatasets: ChartConfiguration<'radar'>['data']['datasets'] = [
     {  
       data: [] , 
-      label: 'Habilidades' , 
-      backgroundColor: this.backgroundColor[0], 
-      borderColor: this.backgroundColor[1], 
+      label: 'Habilidades' ,
+      backgroundColor: 'rgba(146, 213, 206, 0.4)',//this.backgroundColor[0], 
+      borderColor: 'transparent', //this.backgroundColor[1], 
       pointBackgroundColor: this.backgroundColor[3], 
       pointBorderColor: 'transparent', 
       pointHoverBackgroundColor: this.backgroundColor[4] , 
-      pointHoverBorderColor: this.backgroundColor[4]}
+      pointHoverBorderColor: this.backgroundColor[4],
+      
+    }
   ];
 
   constructor() { 
