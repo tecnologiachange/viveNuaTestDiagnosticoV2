@@ -14,8 +14,6 @@
                 [id]="id" 
                 [item]="burnout" 
                 [secciones]="sectionsColors" 
-                [percent]="item.percent" 
-                [title]="item.name"
                 (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
             </div>
             <div>
@@ -31,6 +29,25 @@
                 <p style="text-align: center;">Analiza tus macro y micro habilidades a detalle</p>
             </div>
             <app-accordion-category [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
+            <div class="container-dual__title">
+                <p style="text-align: center;">No te olvides de dar un vistazo</p>
+            </div>
+            <div class="container-extra-habilities">
+                <app-gauge-bar-custom 
+                    [id]="id" 
+                    [item]="financieras" 
+                    [secciones]="sectionsColors" 
+                    (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
+                <app-gauge-bar-custom 
+                    [id]="id" 
+                    [item]="fisicas" 
+                    [secciones]="sectionsColors" 
+                    (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
+            </div>
+            <div class="container-extra-habilities">
+                <button class="button right" (click)="sendMail()">Enviamelo por correo</button>
+                <button class="button left" (click)="sendSubscription()">Quiero Suscribirme!</button>
+            </div>
         </div>
     </div>
 <!-- </div> -->

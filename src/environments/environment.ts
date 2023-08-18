@@ -10,6 +10,11 @@ export const environment = {
   },
   typeform: {
     host: `api/{ID}`,
+    email: `api/email`
+  },
+  fields: {
+    name: '01H0TC37RA40ADR9G6BWYBS9HN',
+    email: 'feb13484-0bce-4cab-a4f1-1ff30e5d0cfd'
   },
   storage: {
     micro : 'microhabilities',

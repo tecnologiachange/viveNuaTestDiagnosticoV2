@@ -5,6 +5,7 @@ import { ProcessService } from 'src/app/services/proccess/process.service';
 import { Hability } from 'src/app/models/i.models';
 import { Utils } from 'src/app/services/utils/utils.service';
 import { ModalComponent } from 'src/app/components/modal/modal.component';
+import { HttpService } from 'src/app/services/api/http.service';
 
 
 @Component({
@@ -16,6 +17,7 @@ import { ModalComponent } from 'src/app/components/modal/modal.component';
 export class ResultTestComponent implements OnInit{
 
   public name: string = '';
+  public email: string = '';
   public sectionsColors = [ "#2f9ea2", "#9f7eee", "#5325a0", "#311868" ];
   public percent = 50;
   public results: Hability[] = [];
@@ -28,7 +30,7 @@ export class ResultTestComponent implements OnInit{
   @ViewChild('modal') modal!: ModalComponent;
   public isLoad = false;
 
-  constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService) { }
+  constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService, private http: HttpService) { }
 
   ngOnInit(): void {
     this.isLoad = true;
@@ -37,24 +39,26 @@ export class ResultTestComponent implements OnInit{
       this.results = [];
       this.resultsEspecific = [];
       this.name = res.name;
-      res.results.forEach((item: Hability) => {
-        if(item.isGraphic) {
-          this.results.push(item);
+      this.email = res.email;
+      res.results.forEach((_hability: Hability) => {
+        const hability = _hability;
+        if(hability.isGraphic) {
+          this.results.push(hability);
         } else {
-          console.log(item);
-          if(item.name == 'Burnout') {
-            this.burnout = item;
-            console.log(this.burnout);
+          if(hability.name == 'Burnout') {
+            this.burnout = hability;
           }
-          if(item.name == 'Financieras') {
-            this.financieras = item;
+          if(hability.name == 'Financieras') {
+            this.financieras = hability;
           }
-          if(item.name == 'Físicas') {
-            this.fisicas = item;
+          if(hability.name == 'Fisicas') {
+            this.fisicas = hability;
           }
         }
       });
       this.isLoad = false;
+    }).catch( _error => {
+      this.router.navigateByUrl ('/erno' );
     });
   }
 
@@ -69,5 +73,18 @@ export class ResultTestComponent implements OnInit{
 
   public close(){
     this.modal.closeDialog();
+  }
+
+  public sendMail(){
+    const body = {
+      email: this.email, 
+      name: this.name,
+      reportId: this.id
+    }
+    this.http.post(body).subscribe( res => console.log(res));
+  }
+
+  public sendSubscription(){
+    window.open('https://www.vivenua.com/producto' , '_blank');
   }
 }

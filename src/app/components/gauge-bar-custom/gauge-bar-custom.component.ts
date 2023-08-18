@@ -13,8 +13,7 @@ export class GaugeBarCustomComponent implements OnChanges {
   @Input() item!: Hability;
   @Input() id: string = '';
   @Input() secciones: string[] = [];
-  @Input() percent: number = 0;
-  @Input() title: string = '';
+
   @Output() sendEmit: EventEmitter<Hability> = new EventEmitter<Hability>();
   public marginleft: number = 0;
 
@@ -43,7 +42,7 @@ export class GaugeBarCustomComponent implements OnChanges {
   
   private paint(){
     const widthContainer = this.gaugeBar.nativeElement.offsetWidth;
-    const marginLeft = parseInt( (widthContainer * ( this.round(this.percent) / 100) ) + '' );
+    const marginLeft = parseInt( (widthContainer * ( this.round(this.item.percent) / 100) ) + '' );
     this.marginleft = marginLeft - 21;
   }
 

@@ -1,13 +1,16 @@
  <div class="container">
     <div class="title">
-        <p>{{title}}</p>
+        <p>{{item.name}}</p>
         <img src="assets/imgs/right-arrow.svg" alt="close" class="more" (click)="more()"/>
+    </div>
+    <div class="bar-description">
+        {{item.description}}
     </div>
     <div class="bar-container" #gaugeBar>
         <div *ngFor="let item of secciones; let i = index" [ngStyle]="getStyle(i)" ></div>
         <div class="bar-label">
             <span class="arrow" [style.left]="marginleft + 'px'"></span>
-            <span class="label" [style.left]="marginleft + 'px'">{{ round(percent)}}%</span>
+            <span class="label" [style.left]="marginleft + 'px'">{{ round(item.percent)}}%</span>
         </div>
     </div>
 </div>
