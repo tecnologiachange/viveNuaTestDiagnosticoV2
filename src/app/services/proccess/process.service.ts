@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpService } from "../api/http.service";
 import { GetService } from "../firebase/get.service";
 import { Utils } from "../utils/utils.service";
-import { Answer, Hability,  IHability,IScore, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
+import { Answer, Hability,  IHability,IScore, IScoreItem, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
 import { environment } from "src/environments/environment";
 
 @Injectable({
@@ -105,5 +105,15 @@ export class ProcessService {
             });
         });
         return {transform: response, name , email};
+    }
+
+    public async getDefinitionScore( data: { burnout: Hability , financieras: Hability , fisicas: Hability}): Promise<{ burnout: Hability , financieras: Hability , fisicas: Hability}>{
+        let resultsBurnout: IScoreItem = (await this.getService.getOne(environment.storage.score , 'burnout')).data() as any;
+        let resultsFinancieras: IScoreItem = (await this.getService.getOne(environment.storage.score , 'financial')).data() as any;
+        let resultsFisicas: IScoreItem = (await this.getService.getOne(environment.storage.score , 'physical')).data() as any;
+        data.burnout.aditionalDescription = Utils.getvalueByScore(data.burnout , resultsBurnout);
+        data.financieras.description = Utils.getvalueByScore(data.financieras , resultsFinancieras);
+        data.fisicas.description = Utils.getvalueByScore(data.fisicas , resultsFisicas);
+        return data;
     }
 }

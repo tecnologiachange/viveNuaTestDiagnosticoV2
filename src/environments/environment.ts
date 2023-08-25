@@ -19,5 +19,6 @@ export const environment = {
   storage: {
     micro : 'microhabilities',
     macro : 'macrohabilities',
+    score : 'score'
   }
 };
