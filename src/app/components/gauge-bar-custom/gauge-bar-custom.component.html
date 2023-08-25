@@ -1,11 +1,9 @@
  <div class="container">
-    <div class="title">
+    <div class="title" *ngIf="item.name != ''">
         <p>{{item.name}}</p>
-        <img src="assets/imgs/right-arrow.svg" alt="close" class="more" (click)="more()"/>
-    </div>
-    <div class="bar-description">
-        {{item.description}}
-    </div>
+       <!--  <img src="assets/imgs/right-arrow.svg" alt="close" class="more" (click)="more()"/> -->
+    </div> 
+    <div class="bar-description" [innerHTML]="item.description"></div>
     <div class="bar-container" #gaugeBar>
         <div *ngFor="let item of secciones; let i = index" [ngStyle]="getStyle(i)" ></div>
         <div class="bar-label">
@@ -13,4 +11,5 @@
             <span class="label" [style.left]="marginleft + 'px'">{{ round(item.percent)}}%</span>
         </div>
     </div>
+    <div class="bar-description" style="margin-top: 1rem;" *ngIf="item.aditionalDescription && item.aditionalDescription != ''" [innerHTML]="item.aditionalDescription"></div>
 </div>

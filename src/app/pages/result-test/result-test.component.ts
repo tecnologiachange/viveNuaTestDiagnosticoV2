@@ -1,7 +1,6 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { routeTransitionAnimations } from '../animations';
-import { ProcessService } from 'src/app/services/proccess/process.service';
 import { Hability } from 'src/app/models/i.models';
 import { Utils } from 'src/app/services/utils/utils.service';
 import { ModalComponent } from 'src/app/components/modal/modal.component';
@@ -21,7 +20,6 @@ export class ResultTestComponent implements OnInit{
   public sectionsColors = [ "#2f9ea2", "#9f7eee", "#5325a0", "#311868" ];
   public percent = 50;
   public results: Hability[] = [];
-  public resultsEspecific: Hability[] = [];
   public id: string = '';
   public item: Hability = {} as Hability;
   public burnout: Hability= { name: 'Burnout' , percent: 0 , subhabilities: [] , description: '' , isGraphic: false} as Hability;
@@ -29,37 +27,21 @@ export class ResultTestComponent implements OnInit{
   public fisicas: Hability = {} as Hability;
   @ViewChild('modal') modal!: ModalComponent;
   public isLoad = false;
+  private extras!: any ;
 
-  constructor(private route: ActivatedRoute, private router: Router , private process: ProcessService, private http: HttpService) { }
+  constructor( private router: Router ,  private http: HttpService) { 
+    this.extras = this.router.getCurrentNavigation()!.extras.state;
+  }
 
   ngOnInit(): void {
-    this.isLoad = true;
-    this.id = this.route.snapshot.paramMap.get('id')!;
-    this.process.get(this.id).then((res: any) => {
-      this.results = [];
-      this.resultsEspecific = [];
-      this.name = res.name;
-      this.email = res.email;
-      res.results.forEach((_hability: Hability) => {
-        const hability = _hability;
-        if(hability.isGraphic) {
-          this.results.push(hability);
-        } else {
-          if(hability.name == 'Burnout') {
-            this.burnout = hability;
-          }
-          if(hability.name == 'Financieras') {
-            this.financieras = hability;
-          }
-          if(hability.name == 'Fisicas') {
-            this.fisicas = hability;
-          }
-        }
-      });
-      this.isLoad = false;
-    }).catch( _error => {
-      this.router.navigateByUrl ('/erno' );
-    });
+    this.results = this.extras.results;
+    this.name = this.extras.name;
+    this.email = this.extras.email;
+    this.burnout = this.extras.burnout;
+    this.financieras = this.extras.financieras;
+    this.fisicas = this.extras.fisicas;
+    this.id = this.extras.id;
+    this.burnout.name = '';
   }
 
   public sendEmit(_item: any){

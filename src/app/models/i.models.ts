@@ -1,6 +1,7 @@
 export interface Hability {
     name: string;
     description: string;
+    aditionalDescription?: string;
     percent: number;
     isGraphic: boolean;
     subhabilities: Subhability[]
@@ -81,4 +82,20 @@ export interface Hability {
   export interface ITransformResponseTransform{
     name: string;
     value: number;
+  }
+
+  export interface IExtraLoadding{ 
+    results: Hability[];
+    name: string;
+    email: string;
+    burnout?: Hability;
+    financieras?: Hability;
+    fisicas?: Hability ;
+    id: string;
+  }
+
+  export interface IScoreItem{
+    low: string; 
+    high: string; 
+    medium: string
   }
