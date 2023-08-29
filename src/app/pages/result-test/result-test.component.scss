@@ -26,7 +26,7 @@ p{
 .container-dual__title{
     p{
         font-weight: 700;
-        font-size: 18px;
+        font-size: 26px;
         margin: 0.5rem;
         text-align: start;
         margin: 1.5rem 0.8rem;
@@ -49,6 +49,9 @@ p{
 }
 
 @media only screen and (max-width: 600px) {
+    .container-dual__title{
+        font-size: 18px;
+    }
     .container-dual{
         display: grid;
         grid-template-columns: 1fr;

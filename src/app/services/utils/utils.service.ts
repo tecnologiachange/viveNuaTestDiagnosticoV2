@@ -1,5 +1,5 @@
 import { Observable } from "rxjs";
-import { Hability, IHability, IScoreItem } from "src/app/models/i.models";
+import { Hability, IScoreItem } from "src/app/models/i.models";
 
 export class Utils {
     
@@ -43,10 +43,12 @@ export class Utils {
     }
 
     public static getvalueByScore( hability: Hability, score: IScoreItem): string{
-        console.log(hability);
-        console.log(score);
         if( hability.percent >=0 && hability.percent <= 30 ) return score.low;
         if( hability.percent >=31  && hability.percent <= 70 ) return score.medium;
         return score.high;
+    }
+
+    public static getNumberByOneDecimal( value: number): number{
+        return Math.round(value * 100);
     }
 }

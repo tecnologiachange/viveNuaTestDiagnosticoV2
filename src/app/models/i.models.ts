@@ -92,6 +92,13 @@ export interface Hability {
     financieras?: Hability;
     fisicas?: Hability ;
     id: string;
+    recommend: IRecommend;
+  }
+
+  export interface IRecommend{
+    cursos: string[];
+    herramientas: string[];
+    habilidades: { name: string , value: number}[];
   }
 
   export interface IScoreItem{

@@ -14,11 +14,18 @@ export const environment = {
   },
   fields: {
     name: '01H0TC37RA40ADR9G6BWYBS9HN',
-    email: 'feb13484-0bce-4cab-a4f1-1ff30e5d0cfd'
+    email: 'feb13484-0bce-4cab-a4f1-1ff30e5d0cfd',
+    cargo: 'dd5b46ab-05dc-4a4f-9d1d-0d15e8a46598'
   },
   storage: {
     micro : 'microhabilities',
     macro : 'macrohabilities',
-    score : 'score'
+    score : 'score',
+    recommend : 'recommend'
+  },
+  homologo: {
+    'Servicio al Cliente':'servicioAlCliente',
+    'Tecnología de la Información':'tecnologias',
+    'Ventas':'ventas'
   }
 };

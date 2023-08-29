@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import { Hability } from 'src/app/models/i.models';
 
 @Component({
@@ -9,7 +10,10 @@ import { Hability } from 'src/app/models/i.models';
 export class AccordionCategoryComponent {
 
   @Input() habilities: Hability[] = [];
+  @Input() extras: any;
   @Output() event = new EventEmitter<any>();
+
+  constructor( private router: Router ) {}
 
   getSummaryPercent(subhabilities: any[]): number {
     let percent = 0;
@@ -26,4 +30,5 @@ export class AccordionCategoryComponent {
   onEmitEvent(item: any){
     this.event.emit(item);
   }
+
 }

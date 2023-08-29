@@ -57,3 +57,18 @@ img{
         grid-template-rows: 1fr;
     }
 }
+
+.button{
+    height: 3rem;
+    margin: auto;
+    width: 18rem;
+    border: 2px solid #5326a0;
+    font-size: 18px;
+    font-family: 'Raleway';
+    background: #5326a0;
+    font-weight: 500;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    color: white;
+    cursor: pointer;
+}
