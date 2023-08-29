@@ -21,6 +21,7 @@ export class LoadResultsComponent implements OnInit{
       let results: Hability[] = [];
       let name = res.name;
       let email = res.email;
+      let recommend = res.recommend;
       let burnout: Hability = {} as Hability;
       let financieras: Hability = {} as Hability;
       let fisicas: Hability = {} as Hability;
@@ -41,7 +42,7 @@ export class LoadResultsComponent implements OnInit{
       });
       this.process.getDefinitionScore({burnout, financieras, fisicas}).then( (res: any) => {  
         let extra: IExtraLoadding
-        = { results, name, email, burnout: res.burnout, financieras: res.financieras, fisicas: res.fisicas , id: this.id };
+        = { results, name, email, burnout: res.burnout, financieras: res.financieras, fisicas: res.fisicas , id: this.id  , recommend};
         this.router.navigateByUrl ('/results' , { state: extra } );
       });
     }).catch( _error => {

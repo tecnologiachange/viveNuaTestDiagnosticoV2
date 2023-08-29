@@ -27,7 +27,7 @@ export class ResultTestComponent implements OnInit{
   public fisicas: Hability = {} as Hability;
   @ViewChild('modal') modal!: ModalComponent;
   public isLoad = false;
-  private extras!: any ;
+  public extras!: any ;
 
   constructor( private router: Router ,  private http: HttpService) { 
     this.extras = this.router.getCurrentNavigation()!.extras.state;
@@ -68,5 +68,18 @@ export class ResultTestComponent implements OnInit{
 
   public sendSubscription(){
     window.open('https://www.vivenua.com/producto' , '_blank');
+  }
+
+  public isCurriculum(): boolean{
+    return !( 
+      this.extras.recommend.cursos.length === 0 || 
+      this.extras.recommend.habilidades.length === 0 || 
+      this.extras.recommend.herramientas.length === 0 
+      );
+  }
+
+  public nextPage(): void {
+    console.log(this.extras);
+    this.router.navigateByUrl('/recommend', { state: { extras: this.extras } });
   }
 }

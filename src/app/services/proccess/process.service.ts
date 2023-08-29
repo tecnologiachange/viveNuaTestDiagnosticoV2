@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { HttpService } from "../api/http.service";
 import { GetService } from "../firebase/get.service";
 import { Utils } from "../utils/utils.service";
-import { Answer, Hability,  IHability,IScore, IScoreItem, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
+import { Answer, Hability,  IHability,IRecommend,IScore, IScoreItem, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
 import { environment } from "src/environments/environment";
 
 @Injectable({
@@ -22,7 +22,9 @@ export class ProcessService {
             
             let results = this.setMacroHability(macro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
-            return {results , name: resultTest.name , email: resultTest.email};
+            const _env: any = environment;
+            const recommend = await this.getDefinitionRecommend( _env.homologo[resultTest.area] );
+            return {results , name: resultTest.name , email: resultTest.email , recommend: recommend , id: id};
         }catch(_e){
             console.error(_e);
         }
@@ -83,18 +85,21 @@ export class ProcessService {
         return response;
     }
 
-    private transformResult(result: TypeFormResponse): {transform: ITransformResponseTransform[], name: string , email: string}{
+    private transformResult(result: TypeFormResponse): {transform: ITransformResponseTransform[], name: string , email: string, area: string}{
         let response: ITransformResponseTransform[] = [];
         let name: string = '';
         let email: string = '';
+        let area: string = '';
         result.items.forEach((item: Item) => {
             item.answers.forEach((answer: Answer) => {
                 if (answer.type === 'text' && answer.field.ref === environment.fields.name){
                     name = answer.text;
                 }
                 if (answer.type === 'email' && answer.field.ref === environment.fields.email){
-                    // email = answer.email;
-                    email = 'aric.gutierrez@vivenua.com'
+                    email = answer.email;
+                }
+                if (answer.field.ref === environment.fields.cargo){
+                    area = answer.text;
                 }
                 if(answer.type === 'number'){
                     response.push({
@@ -104,7 +109,7 @@ export class ProcessService {
                 }
             });
         });
-        return {transform: response, name , email};
+        return {transform: response, name , email , area};
     }
 
     public async getDefinitionScore( data: { burnout: Hability , financieras: Hability , fisicas: Hability}): Promise<{ burnout: Hability , financieras: Hability , fisicas: Hability}>{
@@ -115,5 +120,14 @@ export class ProcessService {
         data.financieras.description = Utils.getvalueByScore(data.financieras , resultsFinancieras);
         data.fisicas.description = Utils.getvalueByScore(data.fisicas , resultsFisicas);
         return data;
+    }
+
+    public async getDefinitionRecommend(profile: string): Promise<IRecommend>{
+        try{
+            if(profile) return (await this.getService.getOne(environment.storage.recommend , profile)).data() as IRecommend;
+            return { cursos : [] , habilidades: [] , herramientas: [] };
+        }catch(_e){
+            return { cursos : [] , habilidades: [] , herramientas: [] };
+        }
     }
 }

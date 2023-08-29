@@ -4,6 +4,7 @@ import { ResultDetailComponent } from './result-detail/result-detail.component';
 import { NotResponseComponent } from './not-response/not-response.component';
 import { LoadResultsComponent } from './load-results/load-results.component';
 import { ResultTestComponent } from './result-test/result-test.component';
+import { RecommendComponent } from './recommend/recommend.component';
 
 const routes: Routes = [
   {
@@ -13,6 +14,11 @@ const routes: Routes = [
   {
     path: 'results',
     component: ResultTestComponent,
+    data: { animationState: 'One' },
+  },
+  {
+    path: 'recommend',
+    component: RecommendComponent,
     data: { animationState: 'One' },
   },
   {

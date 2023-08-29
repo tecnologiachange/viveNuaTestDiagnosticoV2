@@ -12,6 +12,7 @@ import { ModalComponent } from './modal/modal.component';
 import { DetailContentComponent } from './detail-content/detail-content.component';
 import { LoadingComponent } from './loading/loading.component';
 import { FooterComponent } from './footer/footer.component';
+import { HorizontalBarcharStackedComponent } from './horizontal-barchar-stacked/horizontal-barchar-stacked.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     ModalComponent,
     DetailContentComponent,
     LoadingComponent,
-    FooterComponent
+    FooterComponent,
+    HorizontalBarcharStackedComponent
   ],
   imports: [
     CommonModule,
@@ -43,7 +45,8 @@ import { FooterComponent } from './footer/footer.component';
     ModalComponent,
     DetailContentComponent,
     LoadingComponent,
-    FooterComponent
+    FooterComponent,
+    HorizontalBarcharStackedComponent
   ]
 })
 export class ComponentsModule { }

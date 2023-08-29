@@ -6,13 +6,15 @@ import { ComponentsModule } from '../components/components.module';
 import { ResultDetailComponent } from './result-detail/result-detail.component';
 import { NotResponseComponent } from './not-response/not-response.component';
 import { LoadResultsComponent } from './load-results/load-results.component';
+import { RecommendComponent } from './recommend/recommend.component';
 
 @NgModule({
   declarations: [
     ResultTestComponent,
     ResultDetailComponent,
     NotResponseComponent,
-    LoadResultsComponent
+    LoadResultsComponent,
+    RecommendComponent
   ],
   imports: [
     CommonModule,
