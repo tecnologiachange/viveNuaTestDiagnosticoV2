@@ -10,7 +10,7 @@ import { Hability } from 'src/app/models/i.models';
 })
 export class ResultDetailComponent {
 
-  private id: string = '';
+  public id: string = '';
   public item: Hability = {} as Hability;
 
   constructor(private router: Router) {
@@ -24,11 +24,4 @@ export class ResultDetailComponent {
     this.router.navigate(["./response/"+this.id]);
   }
 
-  getSummaryPercent(): number {
-    let percent = 0;
-    this.item.subhabilities.forEach(subhabilidad => {
-      percent += subhabilidad.percent;
-    });
-    return percent / this.item.subhabilities.length;
-  }
 }

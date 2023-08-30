@@ -1,14 +1,154 @@
+@import '../../../styles.scss';
+
+p{
+    font-weight: 700;
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.container{
+    @extend .base-container;
+    cursor: pointer;
+    padding: 1rem;
+    p{
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0.5rem;
+    }
+    div{
+        padding: .3rem;
+        text-align: justify;
+    }
+}
+
+.container-dual__title{
+    p{
+        font-weight: 700;
+        font-size: 26px;
+        margin: 0.5rem;
+        text-align: start;
+        margin: 1.5rem 0.8rem;
+    }
+    section{
+        font-size: 14px;
+        text-align: justify;
+        background: #f7f6f6;
+        margin: 0.5rem;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+}
+
 .container-dual{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    height: 100%;
+    grid-template-columns: 40% 1fr ;
+    grid-template-rows: auto;
+    // height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
+    .container-dual__title{
+        font-size: 18px;
+    }
     .container-dual{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
   }
+
+.mmodal {
+    // makes it hover above all elements
+    z-index: 1000;
+    position: fixed;
+    top: 30px;
+    bottom: 0;
+    left: calc((100% - 60%)/2);
+    width: 60%;
+    border-radius: 1rem;
+}
+.mmodal-body {
+    background: #fff;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+// backdrop color
+.mmodal-background {
+    // should be below the .modal but above all other elements
+    z-index: 900;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000ba;
+    // makes the below elements visible to a degree.
+    opacity: 0.95;
+}
+
+.close-style{
+    width: 2rem;
+    cursor: pointer;
+}
+
+.mmodal-title{
+    display: grid;
+    grid-template-columns: 1fr 3rem;
+    grid-template-rows: auto;
+    p{
+        font-weight: 700;
+        margin: 0.5rem;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.container-extra-habilities{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.button{
+    width: 280px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background: #319ea2;
+    border-radius: 10rem;
+    color: white;
+    border: 0px;
+    font-family: "Raleway";
+    cursor: pointer;
+}
+
+.right{
+    margin-right: 2rem;
+}
+
+.left{
+    margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-extra-habilities{
+        grid-template-columns: 1fr;
+    }
+    .right{
+        margin-top: 2rem !important;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .left{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}

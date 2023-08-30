@@ -1,0 +1,9 @@
+
+<p style="text-align: center;">Tu Macro Habilidad</p>
+<div class="container">
+    <app-category [percent]="item.percent" [description]="item.description" [tittle]="item.name"></app-category>
+</div>
+<p style="text-align: center;">Las Micro Habilidades de {{item.name}}</p>
+<div class="container">
+    <app-category *ngFor="let subhability of getSubhabilidades()" [percent]="subhability.percent" [description]="subhability.descripcion" [tittle]="subhability.name"></app-category>
+</div>

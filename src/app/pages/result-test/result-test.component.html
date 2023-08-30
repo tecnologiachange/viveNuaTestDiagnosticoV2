@@ -1,7 +1,80 @@
-<div style="display: block;height: 100%;">
-    <app-gauge-bar-custom [secciones]="sectionsColors" [percent]="percent"></app-gauge-bar-custom>
-    <div class="container-dual">
-        <app-radar-grafic [habilities]="results"></app-radar-grafic>
-        <app-accordion-category [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
+<!-- <app-loading [hidden]="!isLoad"></app-loading>
+<div [hidden]="isLoad"> -->
+    <p>{{name}}, ¡este es tu <strong>Gemelo Digital</strong>!</p>
+    <div class="container">
+        <div>¡Te damos la bienvenida a los resultados de nuestro diagnóstico! Aquí conocerás a tu gemelo digital, una versión virtual de ti mismo, que te guiará a través de la forma en que estos resultados pueden influir en tu percepción de las habilidades blandas. Esta experiencia te brindará una nueva perspectiva sobre tus destrezas interpersonales y cómo pueden influir en tu vida.
+            <br><br>
+            Las habilidades blandas, también conocidas como habilidades interpersonales o habilidades sociales, son rasgos y capacidades que se relacionan con la forma cómo interactuamos y nos comunicamos con otras personas. A diferencia de las habilidades técnicas o duras, que se refieren a conocimientos específicos, las habilidades blandas son importantes para las relaciones personales y el éxito en diferentes ámbitos de la vida.
+            <br><br>
+            Imaginemos estas habilidades como herramientas poderosas para la vida, a las que nos referimos como "Power Skills". Éstas se descomponen en dos categorías clave: las Macro Habilidades, que son habilidades amplias que abarcan un espectro completo de capacidades interpersonales y de adaptación, y dentro de estas Macro Habilidades, encontramos las Micro Habilidades más específicas que aplicamos en situaciones cotidianas. Es como si las Macro Habilidades fueran las principales secciones de un gran mapa y las Micro Habilidades fueran los detalles y caminos que trazamos en ese mapa para navegar con éxito en nuestras relaciones y desafíos diarios.
+            </div>
     </div>
-</div>
+    <div style="display: block;height: 100%;">
+        <div class="container-dual">
+            <div>
+                <div class="container-dual__title">
+                    <p style="text-align: center;">Tu Burnout</p>
+                </div>
+                <app-gauge-bar-custom 
+                [id]="id" 
+                [item]="burnout" 
+                [secciones]="sectionsColors" 
+                (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
+            </div>
+            <div>
+                <div class="container-dual__title">
+                    <p style="text-align: center;">Tus Macro Habilidades</p>
+                </div>
+                <app-radar-grafic [habilities]="results" (onElementSelect)="sendEmit($event)"></app-radar-grafic>
+            </div>
+            <!-- <app-bar-grafic [habilities]="results" (onElementSelect)="sendEmit($event)"></app-bar-grafic> -->
+        </div>
+        <div>
+            <div class="container-dual__title">
+                <p style="text-align: center;">Analiza tus macro y micro habilidades a detalle</p>
+                <section>
+                    Una <strong>Macro Habilidad</strong> es una habilidad general que abarca varias acciones y comportamientos relacionados. Imagina que es como una caja que contiene distintas pequeñas habilidades blandas dentro (Micro Habilidades). Estas habilidades grandes nos ayudan a ser exitosos en la forma en que interactuamos con los demás y enfrentamos los desafíos de la vida. 
+                    <br><br>
+                    En cada Macro Habilidad encontrarás sus respectivas <strong>Micro Habilidades</strong>, son un pequeño aspecto de una habilidad grande (Macro) que nos ayuda a relacionarnos mejor con los demás y a gestionarnos en diferentes situaciones. Son como piezas pequeñas de un rompecabezas que, cuando las juntas, te ayudan a tener éxito en tu rol e interacciones diarias.
+                    <button class="button" style="margin-bottom: 0px;" *ngIf="isCurriculum()" (click)="nextPage()">Curriculum Inteligente</button>
+                </section>
+            </div>
+            <app-accordion-category [extras]="extras" [habilities]="results" (event)="sendEmit($event)"></app-accordion-category>
+            <div class="container-dual__title">
+                <p style="text-align: center;">Para terminar analiza tu puntaje en estas 2 habilidades críticas de vida</p>
+            </div>
+            <div class="container-extra-habilities">
+                <app-gauge-bar-custom 
+                    [id]="id" 
+                    [item]="financieras" 
+                    [secciones]="sectionsColors" 
+                    (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
+                <app-gauge-bar-custom 
+                    [id]="id" 
+                    [item]="fisicas" 
+                    [secciones]="sectionsColors" 
+                    (sendEmit)="sendEmit($event)"></app-gauge-bar-custom>
+            </div>
+            <div class="container-extra-habilities">
+                <button class="button right" (click)="sendMail()">Enviamelo por correo</button>
+                <button class="button left" (click)="sendSubscription()">Quiero Suscribirme!</button>
+            </div>
+        </div>
+    </div>
+<!-- </div> -->
+
+<ng-template #detailContent>
+
+    <div class="mmodal">
+        <div class="mmodal-body">
+            <div class="mmodal-title">
+                <p>Detalle de habilidad</p>
+                <img src="assets/imgs/close.svg" alt="close" (click)="close()" class="close-style"/>
+            </div>
+            <app-detail-content [id]="id" [item]="item"></app-detail-content>
+        </div>
+    </div>
+    <div class="mmodal-background"></div>
+</ng-template>
+
+<app-modal #modal [content]="detailContent" [title]="'Ola'"></app-modal>

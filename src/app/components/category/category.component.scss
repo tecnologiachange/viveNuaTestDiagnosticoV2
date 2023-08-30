@@ -1,9 +1,15 @@
 .subheader{
     display: grid;
-    grid-template-columns: 6rem 1fr;
+    grid-template-columns: 3.4rem 1fr;
     grid-template-rows: 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     p{
-        margin: 1.3rem;
+        margin: 1.01rem;
+    }
+    img{
+        width: 2.5rem;
+        margin: auto;
     }
 }
 

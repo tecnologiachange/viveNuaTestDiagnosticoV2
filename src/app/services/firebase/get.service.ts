@@ -1,6 +1,8 @@
 import { Injectable, inject } from "@angular/core";
-import { Firestore, collection, collectionChanges } from "@angular/fire/firestore";
+import { Firestore, collection, collectionChanges, doc, getDoc } from "@angular/fire/firestore";
 import { map } from "rxjs";
+import { LoadService } from "./load.service";
+
 
 @Injectable({
     providedIn: 'root'
@@ -8,6 +10,10 @@ import { map } from "rxjs";
 export class GetService {
 
   private firestore: Firestore = inject(Firestore);
+
+  constructor(){
+    const load: LoadService = new LoadService();
+  }
 
   public get(collectionName: string){
     const collectionInstance =  collection(this.firestore, collectionName);
@@ -20,5 +26,10 @@ export class GetService {
       const id = item.doc.id;
       return { id , ...data };
     })
+  }
+
+  public getOne(collectionName: string , id: string){
+    const collectionInstance =  collection(this.firestore, collectionName);
+    return getDoc( doc(collectionInstance, id));
   }
 }

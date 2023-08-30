@@ -1,15 +1,20 @@
-import { Component, Input, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, EventEmitter, Input, OnChanges, Output, SimpleChanges, ViewChild } from '@angular/core';
+import { Hability } from 'src/app/models/i.models';
 
 @Component({
   selector: 'app-gauge-bar-custom',
   templateUrl: './gauge-bar-custom.component.html',
   styleUrls: ['./gauge-bar-custom.component.scss']
 })
-export class GaugeBarCustomComponent {
+export class GaugeBarCustomComponent implements AfterViewInit {
+ 
 
   @ViewChild('gaugeBar') gaugeBar: any;
+  @Input() item!: Hability;
+  @Input() id: string = '';
   @Input() secciones: string[] = [];
-  @Input() percent: number = 0;
+
+  @Output() sendEmit: EventEmitter<Hability> = new EventEmitter<Hability>();
   public marginleft: number = 0;
 
   getStyle(index: number): any {
@@ -30,9 +35,28 @@ export class GaugeBarCustomComponent {
     }
     return object;
   }
+
+  // ngOnChanges(changes: SimpleChanges): void {
+  //   this.paint();
+  // }
+  
+  private paint(){
+    try{
+      const widthContainer = this.gaugeBar.nativeElement.offsetWidth;
+      const marginLeft = parseInt( (widthContainer * ( this.round(this.item.percent) / 100) ) + '' );
+      this.marginleft = marginLeft - 21;
+    } catch (error) { console.log(error); }
+  }
+
   ngAfterViewInit(): void {
-    const widthContainer = this.gaugeBar.nativeElement.offsetWidth;
-    const marginLeft = parseInt( (widthContainer * (this.percent / 100) ) + '' );
-    this.marginleft = marginLeft - 21;
+    this.paint();
+  }
+
+  public round(number: number): number {
+    return Math.round(number* 100);
+  }
+
+  public more(){
+    this.sendEmit.emit(this.item);
   }
 }

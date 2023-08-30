@@ -1,7 +1,9 @@
 export interface Hability {
-    name: string
-    description: string
-    percent: number
+    name: string;
+    description: string;
+    aditionalDescription?: string;
+    percent: number;
+    isGraphic: boolean;
     subhabilities: Subhability[]
   }
   
@@ -61,4 +63,51 @@ export interface Hability {
     text: string;
     email: string;
     number: number;
+    choice?:{
+      id: string;
+      ref: string;
+      label: string;
+    }
   };
+
+  export interface IType{
+    question: string;
+    name: string;
+    descripcion: string;
+    weigh: number;
+  }
+
+  export interface IHability{
+      name: string;
+      descripcion: string;
+      isGraphic: boolean;
+      types: IType[];
+  }
+
+  export interface ITransformResponseTransform{
+    name: string;
+    value: number;
+  }
+
+  export interface IExtraLoadding{ 
+    results: Hability[];
+    name: string;
+    email: string;
+    burnout?: Hability;
+    financieras?: Hability;
+    fisicas?: Hability ;
+    id: string;
+    recommend: IRecommend;
+  }
+
+  export interface IRecommend{
+    cursos: string[];
+    herramientas: string[];
+    habilidades: { name: string , value: number}[];
+  }
+
+  export interface IScoreItem{
+    low: string; 
+    high: string; 
+    medium: string
+  }

@@ -10,10 +10,12 @@
     </div>
     <span>{{item.description}}</span>
 </div> -->
-<div class="container">
-    <app-category [percent]="getSummaryPercent()" [description]="item.description" [tittle]="item.name"></app-category>
+<!-- <div class="container">
+    <app-category [percent]="item.percent" [description]="item.description" [tittle]="item.name"></app-category>
 </div>
 
 <div class="container">
     <app-category *ngFor="let subhability of item.subhabilities" [percent]="subhability.percent" [description]="subhability.descripcion" [tittle]="subhability.name"></app-category>
-</div>
+</div> -->
+
+<app-detail-content [id]="id" [item]="item"></app-detail-content>

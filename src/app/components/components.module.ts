@@ -7,6 +7,12 @@ import { AccordionCategoryComponent } from './accordion-category/accordion-categ
 import { BadgeComponent } from './badge/badge.component';
 import { NgChartsModule } from 'ng2-charts';
 import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
+import { BarGraficComponent } from './bar-grafic/bar-grafic.component';
+import { ModalComponent } from './modal/modal.component';
+import { DetailContentComponent } from './detail-content/detail-content.component';
+import { LoadingComponent } from './loading/loading.component';
+import { FooterComponent } from './footer/footer.component';
+import { HorizontalBarcharStackedComponent } from './horizontal-barchar-stacked/horizontal-barchar-stacked.component';
 
 
 @NgModule({
@@ -16,7 +22,13 @@ import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
     CategoryComponent,
     AccordionCategoryComponent,
     BadgeComponent,
-    RadarGraficComponent
+    RadarGraficComponent,
+    BarGraficComponent,
+    ModalComponent,
+    DetailContentComponent,
+    LoadingComponent,
+    FooterComponent,
+    HorizontalBarcharStackedComponent
   ],
   imports: [
     CommonModule,
@@ -28,7 +40,13 @@ import { RadarGraficComponent } from './radar-grafic/radar-grafic.component';
     CategoryComponent,
     AccordionCategoryComponent,
     BadgeComponent,
-    RadarGraficComponent
+    RadarGraficComponent,
+    BarGraficComponent,
+    ModalComponent,
+    DetailContentComponent,
+    LoadingComponent,
+    FooterComponent,
+    HorizontalBarcharStackedComponent
   ]
 })
 export class ComponentsModule { }

@@ -1,0 +1,647 @@
+[
+  {
+    "name": "ADAPTABILIDAD",
+    "type": [
+      {
+        "question": "3ed5fe11-9078-478b-81be-d3453225d129",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "6e2cb3df-1602-4cce-9bde-74f7fdb55e2c",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "96611757-8c25-44ee-8e20-b01ab8e585bd",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "ANALÍTICO",
+
+    "type": [
+      {
+        "question": "8f43ea88-901e-4342-bd1f-9d693195b231",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "a415eeb4-1f38-404c-9eed-ef9f1d377876",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "43e53012-a998-47e2-afd6-38285e191e1c",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "APRENDIENTE",
+
+    "type": [
+      {
+        "question": "676a62bd-3813-433a-ae44-dca4b6978e76",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "1a71be8d-1d0f-4bfc-a928-8274f05b5086",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "d70176de-840d-4229-bd7a-bb63948cc8d0",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "AUTO VALORACIÓN ",
+
+    "type": [
+      {
+        "question": "54aed825-c022-4d22-9240-4d6f022b286e",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "a5ba834f-5754-4302-9bd7-48a9001f5794",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "99ff4f68-49da-4d7e-b141-0ea03d4f8f49",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "COMPROMISO",
+
+    "type": [
+      {
+        "question": "889eb1a0-672f-42eb-844c-396064de82cd",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "1297bb28-bfa5-48d3-8e83-5593e1fe3112",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "5767e85d-4ff5-49e6-9c9c-e9e586b281b1",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "CREENCIA",
+
+    "type": [
+      {
+        "question": "358dd74e-3745-44a6-9494-ecb6a5b592cc",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "8a0dc577-8668-4e4b-bb2b-586afef29b12",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "b968767b-5a80-4197-9fd1-a312cb22f7d8",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "DELEGACIÓN DE TAREAS",
+
+    "type": [
+      {
+        "question": "cca3ba9c-304b-4997-bb8c-f61a6c6c7bcf",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "569bbb6a-d037-4b43-a29a-d3e29cb772ed",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "04ad2150-9a8d-40b4-a829-200b5faa851f",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "DELIBERACIÓN",
+
+    "type": [
+      {
+        "question": "2e09aef7-e034-4ae8-a4b9-0e5b7f317764",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "a34b6838-1f27-4fc9-9437-ce96cfd3e339",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "9944e3f6-16b4-484f-b900-161f1c244709",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "EMPATÍA",
+
+    "type": [
+      {
+        "question": "5462fcdd-bf36-48e7-a31f-a09189041c41",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "e6e91b79-f13c-4cc8-860f-e96a5ff6cb8f",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "a7d140a3-4c27-46c5-a465-cc052fcd059b",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "ESCUCHA ACTIVA",
+
+    "type": [
+      {
+        "question": "4f2c9ec8-7f1a-4f4e-ba58-911049a40258",
+        "weigh": 0.5
+      },
+      {
+        "question": "74b0955a-4791-4ecb-8001-e02b45760b0b",
+        "weigh": 0.5
+      }
+    ]
+  },
+  {
+    "name": "ESTRATÉGICO",
+
+    "type": [
+      {
+        "question": "e4ff3c8b-e4a5-45ed-bcda-019db5733a91",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "7d6116ea-d883-454d-833a-e09894b299ad",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "5e9bae43-b376-40bf-9d0c-afcc3efd1dc2",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "GENERAR IDEAS",
+
+    "type": [
+      {
+        "question": "98eb587e-eacb-4819-b766-a960e031995f",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "adefcb8a-ffc6-44d8-a29f-e78ed58dddb8",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "585935e5-28a5-4e79-b4ff-879e814e20f9",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "HABLAR EFECTIVAMENTE",
+
+    "type": [
+      {
+        "question": "aa6cfe87-8697-4966-93d9-2c10065a5147",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "0992ff81-7255-438b-9b09-e135ceb38917",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "9fe30460-befc-445c-bef8-6014f16ab609",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "INCLUYENTE",
+
+    "type": [
+      {
+        "question": "f39c79d7-c449-46d6-9f6b-3d2d38fe6965",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "35280e54-1589-4718-9dfb-6463316b7715",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "4fd6cf0e-23a6-4444-9543-7d48d85553c2",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "INDIVIDUALIZADOR",
+
+    "type": [
+      {
+        "question": "949fd278-72cf-4c8d-a951-5a7f34aafd1c",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "b89a6484-54b5-441f-9ea3-0a85d5abcb63",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "b5e881ea-2e73-46c8-9d77-a465e9ef329e",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "INSPIRADOR",
+
+    "type": [
+      {
+        "question": "32bd24c7-626a-4d90-8552-86a08b7323ba",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "3d0db27a-33d9-46bd-8372-4118c9439e3e",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "704f5274-b041-49ab-a834-35a977bbf77d",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "LEALTAD",
+
+    "type": [
+      {
+        "question": "95ac53b7-4709-4a11-9699-581d41eb09d6",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "036a426c-099d-411c-95ee-238f385fba95",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "969f40ce-e86d-47d6-a3fd-8ae5fe3e9314",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "LOCUS DE CONTROL",
+
+    "type": [
+      {
+        "question": "be0597b8-12dc-4f14-b14d-75868784bdc9",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "cfb654af-08f5-4378-9195-1a1486c270a3",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "1c6535a0-bfd9-4d87-b95e-20a83ce1109c",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "MANEJO DE CRÍTICAS",
+
+    "type": [
+      {
+        "question": "1ab72d44-ec0d-4618-95a7-997a9a9b0501",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "fd8e69ec-5399-4417-8430-da9ed54d37b4",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "aa9527dd-8811-4be2-a061-b5a683853e76",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "MANEJO DE TIEMPO",
+
+    "type": [
+      {
+        "question": "166ea9ed-e2a9-4226-97ad-2cac3606fbb9",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "b17778e1-4194-4e15-9ef5-288806cdc31b",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "3d93681f-4cb6-43dd-bcd7-bea23c6d10a4",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "PLANEACIÓN",
+
+    "type": [
+      {
+        "question": "4296b32b-aa9b-41e1-9035-eea921b46a74",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "103ec50c-4f75-4e0e-81b4-c722e62a6b07",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "3f17ff13-1c21-40a6-90ce-ac7564ed8cc7",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "PONER METAS",
+
+    "type": [
+      {
+        "question": "11828a52-deae-480d-8729-d5d55a6aa84a",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "3ff3faa5-c269-4e08-8011-0a467f13b005",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "4056b9ad-f91a-44e5-abd7-e8c6ba819d2c",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "PRIORIZACIÓN",
+
+    "type": [
+      {
+        "question": "2336f2b4-c3e4-4fa4-a91d-aacdc7231ce4",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "83af301b-ff1f-4e90-b6b8-ad17857cfa39",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "42627f33-62c4-4c67-8836-4c82c6db690a",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "RECOLECTAR INFO",
+
+    "type": [
+      {
+        "question": "8099890a-2c82-481d-92c0-cc7ffd91d164",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "5c3c07c8-94e4-4e5a-8279-8699bd50f7d8",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "93dc1b8d-9cab-4f26-989d-c2ae010af6ef",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "RELACIONADOR",
+
+    "type": [
+      {
+        "question": "a9440fd3-9a17-4299-9f45-006b68559f77",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "cfa607f4-28d3-4322-83bd-bf1b9f329aba",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "75cd4758-c002-40e3-a5a6-29869d46895a",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "RESILIENCIA",
+
+    "type": [
+      {
+        "question": "ec9fe1b7-d4a6-445e-836b-6aaf85a5ac16",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "63226b3b-de27-4d81-87c0-eb6cb24133c5",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "d7136910-766d-4412-b262-8a267797320d",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "RETROALIMENTACIÓN",
+
+    "type": [
+      {
+        "question": "6d4a5776-f52a-4d3f-a7b7-74563967541a",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "f1254ce6-796a-433c-b395-5609db43ef50",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "00f0559d-dad2-4bb6-9fb0-40e6c8cc71fd",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "SIGNIFICANCIA",
+
+    "type": [
+      {
+        "question": "842c07a0-6cf7-4f33-b142-9cbc35c6d836",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "137e5edf-af42-4f72-b307-f54cc6618a9a",
+        "weigh": 0.3333333333333333
+      },
+      {
+        "question": "2919a127-1e56-4bcf-beae-1276b1f44f37",
+        "weigh": 0.3333333333333333
+      }
+    ]
+  },
+  {
+    "name": "FISÍCAS",
+
+    "type": [
+      {
+        "question": "4fc90bde-d5da-46c5-9383-55ca0328ad27",
+        "weigh": 0.1
+      },
+      {
+        "question": "103841ce-e354-460a-b92a-5de2ee6f26ff",
+        "weigh": 0.1
+      },
+      {
+        "question": "1079ce4f-56e0-4ccc-9d27-934eac1a8062",
+        "weigh": 0.1
+      },
+      {
+        "question": "8fde64e4-4517-4cb0-851d-d8b330f38b3a",
+        "weigh": 0.1
+      },
+      {
+        "question": "f7c879c7-2843-47d5-82b7-383276181df6",
+        "weigh": 0.1
+      },
+      {
+        "question": "07dcdb7c-0992-4727-a6fa-bc56fe599718",
+        "weigh": 0.1
+      },
+      {
+        "question": "b59cc647-be54-4a02-a998-981928af4007",
+        "weigh": 0.1
+      },
+      {
+        "question": "51caeb22-0e1c-4c52-99c9-0f65f2dfb1ab",
+        "weigh": 0.1
+      },
+      {
+        "question": "0a085ef3-48ab-4594-94c1-5b7567977226",
+        "weigh": 0.1
+      },
+      {
+        "question": "7e5beb95-5e23-42f5-ae3f-ec8e4ad005c3",
+        "weigh": 0.1
+      }
+    ]
+  },
+  {
+    "name": "FINANCIERAS",
+
+    "type": [
+      {
+        "question": "f418c1ec-4445-4641-9daa-adbaa8bdff59",
+        "weigh": 0.1
+      },
+      {
+        "question": "bc794b22-77b9-4e23-a086-8bb648bc87a1",
+        "weigh": 0.1
+      },
+      {
+        "question": "2af086ff-6f6b-4ced-81fe-5c78361ec989",
+        "weigh": 0.1
+      },
+      {
+        "question": "cb99d9a0-62cd-4035-bba5-1c37a40558cb",
+        "weigh": 0.1
+      },
+      {
+        "question": "0e284d11-4cbb-41ea-bfa8-2b9cac491960",
+        "weigh": 0.1
+      },
+      {
+        "question": "6836d717-6435-4a73-90a7-98fe21039f9a",
+        "weigh": 0.1
+      },
+      {
+        "question": "c8a8778d-bd03-48fb-b863-c32a3463648d",
+        "weigh": 0.1
+      },
+      {
+        "question": "d5b995d3-774f-4076-a552-927c067aa734",
+        "weigh": 0.1
+      },
+      {
+        "question": "a560ce0c-7deb-43c1-9386-7e43ab133a20",
+        "weigh": 0.1
+      },
+      {
+        "question": "263f1bbf-d6c5-4273-860a-c5f95692be3b",
+        "weigh": 0.1
+      }
+    ]
+  },
+  {
+    "name": "BURNOUT",
+
+    "type": [
+      {
+        "question": "7ea10a64-ffff-48f2-aaee-d73a3e64f47f",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "c704d226-227a-4ace-969d-108ebee263e9",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "b16b8f5f-8568-4a21-b876-e089c19aa0f7",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "972cb31b-ce91-442d-9c27-3ef2de8c8aa7",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "9f925f4d-9cd6-43f6-a39f-334d384ec8c8",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "6b4e9791-5696-4075-bae8-93463f6b9870",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "c20ef5cc-6a7b-45e9-b665-2698da83655f",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "7f90b662-be55-4838-a995-74d717eb76a4",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "fe2f0f04-88b3-4edb-b4c9-9a41ded25fb8",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "483446fa-2828-4728-b2aa-de421a1849b8",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "59fd8e15-6125-49b4-ace9-14609bb0b801",
+        "weigh": 0.08333333333333333
+      },
+      {
+        "question": "8ecf31d1-66a1-4512-8d8d-0c4b61c536d4",
+        "weigh": 0.08333333333333333
+      }
+    ]
+  }
+]
