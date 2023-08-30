@@ -51,4 +51,21 @@ export class Utils {
     public static getNumberByOneDecimal( value: number): number{
         return Math.round(value * 100);
     }
+
+    public static standartText(text: string){
+        text = text.trim().toLowerCase();
+        text = text.replace('á', 'a');
+        text = text.replace('é', 'e');
+        text = text.replace('í', 'i');
+        text = text.replace('ó', 'o');
+        text = text.replace('ú', 'u');
+        text = text.replace('\n', '');
+        text = text.replace('\t', '');
+        text = text.replace(' ', '');
+        text = text.replace('.', '');
+        text = text.replace(',', '');
+        text = text.replace(';', '');
+        text = text.replace(':', '');
+        return text;
+    }
 }

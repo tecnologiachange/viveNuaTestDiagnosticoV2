@@ -22,7 +22,9 @@ export class ProcessService {
             let results = this.setMacroHability(macro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
             const _env: any = environment;
-            const recommend = await this.getDefinitionRecommend( _env.homologo[resultTest.area] );
+            console.log(resultTest.area);
+            const area = Utils.standartText( resultTest.area );
+            const recommend = await this.getDefinitionRecommend( _env.homologo[area] );
             return {results , name: resultTest.name , email: resultTest.email , recommend: recommend , id: id};
         }catch(_e){
             console.error(_e);
@@ -41,7 +43,6 @@ export class ProcessService {
     private setPercentSubhabilities(subhabilities: Subhability[], microHabilities: IHability[] , values: ITransformResponseTransform[], sub: IType[]): Subhability[]{
         return subhabilities.map((subhability: Subhability) => {
             const objectHabilies: IHability | any = microHabilities.find((item: IHability) => Utils.transformCapitalizeToString(item.name) === subhability.name);
-            console.log(objectHabilies); 
             const parent: any = sub.find((item: IType) => Utils.transformCapitalizeToString(item.name) === subhability.name);
             objectHabilies.type.forEach((type: IType) => {
                 const trans: ITransformResponseTransform | any = values.find( (value: ITransformResponseTransform) =>  value.name === type.question);

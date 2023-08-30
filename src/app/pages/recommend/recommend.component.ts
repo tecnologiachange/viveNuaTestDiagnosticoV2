@@ -25,10 +25,11 @@ export class RecommendComponent implements OnInit{
 
   public find(): void{
     this.extras.recommend.habilidades.forEach((item: any) => {
-      const _element = this.extras.results.find( (element: any) => element.name == item.name);
+      const _element = this.extras.results.find( (element: any) => Utils.standartText(element.name) == Utils.standartText(item.name));
       this.dataLabels.push(item.name);
-      this.dataValuesActual.push( Utils.getNumberByOneDecimal( _element.percent) );
-      this.dataValuesExpected.push(item.value);
+      const valueActual = Utils.getNumberByOneDecimal( _element.percent)
+      this.dataValuesActual.push( valueActual );
+      this.dataValuesExpected.push((item.value >= valueActual) ? item.value : valueActual);
     });
   }
 }
