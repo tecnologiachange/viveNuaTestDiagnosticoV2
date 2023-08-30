@@ -58,7 +58,6 @@ export class HorizontalBarcharStackedComponent implements AfterViewInit{
         anchor: 'center',
         align: 'end',
         formatter: (value: any , context) => {
-          console.log(context);
           if ( context.datasetIndex === 1 ) return this.dataValuesExpected[context.dataIndex] + '%';
           return value + '%'; // Esta función define el formato de las etiquetas
         }
