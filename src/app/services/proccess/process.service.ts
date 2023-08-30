@@ -19,8 +19,11 @@ export class ProcessService {
             );
             const macro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.macro)) as IHability[];
             const micro = await Utils.transformObservableToPromise(this.getService.get(environment.storage.micro)) as IHability[];
-            
             let results = this.setMacroHability(macro);
+            console.log(resultTest);
+            // console.log(results);
+            // console.log(macro);
+            // console.log(micro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
             const _env: any = environment;
             const recommend = await this.getDefinitionRecommend( _env.homologo[resultTest.area] );
@@ -42,9 +45,13 @@ export class ProcessService {
     private setPercentSubhabilities(subhabilities: Subhability[], microHabilities: IHability[] , values: ITransformResponseTransform[], sub: IType[]): Subhability[]{
         return subhabilities.map((subhability: Subhability) => {
             const objectHabilies: IHability | any = microHabilities.find((item: IHability) => Utils.transformCapitalizeToString(item.name) === subhability.name);
+            console.log(objectHabilies); 
             const parent: any = sub.find((item: IType) => Utils.transformCapitalizeToString(item.name) === subhability.name);
             objectHabilies.type.forEach((type: IType) => {
+                console.log(type);
+                console.log(values);
                 const trans: ITransformResponseTransform | any = values.find( (value: ITransformResponseTransform) =>  value.name === type.question);
+                console.warn(trans);
                 subhability.percent += ((trans.value / 5 ) * type.weigh)*parent.weigh; 
             });
             return subhability;
@@ -99,7 +106,7 @@ export class ProcessService {
                     email = answer.email;
                 }
                 if (answer.field.ref === environment.fields.cargo){
-                    area = answer.text;
+                    area = answer.choice!.label;
                 }
                 if(answer.type === 'number'){
                     response.push({

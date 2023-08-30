@@ -1,0 +1,238 @@
+[
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "MENTALIDAD DE DIVERSIDAD",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL",
+        "RELACIONES INTERPERSONALES",
+        "RESOLUCIÓN PROBLEMAS",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "ADAPTABILIDAD"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL",
+        "RESOLUCIÓN PROBLEMAS"
+      ],
+      "MICRO": "ANALÍTICO"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "MENTALIDAD DE DIVERSIDAD",
+        "REGULACIÓN EMOCIONAL",
+        "RESOLUCIÓN PROBLEMAS",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "APRENDIENTE"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "MANEJO DE CONFLICTO",
+        "REGULACIÓN EMOCIONAL"
+      ],
+      "MICRO": "AUTO VALORACIÓN "
+    },
+    {
+      "MACRO": ["LIDERAZGO", "SENTIDO PERTENENCIA", "TRABAJO EN EQUIPO "],
+      "MICRO": "COMPROMISO"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "REGULACIÓN EMOCIONAL",
+        "SENTIDO PERTENENCIA",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "CREENCIA"
+    },
+    {
+      "MACRO": ["LIDERAZGO", "TRABAJO EN EQUIPO "],
+      "MICRO": "DELEGACIÓN DE TAREAS"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL",
+        "RESOLUCIÓN PROBLEMAS",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "DELIBERACIÓN"
+    },
+    {
+      "MACRO": [
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "MENTALIDAD DE DIVERSIDAD",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "EMPATÍA"
+    },
+    {
+      "MACRO": [
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "ESCUCHA ACTIVA"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RESOLUCIÓN PROBLEMAS"
+      ],
+      "MICRO": "ESTRATÉGICO"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RESOLUCIÓN PROBLEMAS"
+      ],
+      "MICRO": "GENERAR IDEAS"
+    },
+    {
+      "MACRO": [
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "HABLAR EFECTIVAMENTE"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MENTALIDAD DE DIVERSIDAD",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "INCLUYENTE"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MENTALIDAD DE DIVERSIDAD",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "INDIVIDUALIZADOR"
+    },
+    {
+      "MACRO": ["LIDERAZGO", "RELACIONES INTERPERSONALES", "TRABAJO EN EQUIPO "],
+      "MICRO": "INSPIRADOR"
+    },
+    { "MACRO": ["SENTIDO PERTENENCIA"], "MICRO": "LEALTAD" },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL"
+      ],
+      "MICRO": "LOCUS DE CONTROL"
+    },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "MANEJO DE CRÍTICAS"
+    },
+    { "MACRO": ["TRABAJO EN EQUIPO"], "MICRO": "MANEJO DE TIEMPO" },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "RESOLUCIÓN PROBLEMAS",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "PLANEACIÓN"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "NEGOCIACIÓN",
+        "RESOLUCIÓN PROBLEMAS",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "PONER METAS"
+    },
+    {
+      "MACRO": [
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RESOLUCIÓN PROBLEMAS"
+      ],
+      "MICRO": "PRIORIZACIÓN"
+    },
+    {
+      "MACRO": ["MANEJO DE CONFLICTO", "NEGOCIACIÓN", "RESOLUCIÓN PROBLEMAS"],
+      "MICRO": "RECOLECTAR INFO"
+    },
+    { "MACRO": ["LIDERAZGO", "TRABAJO EN EQUIPO"], "MICRO": "RELACIONADOR" },
+    {
+      "MACRO": [
+        "AUTOCONOCIMIENTO",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "REGULACIÓN EMOCIONAL"
+      ],
+      "MICRO": "RESILIENCIA"
+    },
+    {
+      "MACRO": [
+        "COMUNICACIÓN",
+        "LIDERAZGO",
+        "MANEJO DE CONFLICTO",
+        "NEGOCIACIÓN",
+        "RELACIONES INTERPERSONALES",
+        "TRABAJO EN EQUIPO "
+      ],
+      "MICRO": "RETROALIMENTACIÓN"
+    },
+    {
+      "MACRO": ["LIDERAZGO", "RELACIONES INTERPERSONALES", "TRABAJO EN EQUIPO "],
+      "MICRO": "SIGNIFICANCIA"
+    },
+    { "MACRO": ["FISÍCAS"], "MICRO": "FISÍCAS" },
+    { "MACRO": ["FINANCIERAS"], "MICRO": "FINANCIERAS" },
+    { "MACRO": ["BURNOUT"], "MICRO": "BURNOUT" }
+  ]
+  

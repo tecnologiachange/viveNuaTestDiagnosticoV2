@@ -1,0 +1,117 @@
+[
+  {
+    "NOMBRE": "ADAPTABILIDAD",
+    "DEFINICION": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo"
+  },
+  { "NOMBRE": "AGOTAMIENTO EMOCIONAL", "DEFINICION": "" },
+  {
+    "NOMBRE": "ANALÍTICO",
+    "DEFINICION": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación."
+  },
+  {
+    "NOMBRE": "APRENDIENTE",
+    "DEFINICION": "El proceso de aprendizaje, más que el resultado, los emociona."
+  },
+  {
+    "NOMBRE": "AUTO VALORACIÓN ",
+    "DEFINICION": "Reflexión, aceptación y valoración de uno mismo."
+  },
+  {
+    "NOMBRE": "COMPROMISO",
+    "DEFINICION": "El grado de esfuerzo que realmente hace para cumplir una obligación que ha asumido."
+  },
+  {
+    "NOMBRE": "CREENCIA",
+    "DEFINICION": "Valores de las personas de los que surge un propósito definido para sus vidas."
+  },
+  {
+    "NOMBRE": "DELEGACIÓN TAREAS",
+    "DEFINICION": "Acción de redirigir tareas e iniciativas a otros miembros del equipo, más no la responsabilidad."
+  },
+  {
+    "NOMBRE": "DELIBERACIÓN",
+    "DEFINICION": "Tomar una decisión después de un detenido análisis de los pros y los contras."
+  },
+  { "NOMBRE": "DESPERSONALIZACIÓN", "DEFINICION": "" },
+  {
+    "NOMBRE": "EMPATÍA",
+    "DEFINICION": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros."
+  },
+  {
+    "NOMBRE": "ESCUCHA ACTIVA",
+    "DEFINICION": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática."
+  },
+  {
+    "NOMBRE": "ESTRATÉGICO",
+    "DEFINICION": "Detectan rápidamente los patrones y problemas relevantes en un contexto y genera un plan para solucionarlos de manera eficiente."
+  },
+  {
+    "NOMBRE": "GENERAR IDEAS",
+    "DEFINICION": "Capacidad para generar ideas novedosas, encontrando conexiones entre fenónemos aparentemente dispares. "
+  },
+  {
+    "NOMBRE": "HABLAR EFECTIVAMENTE",
+    "DEFINICION": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. "
+  },
+  {
+    "NOMBRE": "INCLUYENTE",
+    "DEFINICION": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos."
+  },
+  {
+    "NOMBRE": "INDIVIDUALIZADOR",
+    "DEFINICION": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva."
+  },
+  {
+    "NOMBRE": "INSPIRADOR",
+    "DEFINICION": "Son optimistas y pueden hacer que los demás se entusiasmen con lo que van a hacer."
+  },
+  {
+    "NOMBRE": "LEALTAD",
+    "DEFINICION": "Atadura emocional, satisfacción y comprimiso con la empresa que genera el querer hacer las cosas."
+  },
+  {
+    "NOMBRE": "LOCUS DE CONTROL",
+    "DEFINICION": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir"
+  },
+  {
+    "NOMBRE": "MANEJO DE CRÍTICAS",
+    "DEFINICION": "Saber recibir retroalimentaciones."
+  },
+  {
+    "NOMBRE": "MANEJO DE TIEMPO",
+    "DEFINICION": "Planificación, organización y control de tiempo para actividades de la empresa."
+  },
+  {
+    "NOMBRE": "PLANEACIÓN",
+    "DEFINICION": "Toma de decisiones para alcanzar un futuro deseado.​"
+  },
+  {
+    "NOMBRE": "PONER METAS",
+    "DEFINICION": "Dirigir acciones y esfuerzos hacia lo que se quiere conseguir, desarrollar estrategias para alcanzarlas, y ser constantes y persistentes."
+  },
+  {
+    "NOMBRE": "PRIORIZACIÓN",
+    "DEFINICION": "Ordenar una lista de actividades según la importancia buscando lograr un objetivo."
+  },
+  { "NOMBRE": "REALIZACIÓN PERSONAL", "DEFINICION": "" },
+  {
+    "NOMBRE": "RECOLECTAR INFO",
+    "DEFINICION": "Reunir información de diversas fuentes a fin de obtener un panorama completo y preciso de una zona de interés."
+  },
+  {
+    "NOMBRE": "RELACIONADOR",
+    "DEFINICION": "Encuentra una profunda satisfacción en trabajar con otros para lograr una meta."
+  },
+  {
+    "NOMBRE": "RESILIENCIA",
+    "DEFINICION": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida"
+  },
+  {
+    "NOMBRE": "RETROALIMENTACIÓN",
+    "DEFINICION": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas."
+  },
+  {
+    "NOMBRE": "SIGNIFICANCIA",
+    "DEFINICION": "Impacto que tienen sobre la gente."
+  }
+]

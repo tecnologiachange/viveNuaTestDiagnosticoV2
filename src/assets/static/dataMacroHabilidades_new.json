@@ -3,7 +3,7 @@
     "name": "AUTOCONOCIMIENTO",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -55,7 +55,7 @@
     "name": "COMUNICACIÓN",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -92,7 +92,7 @@
     "name": "LIDERAZGO",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -219,7 +219,7 @@
     "name": "MANEJO DE CONFLICTO",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -301,7 +301,7 @@
     "name": "MENTALIDAD DE DIVERSIDAD",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -333,7 +333,7 @@
     "name": "NEGOCIACIÓN",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -425,7 +425,7 @@
     "name": "REGULACIÓN EMOCIONAL",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -477,7 +477,7 @@
     "name": "RELACIONES INTERPERSONALES",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -534,7 +534,7 @@
     "name": "RESOLUCIÓN PROBLEMAS",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -591,7 +591,7 @@
     "name": "TRABAJO EN EQUIPO ",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "ADAPTABILIDAD",
         "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
@@ -693,7 +693,7 @@
     "name": "SENTIDO PERTENENCIA",
     "descripcion": "",
     "isGraphic": true,
-    "types": [
+"types": [
       {
         "name": "COMPROMISO",
         "descripcion": "El grado de esfuerzo que realmente hace para cumplir una obligación que ha asumido.",
@@ -715,18 +715,18 @@
     "name": "FISÍCAS",
     "descripcion": "",
     "isGraphic": true,
-    "types": [{ "name": "FISÍCAS", "descripcion": "", "weigh": 1 }]
+"types": [{ "name": "FISÍCAS", "descripcion": "", "weigh": 1 }]
   },
   {
     "name": "FINANCIERAS",
     "descripcion": "",
     "isGraphic": true,
-    "types": [{ "name": "FINANCIERAS", "descripcion": "", "weigh": 1 }]
+"types": [{ "name": "FINANCIERAS", "descripcion": "", "weigh": 1 }]
   },
   {
     "name": "BURNOUT",
     "descripcion": "",
     "isGraphic": true,
-    "types": [{ "name": "BURNOUT", "descripcion": "", "weigh": 1 }]
+"types": [{ "name": "BURNOUT", "descripcion": "", "weigh": 1 }]
   }
 ]

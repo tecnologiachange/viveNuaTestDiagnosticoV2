@@ -35,7 +35,7 @@ export class LoadResultsComponent implements OnInit{
           if(hability.name == 'Financieras') {
             financieras = hability;
           }
-          if(hability.name == 'Fisicas') {
+          if(hability.name == 'Fisicas' || hability.name == 'Fisícas' || hability.name == 'Físicas') {
             fisicas = hability;
           }
         }
@@ -43,9 +43,11 @@ export class LoadResultsComponent implements OnInit{
       this.process.getDefinitionScore({burnout, financieras, fisicas}).then( (res: any) => {  
         let extra: IExtraLoadding
         = { results, name, email, burnout: res.burnout, financieras: res.financieras, fisicas: res.fisicas , id: this.id  , recommend};
+        console.log(extra);
         this.router.navigateByUrl ('/results' , { state: extra } );
       });
     }).catch( _error => {
+      console.error(_error);
       this.router.navigateByUrl ('/erno' );
     });
   }

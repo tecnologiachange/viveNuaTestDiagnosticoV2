@@ -1,4 +1,5 @@
 export const environment = {
+  isLoad: true,
   firebase: {
     projectId: 'vivenuatestdiagnostico',
     appId: '1:1023621533371:web:1a2b9e503e172c5d17e39e',
