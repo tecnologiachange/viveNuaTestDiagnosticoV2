@@ -43,8 +43,8 @@ export class Utils {
     }
 
     public static getvalueByScore( hability: Hability, score: IScoreItem): string{
-        if( hability.percent >=0 && hability.percent <= 30 ) return score.low;
-        if( hability.percent >=31  && hability.percent <= 70 ) return score.medium;
+        if( hability.percent >=0 && hability.percent <= 50 ) return score.low;
+        if( hability.percent >=51  && hability.percent <= 80 ) return score.medium;
         return score.high;
     }
 
