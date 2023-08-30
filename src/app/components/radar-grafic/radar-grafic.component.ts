@@ -16,6 +16,16 @@ export class RadarGraficComponent implements AfterViewInit , OnInit{
   @ViewChild(BaseChartDirective) chart?: BaseChartDirective;
   public radarChartOptions: ChartConfiguration<'radar'>['options'] = {
     responsive: false,
+    scales:{
+      r: {
+        min: 0,
+        max: 100,
+        beginAtZero: true,
+        ticks: {
+          stepSize: 20,
+        }
+      }
+    },
     maintainAspectRatio: false,
     font : {
       size: 14,
