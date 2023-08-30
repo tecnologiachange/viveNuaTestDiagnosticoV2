@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Hability } from 'src/app/models/i.models';
+import { Hability, Subhability } from 'src/app/models/i.models';
 
 @Component({
   selector: 'app-detail-content',
@@ -9,4 +9,13 @@ import { Hability } from 'src/app/models/i.models';
 export class DetailContentComponent {
   @Input() id: string = '';
   @Input() item: Hability = {} as Hability;
+
+  public getSubhabilidades(): Subhability[] {
+    return this.item.subhabilities.map((subhability: Subhability | any) => {
+      return {
+        ...subhability,
+        percent: undefined
+      };
+    });
+  }
 }

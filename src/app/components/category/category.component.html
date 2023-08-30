@@ -1,7 +1,8 @@
 
 
 <div class="subheader">
-    <app-badge [isLabel]="true" [percent]="percent"/>
+    <app-badge [isLabel]="true" [percent]="percent" *ngIf="percent"/>
+    <img *ngIf="!percent" src="assets/imgs/study.svg">
     <p>{{tittle}}</p>
 </div>
 <span>{{description}}</span>
