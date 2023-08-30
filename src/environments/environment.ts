@@ -25,8 +25,8 @@ export const environment = {
     recommend : 'recommend'
   },
   homologo: {
-    'Servicio al Cliente':'servicioAlCliente',
-    'Tecnología de la Información':'tecnologias',
-    'Ventas':'ventas'
+    'servicioalcliente':'servicioAlCliente',
+    'tecnologia':'tecnologias',
+    'ventas':'ventas'
   }
 };

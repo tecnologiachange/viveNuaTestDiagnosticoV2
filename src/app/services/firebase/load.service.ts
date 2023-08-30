@@ -10,6 +10,7 @@ import * as dataMacroRel from './../../../assets/static/data_macro_rel.json';
 import { Firestore, addDoc, collection } from "@angular/fire/firestore";
 import { inject } from "@angular/core";
 import { IHability } from "src/app/models/i.models";
+import { Utils } from "../utils/utils.service";
 
 export class LoadService{
 
@@ -48,7 +49,7 @@ export class LoadService{
         _arrayDefaultMacro.forEach( (item: {MICROHABILIDAD : string; PREGUNTA : string; SHORT_PREGUNTA : string;}) => {
             const filter = _arrayDefaultPreguntas
                 .find((itemPreguntas: {ID:string; COMPARE: string}) =>  
-                    this.standartText(item.SHORT_PREGUNTA) == this.standartText( (itemPreguntas.COMPARE)));
+                    Utils.standartText(item.SHORT_PREGUNTA) == Utils.standartText( (itemPreguntas.COMPARE)));
             if(!filter) {
                 preguntasSinHomologo.push(item);
             } else {
@@ -106,12 +107,5 @@ export class LoadService{
         // console.log(JSON.stringify(arrayMacroHabilidades));
     }
 
-    private standartText(text: string){
-        text = text.trim().toLowerCase();
-        text = text.replace('.', '');
-        text = text.replace(',', '');
-        text = text.replace(';', '');
-        text = text.replace(':', '');
-        return text;
-    }
+
 }
