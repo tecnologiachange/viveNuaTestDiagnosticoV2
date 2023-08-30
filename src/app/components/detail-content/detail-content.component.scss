@@ -4,6 +4,14 @@
     @extend .base-container;
 }
 
+@media only screen and (min-width: 600px) {
+    .container{
+        max-height: 50vh;
+        overflow: scroll;
+    }
+}
+
+
 .header{
     display: grid;
     grid-template-columns: 3rem 1fr;
