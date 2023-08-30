@@ -63,6 +63,11 @@ export interface Hability {
     text: string;
     email: string;
     number: number;
+    choice?:{
+      id: string;
+      ref: string;
+      label: string;
+    }
   };
 
   export interface IType{

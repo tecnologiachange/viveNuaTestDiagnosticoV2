@@ -1,0 +1,62 @@
+[
+    {
+      "name": "APRENDIENTE",
+      "type": [
+        {
+          "question": "8bc5bea4-1c0d-4902-a4d4-fa931358f439",
+          "weigh": 1
+        }
+      ]
+    },
+    {
+      "name": "ADAPTABILIDAD",
+      "type": [
+        {
+          "question": "7bc8d7e3-a30c-45d1-be3b-79e57118f6b5",
+          "weigh": 0.5
+        },
+        {
+          "question": "8bc5bea4-1c0d-4902-a4d4-fa931358f439",
+          "weigh": 0.5
+        }
+      ]
+    },
+    {
+      "name": "COMPROMISO",
+      "type": [
+        {
+          "question": "60dd6649-6ca8-4e61-8c9a-4279e505b9f7",
+          "weigh": 0.33333
+        },
+        {
+          "question": "7bc8d7e3-a30c-45d1-be3b-79e57118f6b5",
+          "weigh": 0.33333
+        },
+        {
+          "question": "8bc5bea4-1c0d-4902-a4d4-fa931358f439",
+          "weigh": 0.33333
+        }
+      ]
+    },
+    {
+      "name": "CREENCIA",
+      "type": [
+        {
+          "question": "60dd6649-6ca8-4e61-8c9a-4279e505b9f7",
+          "weigh": 0.25
+        },
+        {
+          "question": "7bc8d7e3-a30c-45d1-be3b-79e57118f6b5",
+          "weigh": 0.25
+        },
+        {
+          "question": "8bc5bea4-1c0d-4902-a4d4-fa931358f439",
+          "weigh": 0.25
+        },
+        {
+          "question": "7c61f94d-7983-41de-9646-b940e5cf2100",
+          "weigh": 0.25
+        }
+      ]
+    }
+  ]

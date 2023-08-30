@@ -1,9 +1,8 @@
 import { Injectable, inject } from "@angular/core";
-import { Firestore, addDoc, collection, collectionChanges, doc, getDoc } from "@angular/fire/firestore";
+import { Firestore, collection, collectionChanges, doc, getDoc } from "@angular/fire/firestore";
 import { map } from "rxjs";
-import { environment } from "src/environments/environment";
-import * as dataMicroHabilidades from './../../../assets/static/dataMicroHabilidades.json';
-import * as dataMacroHabilidades from './../../../assets/static/dataMacroHabilidades.json';
+import { LoadService } from "./load.service";
+
 
 @Injectable({
     providedIn: 'root'
@@ -13,7 +12,7 @@ export class GetService {
   private firestore: Firestore = inject(Firestore);
 
   constructor(){
-    // this.loadItems();
+    const load: LoadService = new LoadService();
   }
 
   public get(collectionName: string){
@@ -33,14 +32,4 @@ export class GetService {
     const collectionInstance =  collection(this.firestore, collectionName);
     return getDoc( doc(collectionInstance, id));
   }
-
-  private loadItems(){
-    (dataMicroHabilidades as any).default.forEach( async (item: any) => {
-      await addDoc(collection(this.firestore, environment.storage.micro), item);
-    });
-    (dataMacroHabilidades as any).default.forEach( async (item: any) => {
-      await addDoc(collection(this.firestore, environment.storage.macro), item);
-    });
-  }
-
 }

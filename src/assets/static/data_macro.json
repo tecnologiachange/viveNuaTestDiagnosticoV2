@@ -1,0 +1,757 @@
+[
+  {
+    "MICROHABILIDAD": "ADAPTABILIDAD",
+    "PREGUNTA": "Participo en una reunión con personas de autoridad",
+    "SHORT_PREGUNTA": " Participoenunareunionconpersonasdeautoridad"
+  },
+
+  {
+    "MICROHABILIDAD": "ADAPTABILIDAD",
+    "PREGUNTA": "Logro adaptarme con facilidad a las distintas circunstancias que se presentan en el trabajo",
+    "SHORT_PREGUNTA": " Logroadaptarmeconfacilidadalasdistintascircunstanciasquesepresentaneneltrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "ADAPTABILIDAD",
+    "PREGUNTA": "Mantengo una actitud positiva y proactiva frente a los desafíos y cambios inesperados que puedan surgir en tu camino hacia tus metas",
+    "SHORT_PREGUNTA": " Mantengounaactitudpositivayproactivafrentealosdesafiosycambiosinesperadosquepuedansurgirentucaminohaciatusmetas"
+  },
+
+  {
+    "MICROHABILIDAD": "ANALÍTICO",
+    "PREGUNTA": "Soy capaz de evaluar la información disponible y utilizarla para tomar decisiones informadas y estratégicas",
+    "SHORT_PREGUNTA": " Soycapazdeevaluarlainformaciondisponibleyutilizarlaparatomardecisionesinformadasyestrategicas"
+  },
+
+  {
+    "MICROHABILIDAD": "ANALÍTICO",
+    "PREGUNTA": "Tengo la habilidad de considerar diferentes perspectivas y puntos de vista al analizar una situación compleja",
+    "SHORT_PREGUNTA": " Tengolahabilidaddeconsiderardiferentesperspectivasypuntosdevistaalanalizarunasituacioncompleja"
+  },
+
+  {
+    "MICROHABILIDAD": "ANALÍTICO",
+    "PREGUNTA": "Tengo la capacidad de identificar problemas de forma correcta y precisa",
+    "SHORT_PREGUNTA": " Tengolacapacidaddeidentificarproblemasdeformacorrectayprecisa"
+  },
+
+  {
+    "MICROHABILIDAD": "APRENDIENTE",
+    "PREGUNTA": "Disfruto aplicar el conocimiento que tengo para resolver problemas",
+    "SHORT_PREGUNTA": " Disfrutoaplicarelconocimientoquetengopararesolverproblemas"
+  },
+
+  {
+    "MICROHABILIDAD": "APRENDIENTE",
+    "PREGUNTA": "Aprendo de mis errores",
+    "SHORT_PREGUNTA": " Aprendodemiserrores"
+  },
+
+  {
+    "MICROHABILIDAD": "APRENDIENTE",
+    "PREGUNTA": "Disfruto aprender nuevas herramientas para manejar mis emociones",
+    "SHORT_PREGUNTA": " Disfrutoaprendernuevasherramientasparamanejarmisemociones"
+  },
+
+  {
+    "MICROHABILIDAD": "AUTO VALORACIÓN ",
+    "PREGUNTA": "Me esfuerzo en mi trabajo porque tengo que probarme a mí mismo que yo puedo hacerlo",
+    "SHORT_PREGUNTA": " Meesfuerzoenmitrabajoporquetengoqueprobarmeamimismoqueyopuedohacerlo"
+  },
+
+  {
+    "MICROHABILIDAD": "AUTO VALORACIÓN ",
+    "PREGUNTA": "Me esfuerzo en mi trabajo porque si no me sentiría mal respecto a mí mismo",
+    "SHORT_PREGUNTA": " Meesfuerzoenmitrabajoporquesinomesentiriamalrespectoamimismo"
+  },
+
+  {
+    "MICROHABILIDAD": "AUTO VALORACIÓN ",
+    "PREGUNTA": "Considerando mis fortalezas y debilidades, me siento bien conmigo mismo",
+    "SHORT_PREGUNTA": " Considerandomisfortalezasydebilidades,mesientobienconmigomismo"
+  },
+
+  {
+    "MICROHABILIDAD": "COMPROMISO",
+    "PREGUNTA": "Hago mi mejor esfuerzo para cumplir con mi parte al trabajar en equipo",
+    "SHORT_PREGUNTA": " Hagomimejoresfuerzoparacumplirconmipartealtrabajarenequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "COMPROMISO",
+    "PREGUNTA": "Si creo en algo, no importa lo difícil que sea, lo haré suceder",
+    "SHORT_PREGUNTA": " Sicreoenalgo,noimportalodificilquesea,loharesuceder"
+  },
+
+  {
+    "MICROHABILIDAD": "COMPROMISO",
+    "PREGUNTA": "Tiendo a hacer bien mi trabajo",
+    "SHORT_PREGUNTA": " Tiendoahacerbienmitrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "CREENCIA",
+    "PREGUNTA": "Me cuestiono por qué hago este trabajo, puesto que no le encuentro sentido",
+    "SHORT_PREGUNTA": " Mecuestionoporquehagoestetrabajo,puestoquenoleencuentrosentido"
+  },
+
+  {
+    "MICROHABILIDAD": "CREENCIA",
+    "PREGUNTA": "Me esfuerzo en mi trabajo porque el poner esfuerzo en este trabajo va con mis valores personales",
+    "SHORT_PREGUNTA": " Meesfuerzoenmitrabajoporqueelponeresfuerzoenestetrabajovaconmisvalorespersonales"
+  },
+
+  {
+    "MICROHABILIDAD": "CREENCIA",
+    "PREGUNTA": "Me esfuerzo en mi trabajo porque el poner esfuerzo en este trabajo tiene un significado personal para mí",
+    "SHORT_PREGUNTA": " Meesfuerzoenmitrabajoporqueelponeresfuerzoenestetrabajotieneunsignificadopersonalparami"
+  },
+
+  {
+    "MICROHABILIDAD": "DELEGACIÓN DE TAREAS",
+    "PREGUNTA": "Confio en los miembros del equipo para asignarles tareas adecuadas de acuerdo con sus habilidades y capacidades",
+    "SHORT_PREGUNTA": " Confioenlosmiembrosdelequipoparaasignarlestareasadecuadasdeacuerdoconsushabilidadesycapacidades"
+  },
+
+  {
+    "MICROHABILIDAD": "DELEGACIÓN DE TAREAS",
+    "PREGUNTA": "Identifico adecuadamente las tareas que puedo delegar sin comprometer la responsabilidad general del proyecto",
+    "SHORT_PREGUNTA": " Identificoadecuadamentelastareasquepuedodelegarsincomprometerlaresponsabilidadgeneraldelproyecto"
+  },
+
+  {
+    "MICROHABILIDAD": "DELEGACIÓN DE TAREAS",
+    "PREGUNTA": "Tengo la capacidad de equilibrar la delegación de tareas para no sobrecargar a ningún miembro del equipo y garantizar una distribución justa de responsabilidades",
+    "SHORT_PREGUNTA": " Tengolacapacidaddeequilibrarladelegaciondetareasparanosobrecargaraningunmiembrodelequipoygarantizarunadistribucionjustaderesponsabilidades"
+  },
+
+  {
+    "MICROHABILIDAD": "DELIBERACIÓN",
+    "PREGUNTA": "Tomo decisiones después de considerar varios aspectos y características",
+    "SHORT_PREGUNTA": " Tomodecisionesdespuesdeconsiderarvariosaspectosycaracteristicas"
+  },
+
+  {
+    "MICROHABILIDAD": "DELIBERACIÓN",
+    "PREGUNTA": "Al intentar algo nuevo con el equipo, me tomo un tiempo para pensar si funcionó",
+    "SHORT_PREGUNTA": " Alintentaralgonuevoconelequipo,metomountiempoparapensarsifunciono"
+  },
+
+  {
+    "MICROHABILIDAD": "DELIBERACIÓN",
+    "PREGUNTA": "Me considero una persona reflexiva y cuidadosa al evaluar los diferentes factores que podrían afectar mi decisión",
+    "SHORT_PREGUNTA": " Meconsiderounapersonareflexivaycuidadosaalevaluarlosdiferentesfactoresquepodrianafectarmidecision"
+  },
+
+  {
+    "MICROHABILIDAD": "EMPATÍA",
+    "PREGUNTA": "Es difícil para mí ver las cosas desde la perspectiva de otros",
+    "SHORT_PREGUNTA": " Esdificilparamiverlascosasdesdelaperspectivadeotros"
+  },
+
+  {
+    "MICROHABILIDAD": "EMPATÍA",
+    "PREGUNTA": "Comprendo cómo se sienten otros",
+    "SHORT_PREGUNTA": " Comprendocomosesientenotros"
+  },
+
+  {
+    "MICROHABILIDAD": "EMPATÍA",
+    "PREGUNTA": "Me preocupo por los demás",
+    "SHORT_PREGUNTA": " Mepreocupoporlosdemas"
+  },
+
+  {
+    "MICROHABILIDAD": "ESCUCHA ACTIVA",
+    "PREGUNTA": "Escucho las opiniones de mis compañeros de equipo",
+    "SHORT_PREGUNTA": " Escucholasopinionesdemiscompanerosdeequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "ESCUCHA ACTIVA",
+    "PREGUNTA": "Pongo atención cuando escucho a otros, sin interrumpirlos",
+    "SHORT_PREGUNTA": " Pongoatencioncuandoescuchoaotros,sininterrumpirlos"
+  },
+
+  {
+    "MICROHABILIDAD": "ESCUCHA ACTIVA",
+    "PREGUNTA": "Demuesto comprensión y claridad al parafrasear o resumir lo que la otra persona ha dicho, mostrando que realmente comprendo su mensaje.",
+    "SHORT_PREGUNTA": " Demuestocomprensionyclaridadalparafrasearoresumirloquelaotrapersonahadicho,mostrandoquerealmentecomprendosumensaje."
+  },
+
+  {
+    "MICROHABILIDAD": "ESTRATÉGICO",
+    "PREGUNTA": "Resuelvo problemas fijándome en las posibilidades",
+    "SHORT_PREGUNTA": " Resuelvoproblemasfijandomeenlasposibilidades"
+  },
+
+  {
+    "MICROHABILIDAD": "ESTRATÉGICO",
+    "PREGUNTA": "Resuelvo los problemas teniendo en cuenta la meta establecida",
+    "SHORT_PREGUNTA": " Resuelvolosproblemasteniendoencuentalametaestablecida"
+  },
+
+  {
+    "MICROHABILIDAD": "ESTRATÉGICO",
+    "PREGUNTA": "Puedo detectar una mala oportunidad mucho antes de que otros puedan",
+    "SHORT_PREGUNTA": " Puedodetectarunamalaoportunidadmuchoantesdequeotrospuedan"
+  },
+
+  {
+    "MICROHABILIDAD": "GENERAR IDEAS",
+    "PREGUNTA": "Hago un esfuerzo para encontrar y crear sus propias ideas para solucionar un problema",
+    "SHORT_PREGUNTA": " Hagounesfuerzoparaencontrarycrearsuspropiasideasparasolucionarunproblema"
+  },
+
+  {
+    "MICROHABILIDAD": "GENERAR IDEAS",
+    "PREGUNTA": "Introduzco nuevos temas en una conversación con una o varias personas que conozco poco",
+    "SHORT_PREGUNTA": " Introduzconuevostemasenunaconversacionconunaovariaspersonasqueconozcopoco"
+  },
+
+  {
+    "MICROHABILIDAD": "GENERAR IDEAS",
+    "PREGUNTA": "Busco activamente nuevas maneras de mejorar la forma en que se hacen las cosas",
+    "SHORT_PREGUNTA": " Buscoactivamentenuevasmanerasdemejorarlaformaenquesehacenlascosas"
+  },
+
+  {
+    "MICROHABILIDAD": "HABLAR EFECTIVAMENTE",
+    "PREGUNTA": "Pido explicaciones a una persona que ha hablado mal de mí",
+    "SHORT_PREGUNTA": " Pidoexplicacionesaunapersonaquehahabladomaldemi"
+  },
+
+  {
+    "MICROHABILIDAD": "HABLAR EFECTIVAMENTE",
+    "PREGUNTA": "Aclaro mi opinión en un grupo cuando no me entienden",
+    "SHORT_PREGUNTA": " Aclaromiopinionenungrupocuandonomeentienden"
+  },
+
+  {
+    "MICROHABILIDAD": "HABLAR EFECTIVAMENTE",
+    "PREGUNTA": "Inicio y mantengo una conversación con personas con autoridad",
+    "SHORT_PREGUNTA": " Inicioymantengounaconversacionconpersonasconautoridad"
+  },
+
+  {
+    "MICROHABILIDAD": "INCLUYENTE",
+    "PREGUNTA": "Los sentimientos de otros no tienen espacio en el área laboral",
+    "SHORT_PREGUNTA": " Lossentimientosdeotrosnotienenespacioenelarealaboral"
+  },
+
+  {
+    "MICROHABILIDAD": "INCLUYENTE",
+    "PREGUNTA": "Intento que otros se sientan cómodos conmigo",
+    "SHORT_PREGUNTA": " Intentoqueotrossesientancomodosconmigo"
+  },
+
+  {
+    "MICROHABILIDAD": "INCLUYENTE",
+    "PREGUNTA": "Pienso que tendríamos un ambiente de trabajo más creativo si contrataran a más gente diversa",
+    "SHORT_PREGUNTA": " Piensoquetendriamosunambientedetrabajomascreativosicontrataranamasgentediversa"
+  },
+
+  {
+    "MICROHABILIDAD": "INDIVIDUALIZADOR",
+    "PREGUNTA": "Busco formas de usar el potencial del equipo",
+    "SHORT_PREGUNTA": " Buscoformasdeusarelpotencialdelequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "INDIVIDUALIZADOR",
+    "PREGUNTA": "Invierto tiempo y esfuerzo en conocer a cada miembro del equipo a un nivel personal para mejorar la colaboración y el trabajo en conjunto",
+    "SHORT_PREGUNTA": " Inviertotiempoyesfuerzoenconoceracadamiembrodelequipoaunnivelpersonalparamejorarlacolaboracionyeltrabajoenconjunto"
+  },
+
+  {
+    "MICROHABILIDAD": "INDIVIDUALIZADOR",
+    "PREGUNTA": "Identifico las fortalezas y habilidades individuales de cada miembro del equipo para fomentar una colaboración productiva",
+    "SHORT_PREGUNTA": " Identificolasfortalezasyhabilidadesindividualesdecadamiembrodelequipoparafomentarunacolaboracionproductiva"
+  },
+
+  {
+    "MICROHABILIDAD": "INSPIRADOR",
+    "PREGUNTA": "Tengo la capacidad para expresar confianza y determinación motiva a los demás a superar obstáculos y enfrentar desafíos con determinación",
+    "SHORT_PREGUNTA": " Tengolacapacidadparaexpresarconfianzaydeterminacionmotivaalosdemasasuperarobstaculosyenfrentardesafioscondeterminacion"
+  },
+
+  {
+    "MICROHABILIDAD": "INSPIRADOR",
+    "PREGUNTA": "Puedo transmitir mi pasión y entusiasmo por nuestros proyectos, lo que motiva a los demás a comprometerse con nuestras metas",
+    "SHORT_PREGUNTA": " Puedotransmitirmipasionyentusiasmopornuestrosproyectos,loquemotivaalosdemasacomprometerseconnuestrasmetas"
+  },
+
+  {
+    "MICROHABILIDAD": "INSPIRADOR",
+    "PREGUNTA": "Tengo la habilidad para enfrentar los desafíos con una actitud positiva y resiliente inspira a otros a superar obstáculos con determinación",
+    "SHORT_PREGUNTA": " Tengolahabilidadparaenfrentarlosdesafiosconunaactitudpositivayresilienteinspiraaotrosasuperarobstaculoscondeterminacion"
+  },
+
+  {
+    "MICROHABILIDAD": "LEALTAD",
+    "PREGUNTA": "Me avergüenzo de decir que soy parte de la empresa",
+    "SHORT_PREGUNTA": " Meavergüenzodedecirquesoypartedelaempresa"
+  },
+
+  {
+    "MICROHABILIDAD": "LEALTAD",
+    "PREGUNTA": "Me siento identificado con los objetivos, valores y misiones de mi empresa",
+    "SHORT_PREGUNTA": " Mesientoidentificadoconlosobjetivos,valoresymisionesdemiempresa"
+  },
+
+  {
+    "MICROHABILIDAD": "LEALTAD",
+    "PREGUNTA": "Realmente me interesa el futuro de la empresa",
+    "SHORT_PREGUNTA": " Realmentemeinteresaelfuturodelaempresa"
+  },
+
+  {
+    "MICROHABILIDAD": "LOCUS DE CONTROL",
+    "PREGUNTA": "Prefiero que otros tomen el mando",
+    "SHORT_PREGUNTA": " Prefieroqueotrostomenelmando"
+  },
+
+  {
+    "MICROHABILIDAD": "LOCUS DE CONTROL",
+    "PREGUNTA": "Me rindo fácilmente",
+    "SHORT_PREGUNTA": " Merindofacilmente"
+  },
+
+  {
+    "MICROHABILIDAD": "LOCUS DE CONTROL",
+    "PREGUNTA": "Me cuesta controlar mis impulsos",
+    "SHORT_PREGUNTA": " Mecuestacontrolarmisimpulsos"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE CRÍTICAS",
+    "PREGUNTA": "Mantengo la calma ante las críticas que me hacen otras personas",
+    "SHORT_PREGUNTA": " Mantengolacalmaantelascriticasquemehacenotraspersonas"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE CRÍTICAS",
+    "PREGUNTA": "Si alguien ha hablado mal de mí, lo busco cuanto antes para aclarar las cosas",
+    "SHORT_PREGUNTA": " Sialguienhahabladomaldemi,lobuscocuantoantesparaaclararlascosas"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE CRÍTICAS",
+    "PREGUNTA": "Discuto abiertamente con la persona que me ha criticado",
+    "SHORT_PREGUNTA": " Discutoabiertamenteconlapersonaquemehacriticado"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE TIEMPO",
+    "PREGUNTA": "Tengo mucho trabajo y poco tiempo para realizarlo",
+    "SHORT_PREGUNTA": " Tengomuchotrabajoypocotiempopararealizarlo"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE TIEMPO",
+    "PREGUNTA": "Completo las tareas en el tiempo establecido para no atrasar al equipo",
+    "SHORT_PREGUNTA": " Completolastareaseneltiempoestablecidoparanoatrasaralequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "MANEJO DE TIEMPO",
+    "PREGUNTA": "Me siento como si nunca tuviese un día libre",
+    "SHORT_PREGUNTA": " Mesientocomosinuncatuvieseundialibre"
+  },
+
+  {
+    "MICROHABILIDAD": "PLANEACIÓN",
+    "PREGUNTA": "Me gusta tener un plan de las cosas que debo hacer solo y en equipo",
+    "SHORT_PREGUNTA": " Megustatenerunplandelascosasquedebohacersoloyenequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "PLANEACIÓN",
+    "PREGUNTA": "Identifico de manera proactiva los posibles obstáculos y desafíos futuros al planificar, lo que me ayuda a tomar decisiones preventivas para abordarlos.",
+    "SHORT_PREGUNTA": " Identificodemaneraproactivalosposiblesobstaculosydesafiosfuturosalplanificar,loquemeayudaatomardecisionespreventivasparaabordarlos."
+  },
+
+  {
+    "MICROHABILIDAD": "PLANEACIÓN",
+    "PREGUNTA": "Identifico recursos y herramientas necesarios para llevar a cabo mi plan de manera efectiva",
+    "SHORT_PREGUNTA": " Identificorecursosyherramientasnecesariosparallevaracabomiplandemaneraefectiva"
+  },
+
+  {
+    "MICROHABILIDAD": "PONER METAS",
+    "PREGUNTA": "Establezco metas claras y medibles que me ayudadan a desarrollar estrategias más precisas y efectivas para alcanzar lo que quiero conseguir",
+    "SHORT_PREGUNTA": " Establezcometasclarasymediblesquemeayudadanadesarrollarestrategiasmasprecisasyefectivasparaalcanzarloquequieroconseguir"
+  },
+
+  {
+    "MICROHABILIDAD": "PONER METAS",
+    "PREGUNTA": "Matengo el enfoque en mis metas a largo plazo, incluso cuando enfrento desafíos",
+    "SHORT_PREGUNTA": " Matengoelenfoqueenmismetasalargoplazo,inclusocuandoenfrentodesafios"
+  },
+
+  {
+    "MICROHABILIDAD": "PONER METAS",
+    "PREGUNTA": "Divido mis metas en pequeñas tareas alcanzables para mantener la motivación y la persistencia en el camino hacia su logro",
+    "SHORT_PREGUNTA": " Dividomismetasenpequenastareasalcanzablesparamantenerlamotivacionylapersistenciaenelcaminohaciasulogro"
+  },
+
+  {
+    "MICROHABILIDAD": "PRIORIZACIÓN",
+    "PREGUNTA": "Comunico las prioridades y pasos a seguir al equipo",
+    "SHORT_PREGUNTA": " Comunicolasprioridadesypasosaseguiralequipo"
+  },
+
+  {
+    "MICROHABILIDAD": "PRIORIZACIÓN",
+    "PREGUNTA": "Evaluo y clasifico las actividades según su impacto en el objetivo deseado para una priorización efectiva",
+    "SHORT_PREGUNTA": " Evaluoyclasificolasactividadessegunsuimpactoenelobjetivodeseadoparaunapriorizacionefectiva"
+  },
+
+  {
+    "MICROHABILIDAD": "PRIORIZACIÓN",
+    "PREGUNTA": "Establezco criterios claros para la priorización de actividades con el fin de tomar decisiones más fundamentadas y eficientes",
+    "SHORT_PREGUNTA": " Establezcocriteriosclarosparalapriorizaciondeactividadesconelfindetomardecisionesmasfundamentadasyeficientes"
+  },
+
+  {
+    "MICROHABILIDAD": "RECOLECTAR INFO",
+    "PREGUNTA": "Suelo tener la información necesaria para hacer bien mi trabajo",
+    "SHORT_PREGUNTA": " Suelotenerlainformacionnecesariaparahacerbienmitrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "RECOLECTAR INFO",
+    "PREGUNTA": "Recopilo información ante situaciones difíciles",
+    "SHORT_PREGUNTA": " Recopiloinformacionantesituacionesdificiles"
+  },
+
+  {
+    "MICROHABILIDAD": "RECOLECTAR INFO",
+    "PREGUNTA": "Busco varias fuentes (más de tres) y registro información detallada",
+    "SHORT_PREGUNTA": " Buscovariasfuentes(masde3)yregistroinformaciondetallada."
+  },
+
+  {
+    "MICROHABILIDAD": "RELACIONADOR",
+    "PREGUNTA": "Puedo trabajar con otros para llegar a una solución",
+    "SHORT_PREGUNTA": " Puedotrabajarconotrosparallegaraunasolucion"
+  },
+
+  {
+    "MICROHABILIDAD": "RELACIONADOR",
+    "PREGUNTA": "Fomento un ambiente de confianza y apertura que permite que los demás se sientan motivados y comprometidos en el proceso de lograr la meta",
+    "SHORT_PREGUNTA": " Fomentounambientedeconfianzayaperturaquepermitequelosdemassesientanmotivadosycomprometidosenelprocesodelograrlameta"
+  },
+
+  {
+    "MICROHABILIDAD": "RELACIONADOR",
+    "PREGUNTA": "Me gusta establecer conexiones significativas con las personas involucradas en un proyecto lo que contribuye positivamente a lograr los resultados deseados",
+    "SHORT_PREGUNTA": " Megustaestablecerconexionessignificativasconlaspersonasinvolucradasenunproyectoloquecontribuyepositivamentealograrlosresultadosdeseados"
+  },
+
+  {
+    "MICROHABILIDAD": "RESILIENCIA",
+    "PREGUNTA": "Puedo sobreponerme a retos y obstáculos",
+    "SHORT_PREGUNTA": " Puedosobreponermearetosyobstaculos"
+  },
+
+  {
+    "MICROHABILIDAD": "RESILIENCIA",
+    "PREGUNTA": "Puedo manejar mi ansiedad ante situaciones estresantes",
+    "SHORT_PREGUNTA": " Puedomanejarmiansiedadantesituacionesestresantes"
+  },
+
+  {
+    "MICROHABILIDAD": "RESILIENCIA",
+    "PREGUNTA": "Mantengo la calma cuando me he equivocado delante de otras personas",
+    "SHORT_PREGUNTA": " Mantengolacalmacuandomeheequivocadodelantedeotraspersonas"
+  },
+
+  {
+    "MICROHABILIDAD": "RETROALIMENTACIÓN",
+    "PREGUNTA": "Brindo observaciones constructivas para mejorar futuras acciones, ya sea reforzando aspectos positivos o ajustando aquellos que necesitan corrección",
+    "SHORT_PREGUNTA": " Brindoobservacionesconstructivasparamejorarfuturasacciones,yaseareforzandoaspectospositivosoajustandoaquellosquenecesitancorreccion"
+  },
+
+  {
+    "MICROHABILIDAD": "RETROALIMENTACIÓN",
+    "PREGUNTA": "Identifico áreas de mejora y proporciono sugerencias para el perfeccionamiento de procesos",
+    "SHORT_PREGUNTA": " Identificoareasdemejorayproporcionosugerenciasparaelperfeccionamientodeprocesos"
+  },
+
+  {
+    "MICROHABILIDAD": "RETROALIMENTACIÓN",
+    "PREGUNTA": "Expreso mis opiniones de manera efectiva para guiar decisiones futuras, proporcionando información valiosa que permita reforzar o ajustar las acciones realizadas",
+    "SHORT_PREGUNTA": " Expresomisopinionesdemaneraefectivaparaguiardecisionesfuturas,proporcionandoinformacionvaliosaquepermitareforzaroajustarlasaccionesrealizadas"
+  },
+
+  {
+    "MICROHABILIDAD": "SIGNIFICANCIA",
+    "PREGUNTA": "Siento que lo que hago en mi trabajo importa",
+    "SHORT_PREGUNTA": " Sientoqueloquehagoenmitrabajoimporta"
+  },
+
+  {
+    "MICROHABILIDAD": "SIGNIFICANCIA",
+    "PREGUNTA": "Creo tener un impacto en otros",
+    "SHORT_PREGUNTA": " Creotenerunimpactoenotros"
+  },
+
+  {
+    "MICROHABILIDAD": "SIGNIFICANCIA",
+    "PREGUNTA": "Siento que las acciones que tomo hacen una contribución valiosa y duradera en la vida de las personas",
+    "SHORT_PREGUNTA": " Sientoquelasaccionesquetomohacenunacontribucionvaliosayduraderaenlavidadelaspersonas"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Duermo entre 7 y 8 horas diarias",
+    "SHORT_PREGUNTA": " Duermoentre7y8horasdiarias"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Mantengo una rutina de ejercicio que me permite mover el cuerpo, que incluye ejercicio cardiovascular y/o de resistencia",
+    "SHORT_PREGUNTA": " Mantengounarutinadeejercicioquemepermitemoverelcuerpo,queincluyeejerciciocardiovasculary/oderesistencia"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Me realizo exámenes médicos al menos una vez al año",
+    "SHORT_PREGUNTA": " Merealizoexamenesmedicosalmenosunavezalano"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Camino al menos 8 mil pasos al día",
+    "SHORT_PREGUNTA": " Caminoalmenos8milpasosaldia"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Mi alimentación diaria incluye al menos una porción de fruta y verdura",
+    "SHORT_PREGUNTA": " Mialimentaciondiariaincluyealmenosunaporciondefrutayverdura"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "No poder desconectarme del trabajo está debilitando mi nivel de energía",
+    "SHORT_PREGUNTA": " Nopoderdesconectarmedeltrabajoestadebilitandominiveldeenergia"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Trabajo sin hacer pausas activas",
+    "SHORT_PREGUNTA": " Trabajosinhacerpausasactivas"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Almuerzo mientras trabajo",
+    "SHORT_PREGUNTA": " Almuerzomientrastrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Tomo menos de 2 litros de agua durante el día",
+    "SHORT_PREGUNTA": " Tomomenosde2litrosdeaguaduranteeldia"
+  },
+
+  {
+    "MICROHABILIDAD": "FISÍCAS",
+    "PREGUNTA": "Trabajo más de 8 horas al día",
+    "SHORT_PREGUNTA": " Trabajomasde8horasaldia"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Cuento con un presupuesto personal y/o familiar",
+    "SHORT_PREGUNTA": " Cuentoconunpresupuestopersonaly/ofamiliar"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Cuento con un plan de gastos basado en mis ingresos",
+    "SHORT_PREGUNTA": " Cuentoconunplandegastosbasadoenmisingresos"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Cuento con un plan de ahorro e inversión",
+    "SHORT_PREGUNTA": " Cuentoconunplandeahorroeinversion"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Dedico tiempo mensual a mis finanzas personales",
+    "SHORT_PREGUNTA": " Dedicotiempomensualamisfinanzaspersonales"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Puedo no tener crédito",
+    "SHORT_PREGUNTA": " Puedonotenercredito"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Creo que mis gastos superan usualmente mis ingresos",
+    "SHORT_PREGUNTA": " Creoquemisgastossuperanusualmentemisingresos"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Se me dificulta controlar mis gastos",
+    "SHORT_PREGUNTA": " Semedificultacontrolarmisgastos"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Se me dificulta establecer metas financieras a futuro",
+    "SHORT_PREGUNTA": " Semedificultaestablecermetasfinancierasafuturo"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Se me dificulta manejar mi deuda",
+    "SHORT_PREGUNTA": " Semedificultamanejarmideuda"
+  },
+
+  {
+    "MICROHABILIDAD": "FINANCIERAS",
+    "PREGUNTA": "Se me dificulta pagar mis obligaciones pendientes",
+    "SHORT_PREGUNTA": " Semedificultapagarmisobligacionespendientes"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento cansado al final de la jornada de trabajo",
+    "SHORT_PREGUNTA": " Mesientocansadoalfinaldelajornadadetrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento como si estuviera al límite de mis posibilidades",
+    "SHORT_PREGUNTA": " Mitrabajomedrenaemocionalmente"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento emocionalmente agotado por mi trabajo",
+    "SHORT_PREGUNTA": " Meabrumanlosretoslaboralesypersonales"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento fatigado cuando me levanto por la mañana y tengo que enfrentarme a otro día de trabajo",
+    "SHORT_PREGUNTA": " Lafaltadetiempoparaelautocuidadoylarecuperacionhancontribuidoaunmayoragotamientoyfatiga"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento frustrado por mi trabajo",
+    "SHORT_PREGUNTA": " Sientodesmotivacionydesinteresenlasactividadesquedisfrutaba"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Siento que estoy trabajando demasiado",
+    "SHORT_PREGUNTA": " Experimentosintomasfisicos,comodoloresdecabezaymusculares,fatigaoproblemasgastrointestinales,quecreoqueestanrelacionadosconelburnout."
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Siento que mi trabajo me está desgastando",
+    "SHORT_PREGUNTA": " Miagotamientoestaafectandomirendimientolaboralypersonal"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Trabajar directamente con personas me produce estrés",
+    "SHORT_PREGUNTA": " Tengodificultadparadesconectarmedeltrabajoymesientoconstantementeenmodoactivo,inclusofueradelhorariolaboral."
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Trabajar todo el día con personas es realmente estresante para mi",
+    "SHORT_PREGUNTA": " Nomealcanzaeltiempoparadescansar"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Creo que las personas a quienes atiendo me culpan de sus problemas",
+    "SHORT_PREGUNTA": " Cadavezsientomasirritabilidadyminiveldetoleranciahacialaspersonasesmenor"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Creo que trato a algunas personas como si fueran objetos impersonales",
+    "SHORT_PREGUNTA": " Cadavezsientomenosinterespormitrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me he vuelto insensible con la gente desde que ejerzo esta ocupación",
+    "SHORT_PREGUNTA": " Misituacionesdesesperadaypiensoquenotengoningunasalida"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me preocupa el hecho de que este trabajo me esté endureciendo emocionalmente",
+    "SHORT_PREGUNTA": " Sientotantoagotamientoquenoquierocompartirconotraspersonas"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me preocupa realmente lo que ocurre a algunas personas a las que doy servicio",
+    "SHORT_PREGUNTA": " Mepreocuparealmenteloqueocurreaalgunaspersonasalasquedoyservicio"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "En mi trabajo, trato los problemas emocionales con mucha calma",
+    "SHORT_PREGUNTA": " Enmitrabajo,tratolosproblemasemocionalesconmuchacalma"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Fácilmente comprendo cómo se sienten las personas que tengo que atender",
+    "SHORT_PREGUNTA": " Facilmentecomprendocomosesientenlaspersonasquetengoqueatender"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Fácilmente puedo crear un clima agradable en mi trabajo",
+    "SHORT_PREGUNTA": " Facilmentepuedocrearunclimaagradableenmitrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "He conseguido muchas cosas valiosas en este trabajo.",
+    "SHORT_PREGUNTA": " Heconseguidomuchascosasvaliosasenestetrabajo."
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento estimulado después de trabajar en contacto con personas",
+    "SHORT_PREGUNTA": " Mesientoestimuladodespuesdetrabajarencontactoconpersonas"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Me siento muy energético",
+    "SHORT_PREGUNTA": " Mesientomuyenergetico"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Siento que estoy influtendo positivamente en la vida de los demás con mi trabajo",
+    "SHORT_PREGUNTA": " Sientoqueestoyinflutendopositivamenteenlavidadelosdemasconmitrabajo"
+  },
+
+  {
+    "MICROHABILIDAD": "BURNOUT",
+    "PREGUNTA": "Trato con mucha efectividad los problemas de las personas",
+    "SHORT_PREGUNTA": " Tratoconmuchaefectividadlosproblemasdelaspersonas"
+  }
+]
