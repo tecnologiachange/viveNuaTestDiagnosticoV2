@@ -1,0 +1,59 @@
+[
+  {
+    "id": "servicioAlCliente",
+    "cursos": [
+      "Desarrollando los Power Skills",
+      "Botiquín de la buena actitud",
+      "Domina el lenguaje para tener una vida"
+    ],
+    "herramientas": [
+      "El arte de no hacer nada",
+      "Defusión",
+      "Practica la felicidad"
+    ],
+    "habilidades": [
+      { "name": "Comunicación", "value": 82 },
+      { "name": "Manejo de conflicto", "value": 63 },
+      { "name": "Relaciones Interpersonales", "value": 69 },
+      { "name": "Sentido de Pertenencia", "value": 60 }
+    ]
+  },
+  {
+    "id": "tecnologias",
+    "habilidades": [
+      { "name": "Comunicación", "value": 82 },
+      { "name": "Resolución problemas", "value": 69 },
+      { "name": "Trabajo en equipo", "value": 54 }
+    ],
+    "cursos": [
+      "Domina el lenguaje para tener una vida laboral y personal más próspera",
+      "Delegación para Principiantes: Simplifica tu Vida y Potencia tu Productividad",
+      "Solución de Problema: Domina los Desafíos con Facilidad"
+    ],
+    "herramientas": [
+      "Practica la gratitud",
+      "Exhalación prolongada",
+      "Optimiza tu tiempo con la técnica Pomodoro "
+    ]
+  },
+  {
+    "id": "ventas",
+    "cursos": [
+      "Desarrollando los Power Skills",
+      "Botiquín de la buena actitud",
+      "Mindfulness para el éxito",
+      "Liderazgo Consciente"
+    ],
+    "herramientas": [
+      "Meditaciones guiadas",
+      "Señalar y nombrar",
+      "Desagüe cerebral"
+    ],
+    "habilidades": [
+      { "name": "Comunicación", "value": 82 },
+      { "name": "Manejo de conflicto", "value": 63 },
+      { "name": "Negociación", "value": 69 },
+      { "name": "Regulación emocional", "value": 67 }
+    ]
+  }
+]

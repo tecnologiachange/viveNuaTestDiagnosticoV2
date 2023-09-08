@@ -8,10 +8,11 @@ export interface Hability {
   }
   
   export interface Subhability {
-    name: string
-    descripcion: string
-    badge: Badge
-    percent: number
+    name: string;
+    descripcion: string;
+    badge: Badge;
+    percent: number;
+    visualPercent?: number;
   }
   
   export interface Badge {
@@ -98,6 +99,7 @@ export interface Hability {
     fisicas?: Hability ;
     id: string;
     recommend: IRecommend;
+    subhabilities: Subhability[];
   }
 
   export interface IRecommend{

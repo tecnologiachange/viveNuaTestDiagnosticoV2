@@ -1,34 +1,64 @@
 import { environment } from "src/environments/environment";
-import * as dataMicroHabilidades from './../../../assets/static/dataMicroHabilidades.json';
-import * as dataMacroHabilidades from './../../../assets/static/dataMacroHabilidades.json';
+
+// import * as dataMicroHabilidades from './../../../assets/static/dataMicroHabilidades.json';
+// import * as dataMacroHabilidades from './../../../assets/static/dataMacroHabilidades.json';
+
+import * as dataMicroHabilidades from './../../../assets/static/microhabilidades.json';
+import * as dataMacroHabilidades from './../../../assets/static/macrohabilidades.json';
+import * as recommend from './../../../assets/static/recommend.json';
+import * as score from './../../../assets/static/score.json';
+
 import * as dataMacroJSON from './../../../assets/static/data_macro.json';
 import * as dataPreguntasJSON from './../../../assets/static/id_preguntas.json';
 
 import * as dataMacroDef from './../../../assets/static/data_macro_defi.json';
 import * as dataMacroRel from './../../../assets/static/data_macro_rel.json';
 
-import { Firestore, addDoc, collection } from "@angular/fire/firestore";
+import { Firestore, addDoc, collection, doc, setDoc } from "@angular/fire/firestore";
 import { inject } from "@angular/core";
 import { IHability } from "src/app/models/i.models";
 import { Utils } from "../utils/utils.service";
+import { GetService } from "./get.service";
 
 export class LoadService{
 
     private firestore: Firestore = inject(Firestore);
-    constructor(){
+    constructor(private getService: GetService){
         if(environment.isLoad){
             // this.loadItems();
-            // this.generateJSONHabilidades();
         }
     }
 
     private loadItems(){
-        (dataMicroHabilidades as any).default.forEach( async (item: any) => {
-          await addDoc(collection(this.firestore, environment.storage.micro), item);
+        // const _collectionMicro = collection(this.firestore, environment.storage.micro);
+        // const _collectionMacro = collection(this.firestore, environment.storage.micro);
+        // const _collectionRecommend = collection(this.firestore, environment.storage.recommend);
+        const _collectionScore = collection(this.firestore, environment.storage.score);
+
+        // (dataMicroHabilidades as any).default.forEach( async (item: any) => {
+        //     await this.setDocumentToCollection(_collectionMicro, item);
+        // });
+        // (dataMacroHabilidades as any).default.forEach( async (item: any) => {
+        //    await this.setDocumentToCollection(_collectionMacro, item);
+        // });
+        // (recommend as any).default.forEach( async (item: any) => {
+        //     await this.setDocumentToCollection(_collectionRecommend, item);
+        // });
+        const objectScore = (score as any).default;
+        Object.keys( objectScore ).forEach( async (key: any) => {
+            const item = { id: key , ...objectScore[key] };
+            await this.setDocumentToCollection(_collectionScore, item);
         });
-        (dataMacroHabilidades as any).default.forEach( async (item: any) => {
-          await addDoc(collection(this.firestore, environment.storage.macro), item);
-        });
+    }
+
+    private async setDocumentToCollection(_collection: any, item: any){
+        if(item.hasOwnProperty('id')){
+            const id = item.id;
+            delete item.id;
+            await setDoc(doc(_collection, id), item)
+        } else {
+            await addDoc( _collection, item);
+        }
     }
 
     private generateJSONHabilidades(){

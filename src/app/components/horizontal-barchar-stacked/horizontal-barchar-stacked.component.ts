@@ -97,7 +97,6 @@ export class HorizontalBarcharStackedComponent implements AfterViewInit{
     const result = this.dataValuesActual.map((value: number , index: number) => this.dataValuesExpected[index] - value);
     this.barChartData.datasets[1].data = result;
     this.barChartData.labels = this.dataLabels;
-    // console.log(this.barChartData);
     this.chart?.update();
   }
 

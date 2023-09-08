@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { routeTransitionAnimations } from '../animations';
-import { Hability } from 'src/app/models/i.models';
+import { Hability, Subhability } from 'src/app/models/i.models';
 import { Utils } from 'src/app/services/utils/utils.service';
 import { ModalComponent } from 'src/app/components/modal/modal.component';
 import { HttpService } from 'src/app/services/api/http.service';
@@ -28,6 +28,7 @@ export class ResultTestComponent implements OnInit{
   @ViewChild('modal') modal!: ModalComponent;
   public isLoad = false;
   public extras!: any ;
+  public subhabilidades: Subhability[] = [];
 
   constructor( private router: Router ,  private http: HttpService) { 
     this.extras = this.router.getCurrentNavigation()!.extras.state;
@@ -41,6 +42,7 @@ export class ResultTestComponent implements OnInit{
     this.financieras = this.extras.financieras;
     this.fisicas = this.extras.fisicas;
     this.id = this.extras.id;
+    this.subhabilidades = this.extras.subhabilities;
     this.burnout.name = '';
   }
 
@@ -51,6 +53,10 @@ export class ResultTestComponent implements OnInit{
     } else {
       this.modal.showDialog();
     }
+  }
+
+  public mySubhabilities(): void {
+    this.router.navigateByUrl ('/subhabilities', { state: { sub: this.subhabilidades , name: this.name } } );
   }
 
   public close(){
