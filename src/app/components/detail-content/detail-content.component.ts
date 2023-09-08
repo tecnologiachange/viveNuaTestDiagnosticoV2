@@ -11,11 +11,6 @@ export class DetailContentComponent {
   @Input() item: Hability = {} as Hability;
 
   public getSubhabilidades(): Subhability[] {
-    return this.item.subhabilities.map((subhability: Subhability | any) => {
-      return {
-        ...subhability,
-        percent: undefined
-      };
-    });
+    return this.item.subhabilities;
   }
 }

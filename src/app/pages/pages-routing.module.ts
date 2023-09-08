@@ -5,6 +5,7 @@ import { NotResponseComponent } from './not-response/not-response.component';
 import { LoadResultsComponent } from './load-results/load-results.component';
 import { ResultTestComponent } from './result-test/result-test.component';
 import { RecommendComponent } from './recommend/recommend.component';
+import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabilities-detail.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,11 @@ const routes: Routes = [
   {
     path: 'detail',
     component: ResultDetailComponent,
+    data: { animationState: 'Two' },
+  },
+  {
+    path: 'subhabilities',
+    component: SubhabilitiesDetailComponent,
     data: { animationState: 'Two' },
   },
   {

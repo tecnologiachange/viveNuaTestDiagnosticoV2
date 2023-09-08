@@ -1,0 +1,1346 @@
+{
+    "adaptabilidad" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Adaptabilidad. En este nivel, es posible que enfrentes dificultades para modificar los planes debido a cambios internos o externos sin que esto repercuta negativamente en ti o en tus objetivos. Esto podría limitar tu capacidad para adaptarte a situaciones cambiantes en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Adaptabilidad. En este nivel, estás en proceso de mejorar tu capacidad para modificar los planes debido a cambios internos o externos sin que esto repercuta negativamente en ti o en tus objetivos. A veces, puedes enfrentar desafíos para adaptarte a nuevas circunstancias en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Adaptabilidad. En este nivel, vemos que tienes habilidades sólidas para modificar los planes debido a cambios internos o externos sin que esto repercuta negativamente en ti o en tus objetivos. Puedes adaptarte efectivamente a nuevas circunstancias, lo que contribuye a un mayor éxito y resiliencia en tu vida diaria."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Adaptabilidad. Tu capacidad para modificar los planes debido a cambios internos o externos sin que esto repercuta negativamente en ti o en tus objetivos es evidente. Puedes adaptarte eficazmente a nuevas circunstancias, lo que contribuye a un mayor éxito y resiliencia en todos los aspectos de tu vida."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Adaptabilidad. Tu habilidad para modificar los planes debido a cambios internos o externos sin que esto repercuta negativamente en ti o en tus objetivos es excepcional. Esto se refleja en una capacidad sobresaliente para adaptarte a nuevas circunstancias y superar desafíos en todos los aspectos de tu vida, lo que te brinda una gran ventaja tanto personal como profesional."
+        }
+    ],
+    "analitico" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad Analítico. En este nivel, es posible que enfrentes dificultades para pensar en todos los factores que podrían afectar una situación. Esto podría limitar tu capacidad para tomar decisiones informadas y estratégicas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad Analítico. En este nivel, estás en proceso de mejorar tu capacidad para pensar en todos los factores que podrían afectar una situación. A veces, puedes enfrentar desafíos para considerar todos los aspectos relevantes en la toma de decisiones en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad Analítico. En este nivel, vemos que tienes habilidades sólidas para pensar en todos los factores que podrían afectar una situación. Puedes tomar decisiones informadas y estratégicas de manera efectiva en tu vida diaria, lo que contribuye a un enfoque más sólido en la resolución de problemas y la toma de decisiones."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad Analítico. Tu capacidad para pensar en todos los factores que podrían afectar una situación es evidente. Puedes tomar decisiones informadas y estratégicas de manera efectiva en tu vida diaria, lo que contribuye a un enfoque más sólido en la resolución de problemas y la toma de decisiones en todos los ámbitos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad Analítico. Tu habilidad para pensar en todos los factores que podrían afectar una situación es excepcional. Esto se refleja en tu capacidad sobresaliente para tomar decisiones informadas y estratégicas en todos los aspectos de tu vida, lo que te brinda una ventaja significativa tanto personal como profesional."
+        }
+    ],
+    "aprendiente" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad Aprendiente. En este nivel, el proceso de aprendizaje en sí mismo no te emociona tanto como el resultado. Esto podría limitar tu motivación para adquirir nuevas habilidades y conocimientos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad Aprendiente. En este nivel, estás en proceso de mejorar tu capacidad para encontrar emoción en el proceso de aprendizaje, más allá del resultado final. A veces, puedes centrarte más en los resultados que en el placer de aprender en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad Aprendiente. En este nivel, vemos que encuentras emoción en el proceso de aprendizaje en sí mismo, más que en el resultado. Esto te impulsa a adquirir nuevas habilidades y conocimientos de manera efectiva en tu vida diaria, lo que contribuye a tu crecimiento personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad Aprendiente. Tu emoción por el proceso de aprendizaje es evidente, lo que te impulsa a adquirir nuevas habilidades y conocimientos de manera efectiva en tu vida diaria. Esto contribuye a tu crecimiento personal y profesional, y te brinda una mayor satisfacción en tus esfuerzos de aprendizaje."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad Aprendiente. Tu emoción por el proceso de aprendizaje es excepcional y se refleja en tu continuo crecimiento personal y profesional. Tu actitud apasionada hacia el aprendizaje te brinda una ventaja significativa, ya que mantienes la motivación y disfrutas cada paso en tu búsqueda de nuevos conocimientos y habilidades."
+        }
+    ],
+    "autovaloracion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Autovaloración. En este nivel, es posible que enfrentes dificultades en la reflexión, aceptación y valoración de ti mismo. Esto podría afectar tu autoestima y confianza en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Autovaloración. En este nivel, estás en proceso de mejorar tu capacidad para reflexionar, aceptar y valorarte a ti mismo. A veces, puedes enfrentar desafíos en construir una autoestima sólida en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Autovaloración. En este nivel, vemos que tienes habilidades sólidas para reflexionar, aceptar y valorarte a ti mismo. Puedes mantener una autoestima saludable y confianza en tu vida diaria, lo que contribuye a una mayor satisfacción personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Autovaloración. Tu capacidad para reflexionar, aceptar y valorarte a ti mismo es evidente. Mantienes una autoestima sólida y confianza en tu vida diaria, lo que contribuye a una mayor satisfacción personal y profesional en todos los aspectos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Autovaloración. Tu habilidad para reflexionar, aceptar y valorarte a ti mismo es excepcional. Esto se refleja en una autoestima sólida y confianza inquebrantable en ti mismo, lo que te brinda una ventaja significativa tanto personal como profesional."
+        }
+    ],
+    "compromiso" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Compromiso. En este nivel, es posible que no hagas un esfuerzo significativo para cumplir las obligaciones que has asumido. Esto podría afectar tu responsabilidad y cumplimiento de tareas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Compromiso. En este nivel, estás en proceso de mejorar el grado de esfuerzo que haces para cumplir las obligaciones que has asumido. A veces, puedes enfrentar desafíos en mantener una alta responsabilidad en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Compromiso. En este nivel, vemos que haces un esfuerzo significativo para cumplir las obligaciones que has asumido. Mantienes una alta responsabilidad y cumplimiento de tareas en tu vida diaria, lo que contribuye a tu éxito personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Compromiso. Tu grado de esfuerzo para cumplir las obligaciones que has asumido es evidente. Mantienes una alta responsabilidad y cumplimiento de tareas en tu vida diaria, lo que contribuye a tu éxito personal y profesional en todos los ámbitos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Compromiso. Tu nivel de esfuerzo para cumplir las obligaciones que has asumido es excepcional. Esto se refleja en una responsabilidad ejemplar y un cumplimiento impecable de tareas en todos los aspectos de tu vida, lo que te brinda una gran ventaja tanto personal como profesional."
+        }
+    ],
+    "creencia" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Creencia. En este nivel, es posible que no tengas valores claros de los que surja un propósito definido para tu vida. Esto podría afectar tu dirección y motivación en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Creencia. En este nivel, estás en proceso de definir valores de los que pueda surgir un propósito definido para tu vida. A veces, puedes enfrentar desafíos en encontrar una dirección clara en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Creencia. En este nivel, vemos que tienes valores claros de los que surge un propósito definido para tu vida. Tienes una dirección clara y motivación en tu vida diaria, lo que contribuye a tu éxito personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Creencia. Tu posesión de valores claros de los que surge un propósito definido para tu vida es evidente. Mantienes una dirección clara y motivación en tu vida diaria, lo que contribuye a tu éxito personal y profesional en todos los aspectos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Creencia. Tu posesión de valores claros de los que surge un propósito definido para tu vida es excepcional. Esto se refleja en una dirección sólida y una motivación inquebrantable en todos los aspectos de tu vida, lo que te brinda una ventaja significativa tanto personal como profesional."
+        }
+    ],
+    "delegaciontareas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Delegación de Tareas. En este nivel, es posible que no redirijas tareas e iniciativas a otros miembros del equipo de manera efectiva, y podrías no comprender la distinción entre delegación y responsabilidad. Esto podría afectar tu capacidad para liderar equipos y colaborar en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Delegación de Tareas. En este nivel, estás en proceso de mejorar tu capacidad para redirigir tareas e iniciativas a otros miembros del equipo, aunque a veces puedas no comprender completamente la distinción entre delegación y responsabilidad en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Delegación de Tareas. En este nivel, vemos que rediriges tareas e iniciativas a otros miembros del equipo de manera efectiva, comprendiendo la distinción entre delegación y responsabilidad. Esto contribuye a tu capacidad para liderar equipos y colaborar de manera exitosa en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Delegación de Tareas. Tu capacidad para redirigir tareas e iniciativas a otros miembros del equipo de manera efectiva, comprendiendo la distinción entre delegación y responsabilidad, es evidente. Esto contribuye significativamente a tu capacidad para liderar equipos y colaborar con éxito en todos los aspectos de tu vida."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Delegación de Tareas. Tu capacidad para redirigir tareas e iniciativas a otros miembros del equipo de manera efectiva, comprendiendo plenamente la distinción entre delegación y responsabilidad, es excepcional. Esto te brinda una gran ventaja en tu capacidad para liderar equipos y colaborar exitosamente tanto personal como profesionalmente."
+        }
+    ],
+    "deliberacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Deliberación. En este nivel, es posible que tomes decisiones sin realizar un detenido análisis de los pros y los contras. Esto podría afectar la calidad de tus decisiones en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Deliberación. En este nivel, estás en proceso de mejorar tu capacidad para tomar decisiones después de un detenido análisis de los pros y los contras. A veces, puedes tomar decisiones de manera impulsiva en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Deliberación. En este nivel, vemos que tomas decisiones después de un detenido análisis de los pros y los contras. Esto contribuye a una toma de decisiones más sólida y efectiva en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Deliberación. Tu capacidad para tomar decisiones después de un detenido análisis de los pros y los contras es evidente. Mantienes una toma de decisiones sólida y efectiva en todos los aspectos de tu vida, lo que contribuye a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Deliberación. Tu capacidad para tomar decisiones después de un detenido análisis de los pros y los contras es excepcional. Esto se refleja en una toma de decisiones sobresaliente y efectiva en todos los aspectos de tu vida, lo que te brinda una ventaja significativa tanto personal como profesional."
+        }
+    ],
+    "empatia" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Empatía. En este nivel, es posible que no sientas los sentimientos de otros al imaginarte a ti mismo en sus vidas o situaciones. Esto podría afectar tus relaciones interpersonales y tu capacidad para comprender y conectar con los demás en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Empatía. En este nivel, estás en proceso de mejorar tu capacidad para sentir los sentimientos de otros al imaginarte a ti mismo en sus vidas o situaciones. A veces, puedes enfrentar desafíos en comprender plenamente las emociones de los demás en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Empatía. En este nivel, vemos que sientes los sentimientos de otros al imaginarte a ti mismo en sus vidas o situaciones. Tienes una capacidad sólida para comprender y conectar con los demás en tu vida diaria, lo que contribuye a relaciones interpersonales más saludables y efectivas."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Empatía. Tu capacidad para sentir los sentimientos de otros al imaginarte a ti mismo en sus vidas o situaciones es evidente. Mantienes relaciones interpersonales saludables y efectivas en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Empatía. Tu capacidad para sentir los sentimientos de otros al imaginarte a ti mismo en sus vidas o situaciones es excepcional. Esto te brinda una gran ventaja en tus relaciones interpersonales y en tu capacidad para comprender y conectar con los demás tanto personal como profesionalmente."
+        }
+    ],
+    "escuchaactiva" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Escucha Activa. En este nivel, es posible que no escuches con conciencia plena el mensaje para entender lo que se está diciendo, y podrías no mostrar empatía en tus interacciones. Esto podría afectar tu capacidad para comunicarte eficazmente en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Escucha Activa. En este nivel, estás en proceso de mejorar tu capacidad para escuchar con conciencia plena el mensaje para entender lo que se está diciendo. A veces, puedes no mostrar empatía en tus interacciones en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Escucha Activa. En este nivel, vemos que escuchas con conciencia plena el mensaje para entender lo que se está diciendo. Muestras empatía en tus interacciones en tu vida diaria, lo que contribuye a una comunicación efectiva y clara con los demás."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Escucha Activa. Tu capacidad para escuchar con conciencia plena el mensaje y mostrar empatía en tus interacciones es evidente. Mantienes una comunicación efectiva y clara con los demás en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Escucha Activa. Tu capacidad para escuchar con conciencia plena el mensaje y mostrar empatía en tus interacciones es excepcional. Esto te brinda una gran ventaja en tu capacidad para comunicarte eficazmente tanto personal como profesionalmente."
+        }
+    ],
+    "estrategico" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad Estratégico. En este nivel, es posible que no detectes rápidamente patrones y problemas relevantes en un contexto y que no generes planes para solucionarlos de manera eficiente. Esto podría afectar tu capacidad para abordar situaciones de manera estratégica en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad Estratégico. En este nivel, estás en proceso de mejorar tu capacidad para detectar rápidamente patrones y problemas relevantes en un contexto y para generar planes para solucionarlos de manera eficiente. A veces, puedes no abordar situaciones de manera estratégica en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad Estratégico. En este nivel, vemos que detectas rápidamente patrones y problemas relevantes en un contexto y generas planes para solucionarlos de manera eficiente. Esto contribuye a tu capacidad para abordar situaciones de manera estratégica en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad Estratégico. Tu capacidad para detectar rápidamente patrones y problemas relevantes en un contexto y generar planes para solucionarlos de manera eficiente es evidente. Abordas situaciones de manera estratégica en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad Estratégico. Tu capacidad para detectar rápidamente patrones y problemas relevantes en un contexto y generar planes para solucionarlos de manera eficiente es excepcional. Esto te brinda una gran ventaja en tu capacidad para abordar situaciones de manera estratégica tanto personal como profesionalmente."
+        }
+    ],
+    "generarideas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Generar Ideas. En este nivel, es posible que no tengas la capacidad de generar ideas novedosas o de encontrar conexiones entre fenómenos aparentemente dispares. Esto podría limitar tu creatividad y resolución de problemas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Generar Ideas. En este nivel, estás en proceso de mejorar tu capacidad para generar ideas novedosas y encontrar conexiones entre fenómenos aparentemente dispares. A veces, puedes enfrentar desafíos en ser creativo en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Generar Ideas. En este nivel, vemos que tienes habilidades sólidas para generar ideas novedosas y encontrar conexiones entre fenómenos aparentemente dispares. Manejas la creatividad en tu vida diaria, lo que contribuye a soluciones innovadoras y a una mayor creatividad en todos los aspectos."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Generar Ideas. Tu capacidad para generar ideas novedosas y encontrar conexiones entre fenómenos aparentemente dispares es evidente. Aportas soluciones innovadoras y una mayor creatividad en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Generar Ideas. Tu capacidad para generar ideas novedosas y encontrar conexiones entre fenómenos aparentemente dispares es excepcional. Esto te brinda una gran ventaja en tu capacidad para manejar la creatividad tanto personal como profesionalmente."
+        }
+    ],
+    "hablarefectivamente" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Hablar Efectivamente. En este nivel, es posible que no comuniques el mensaje de manera que otros puedan entender lo que quieres transmitir. Esto podría limitar tu capacidad para expresarte claramente en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Hablar Efectivamente. En este nivel, estás en proceso de mejorar tu capacidad para comunicar el mensaje de manera que otros puedan entender lo que quieres transmitir. A veces, puedes enfrentar desafíos en expresarte claramente en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Hablar Efectivamente. En este nivel, vemos que comunicas el mensaje de manera que otros pueden entender lo que quieres transmitir. Expresas tus ideas de manera clara y efectiva en tu vida diaria, lo que contribuye a una comunicación más fluida y a una comprensión mutua."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Hablar Efectivamente. Tu capacidad para comunicar el mensaje de manera que otros puedan entender lo que quieres transmitir es evidente. Expresas tus ideas de manera clara y efectiva en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Hablar Efectivamente. Tu capacidad para comunicar el mensaje de manera que otros puedan entender lo que quieres transmitir es excepcional. Esto te brinda una gran ventaja en tu capacidad para expresarte claramente tanto personal como profesionalmente."
+        }
+    ],
+    "incluyente" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Incluyente. En este nivel, es posible que no muestres conciencia de aquellos que se sienten excluidos y no te esfuerces por incluirlos. Esto podría afectar tus relaciones interpersonales y tu capacidad para trabajar en equipos diversos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Incluyente. En este nivel, estás en proceso de mejorar tu capacidad para mostrar conciencia de aquellos que se sienten excluidos y para esforzarte por incluirlos. A veces, puedes no ser totalmente consciente de la importancia de la inclusión en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Incluyente. En este nivel, vemos que muestras conciencia de aquellos que se sienten excluidos y te esfuerzas por incluirlos. Esto contribuye a relaciones interpersonales más saludables y a un trabajo efectivo en equipos diversos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Incluyente. Tu capacidad para mostrar conciencia de aquellos que se sienten excluidos y para esforzarte por incluirlos es evidente. Mantienes relaciones interpersonales saludables y trabajas de manera efectiva en equipos diversos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Incluyente. Tu capacidad para mostrar conciencia de aquellos que se sienten excluidos y para esforzarte por incluirlos es excepcional. Esto te brinda una gran ventaja en tus relaciones interpersonales y en tu capacidad para trabajar en equipos diversos tanto personal como profesionalmente."
+        }
+    ],
+    "individualizador" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Individualizador. En este nivel, es posible que no descubras cómo diferentes personas pueden trabajar juntas de manera productiva. Esto podría afectar tu capacidad para formar y liderar equipos efectivos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Individualizador. En este nivel, estás en proceso de mejorar tu capacidad para descubrir cómo diferentes personas pueden trabajar juntas de manera productiva. A veces, puedes enfrentar desafíos en formar y liderar equipos efectivos en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Individualizador. En este nivel, vemos que descubres cómo diferentes personas pueden trabajar juntas de manera productiva. Puedes formar y liderar equipos efectivos en tu vida diaria, tanto personal como profesional, lo que contribuye a logros exitosos."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Individualizador. Tu capacidad para descubrir cómo diferentes personas pueden trabajar juntas de manera productiva y para formar y liderar equipos efectivos es evidente. Logras éxitos significativos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Individualizador. Tu capacidad para descubrir cómo diferentes personas pueden trabajar juntas de manera productiva y para formar y liderar equipos efectivos es excepcional. Esto te brinda una gran ventaja en tu capacidad para lograr el éxito tanto personal como profesionalmente."
+        }
+    ],
+    "inspirador" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Inspirador. En este nivel, es posible que no seas optimista ni capaz de entusiasmar a otros con lo que van a hacer. Esto podría afectar tu capacidad para motivar y liderar en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Inspirador. En este nivel, estás en proceso de mejorar tu capacidad para ser optimista y para entusiasmar a otros con lo que van a hacer. A veces, puedes no reconocer completamente el impacto de la inspiración en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Inspirador. En este nivel, vemos que eres optimista y puedes entusiasmar a otros con lo que van a hacer. Motivas y lideras de manera efectiva en tu vida diaria, tanto personal como profesional, lo que contribuye a logros notables."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Inspirador. Tu capacidad para ser optimista y para entusiasmar a otros con lo que van a hacer es evidente. Motivas y lideras de manera efectiva en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Inspirador. Tu capacidad para ser optimista y para entusiasmar a otros con lo que van a hacer es excepcional. Esto te brinda una gran ventaja en tu capacidad para motivar y liderar tanto personal como profesionalmente."
+        }
+    ],
+    "lealtad" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Lealtad. En este nivel, es posible que no tengas una fuerte atadura emocional, satisfacción y compromiso con la empresa que genera el deseo de hacer las cosas. Esto podría afectar tu compromiso laboral y tu satisfacción en tu vida profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Lealtad. En este nivel, estás en proceso de fortalecer tu atadura emocional, satisfacción y compromiso con la empresa. A veces, puedes no reconocer completamente la importancia de la lealtad en tu vida profesional."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Lealtad. En este nivel, vemos que tienes una fuerte atadura emocional, satisfacción y compromiso con la empresa que genera el deseo de hacer las cosas. Mantienes un alto compromiso laboral y satisfacción en tu vida profesional, lo que contribuye a tu éxito en el ámbito laboral."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Lealtad. Tu fuerte atadura emocional, satisfacción y compromiso con la empresa son evidentes. Mantienes un alto compromiso laboral y satisfacción en todos los aspectos de tu vida profesional, lo que contribuye significativamente a tu éxito laboral y personal."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Lealtad. Tu fuerte atadura emocional, satisfacción y compromiso con la empresa son excepcionales. Esto te brinda una gran ventaja en tu compromiso laboral y satisfacción en tu vida profesional."
+        }
+    ],
+    "locusdecontrol" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Locus de Control. En este nivel, es posible que no tengas una percepción clara de las cosas que puedes controlar o intervenir en tu vida. Esto podría afectar tu capacidad para tomar el control de tu vida y manejar situaciones de manera efectiva, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Locus de Control. En este nivel, estás en proceso de mejorar tu percepción de las cosas que puedes controlar o intervenir en tu vida. A veces, puedes no reconocer completamente el impacto de tener un mayor control en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Locus de Control. En este nivel, vemos que tienes una percepción clara de las cosas que puedes controlar o intervenir en tu vida. Tienes la capacidad de tomar el control de tu vida y manejar situaciones de manera efectiva, lo que contribuye a tu éxito personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Locus de Control. Tu percepción clara de las cosas que puedes controlar o intervenir en tu vida es evidente. Tienes un control efectivo de tu vida y manejas situaciones con éxito en todos los aspectos, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Locus de Control. Tu percepción clara de las cosas que puedes controlar o intervenir en tu vida es excepcional. Esto te brinda una gran ventaja en tu capacidad para tomar el control de tu vida y manejar situaciones de manera efectiva tanto personal como profesionalmente."
+        }
+    ],
+    "manejodecriticas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Críticas. En este nivel, es posible que no sepas recibir retroalimentaciones de manera efectiva. Esto podría afectar tu capacidad para aprender y crecer a partir de las críticas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Críticas. En este nivel, estás en proceso de mejorar tu capacidad para recibir retroalimentaciones de manera efectiva y utilizarlas para tu crecimiento. A veces, puedes enfrentar desafíos en aprender de las críticas en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Críticas. En este nivel, vemos que sabes recibir retroalimentaciones de manera efectiva y las utilizas para tu crecimiento. Aprendes y creces a partir de las críticas en tu vida diaria, tanto personal como profesional, lo que contribuye a tu desarrollo continuo."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Críticas. Tu capacidad para recibir retroalimentaciones de manera efectiva y utilizarlas para tu crecimiento es evidente. Aprendes y creces a partir de las críticas en todos los aspectos de tu vida, lo que contribuye significativamente a tu desarrollo continuo y éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Manejo de Críticas. Tu capacidad para recibir retroalimentaciones de manera efectiva y utilizarlas para tu crecimiento es excepcional. Esto te brinda una gran ventaja en tu capacidad para aprender y desarrollarte a partir de las críticas tanto personal como profesionalmente."
+        }
+    ],
+    "manejodetiempo" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Tiempo. En este nivel, es posible que tengas dificultades para planificar, organizar y controlar tu tiempo para actividades tanto en la empresa como en tu vida diaria. Esto podría afectar tu eficiencia y productividad en tus tareas y responsabilidades."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Tiempo. En este nivel, estás en proceso de mejorar tu capacidad para planificar, organizar y controlar tu tiempo para actividades tanto en la empresa como en tu vida diaria. A veces, puedes enfrentar desafíos en ser eficiente y productivo en tus tareas y responsabilidades."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Tiempo. En este nivel, vemos que tienes habilidades sólidas para planificar, organizar y controlar tu tiempo para actividades tanto en la empresa como en tu vida diaria. Manejas la eficiencia y productividad en tus tareas y responsabilidades, lo que contribuye a tu éxito en la gestión del tiempo."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Manejo de Tiempo. Tu capacidad para planificar, organizar y controlar tu tiempo para actividades tanto en la empresa como en tu vida diaria es evidente. Mantienes una eficiencia y productividad destacadas en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Manejo de Tiempo. Tu capacidad para planificar, organizar y controlar tu tiempo para actividades tanto en la empresa como en tu vida diaria es excepcional. Esto te brinda una gran ventaja en tu eficiencia y productividad en tus tareas y responsabilidades tanto personal como profesionalmente."
+        }
+    ],
+    "planeacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Planeación. En este nivel, es posible que no tomes decisiones para alcanzar un futuro deseado de manera efectiva. Esto podría afectar tu capacidad para lograr tus objetivos y metas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Planeación. En este nivel, estás en proceso de mejorar tu capacidad para tomar decisiones para alcanzar un futuro deseado de manera efectiva. A veces, puedes enfrentar desafíos en la planificación estratégica en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Planeación. En este nivel, vemos que tomas decisiones para alcanzar un futuro deseado de manera efectiva. Realizas una planificación estratégica sólida en tu vida diaria, tanto personal como profesional, lo que contribuye a la consecución de tus objetivos y metas."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Planeación. Tu capacidad para tomar decisiones para alcanzar un futuro deseado de manera efectiva y realizar una planificación estratégica sólida es evidente. Logras tus objetivos y metas en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Planeación. Tu capacidad para tomar decisiones para alcanzar un futuro deseado de manera efectiva y realizar una planificación estratégica sólida es excepcional. Esto te brinda una gran ventaja en tu capacidad para lograr tus objetivos y metas tanto personal como profesionalmente."
+        }
+    ],
+    "ponermetas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Poner Metas. En este nivel, es posible que no dirijas acciones y esfuerzos hacia lo que quieres conseguir, que no desarrolles estrategias para alcanzar tus metas o que no seas constante y persistente en su consecución. Esto podría afectar tu capacidad para lograr tus objetivos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Poner Metas. En este nivel, estás en proceso de mejorar tu capacidad para dirigir acciones y esfuerzos hacia lo que quieres conseguir, desarrollar estrategias para alcanzar tus metas y ser constante y persistente en su consecución. A veces, puedes enfrentar desafíos en establecer y alcanzar tus objetivos en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Poner Metas. En este nivel, vemos que diriges acciones y esfuerzos hacia lo que quieres conseguir, desarrollas estrategias para alcanzar tus metas y eres constante y persistente en su consecución. Esto contribuye a tu capacidad para lograr tus objetivos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Poner Metas. Tu capacidad para dirigir acciones y esfuerzos hacia lo que quieres conseguir, desarrollar estrategias para alcanzar tus metas y ser constante y persistente en su consecución es evidente. Logras tus objetivos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Poner Metas. Tu capacidad para dirigir acciones y esfuerzos hacia lo que quieres conseguir, desarrollar estrategias para alcanzar tus metas y ser constante y persistente en su consecución es excepcional. Esto te brinda una gran ventaja en tu capacidad para lograr tus objetivos tanto personal como profesionalmente."
+        }
+    ],
+    "priorizacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Priorización. En este nivel, es posible que no ordenes una lista de actividades según la importancia buscando lograr un objetivo. Esto podría afectar tu capacidad para completar tareas de manera eficiente y lograr tus objetivos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Priorización. En este nivel, estás en proceso de mejorar tu capacidad para ordenar una lista de actividades según la importancia buscando lograr un objetivo. A veces, puedes enfrentar desafíos en completar tareas de manera eficiente y lograr tus objetivos en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Priorización. En este nivel, vemos que ordenas una lista de actividades según la importancia buscando lograr un objetivo. Completas tareas de manera eficiente y logras tus objetivos en tu vida diaria, tanto personal como profesional, lo que contribuye a tu éxito en la gestión del tiempo."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Priorización. Tu capacidad para ordenar una lista de actividades según la importancia buscando lograr un objetivo es evidente. Completas tareas de manera eficiente y logras tus objetivos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Priorización. Tu capacidad para ordenar una lista de actividades según la importancia buscando lograr un objetivo es excepcional. Esto te brinda una gran ventaja en tu capacidad para completar tareas de manera eficiente y lograr tus objetivos tanto personal como profesionalmente."
+        }
+    ],
+    "recolectarinfo" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Recolectar Información. En este nivel, es posible que no reúnas información de diversas fuentes para obtener un panorama completo y preciso de una zona de interés. Esto podría afectar tu toma de decisiones informadas en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Recolectar Información. En este nivel, estás en proceso de mejorar tu capacidad para reunir información de diversas fuentes y obtener un panorama completo y preciso de una zona de interés. A veces, puedes enfrentar desafíos en la recopilación de información en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Recolectar Información. En este nivel, vemos que reúnes información de diversas fuentes para obtener un panorama completo y preciso de una zona de interés. Tomas decisiones informadas en tu vida diaria, tanto personal como profesional, lo que contribuye a tu éxito en la toma de decisiones."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Recolectar Información. Tu capacidad para reunir información de diversas fuentes y obtener un panorama completo y preciso de una zona de interés es evidente. Tomas decisiones informadas en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Recolectar Información. Tu capacidad para reunir información de diversas fuentes y obtener un panorama completo y preciso de una zona de interés es excepcional. Esto te brinda una gran ventaja en tu capacidad para tomar decisiones informadas tanto personal como profesionalmente."
+        }
+    ],
+    "relacionador" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Relacionador. En este nivel, es posible que no encuentres una profunda satisfacción en trabajar con otros para lograr una meta. Esto podría afectar tus relaciones interpersonales y tu capacidad para colaborar en equipos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Relacionador. En este nivel, estás en proceso de mejorar tu capacidad para encontrar una profunda satisfacción en trabajar con otros para lograr una meta. A veces, puedes no reconocer completamente la importancia de la colaboración en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Relacionador. En este nivel, vemos que encuentras una profunda satisfacción en trabajar con otros para lograr una meta. Colaboras de manera efectiva en equipos en tu vida diaria, tanto personal como profesional, lo que contribuye a relaciones interpersonales más saludables y a un trabajo en equipo exitoso."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Relacionador. Tu capacidad para encontrar una profunda satisfacción en trabajar con otros para lograr una meta es evidente. Colaboras de manera efectiva en equipos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Relacionador. Tu capacidad para encontrar una profunda satisfacción en trabajar con otros para lograr una meta es excepcional. Esto te brinda una gran ventaja en tus relaciones interpersonales y en tu capacidad para colaborar en equipos tanto personal como profesionalmente."
+        }
+    ],
+    "resiliencia" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Resiliencia. En este nivel, es posible que no hagas frente a eventos estresantes o difíciles y no seas capaz de reorganizar tu vida. Esto podría afectar tu capacidad para adaptarte y recuperarte de desafíos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Resiliencia. En este nivel, estás en proceso de mejorar tu capacidad para hacer frente a eventos estresantes o difíciles y para reorganizar tu vida. A veces, puedes enfrentar desafíos en adaptarte y recuperarte de situaciones complicadas en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Resiliencia. En este nivel, vemos que haces frente a eventos estresantes o difíciles y eres capaz de reorganizar tu vida de manera efectiva. Te adaptas y te recuperas de desafíos en tu vida diaria, tanto personal como profesional, lo que contribuye a tu capacidad para enfrentar situaciones complicadas."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Resiliencia. Tu capacidad para hacer frente a eventos estresantes o difíciles y para reorganizar tu vida de manera efectiva es evidente. Te adaptas y te recuperas de desafíos en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Resiliencia. Tu capacidad para hacer frente a eventos estresantes o difíciles y para reorganizar tu vida de manera efectiva es excepcional. Esto te brinda una gran ventaja en tu capacidad para adaptarte y recuperarte de desafíos tanto personal como profesionalmente."
+        }
+    ],
+    "retroalimentacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Retroalimentación. En este nivel, es posible que no sepas dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas, reforzándolas, modificándolas o corrigiéndolas. Esto podría afectar tu capacidad para ayudarte a ti mismo y a otros a mejorar en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Retroalimentación. En este nivel, estás en proceso de mejorar tu capacidad para dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas, reforzándolas, modificándolas o corrigiéndolas. A veces, puedes enfrentar desafíos en proporcionar retroalimentación efectiva en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Retroalimentación. En este nivel, vemos que sabes dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas, reforzándolas, modificándolas o corrigiéndolas. Proporcionas retroalimentación efectiva en tu vida diaria, tanto personal como profesional, lo que contribuye a la mejora continua."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Retroalimentación. Tu capacidad para dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas, reforzándolas, modificándolas o corrigiéndolas, es evidente. Proporcionas retroalimentación efectiva en todos los aspectos de tu vida, lo que contribuye significativamente a la mejora continua y al éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Retroalimentación. Tu capacidad para dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas, reforzándolas, modificándolas o corrigiéndolas, es excepcional. Esto te brinda una gran ventaja en tu capacidad para ayudarte a ti mismo y a otros a mejorar tanto personal como profesionalmente."
+        }
+    ],
+    "significancia" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu microhabilidad de Significancia. En este nivel, es posible que no reconozcas completamente el impacto que tienes sobre la gente. Esto podría afectar tu capacidad para crear relaciones significativas y para influir en tu entorno en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu microhabilidad de Significancia. En este nivel, estás en proceso de reconocer el impacto que tienes sobre la gente. A veces, puedes no ser totalmente consciente de la importancia de tu influencia en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu microhabilidad de Significancia. En este nivel, vemos que reconoces el impacto que tienes sobre la gente. Creas relaciones significativas y ejerces influencia de manera efectiva en tu entorno en tu vida diaria, tanto personal como profesional, lo que contribuye a tu éxito en la construcción de relaciones y al logro de objetivos."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu microhabilidad de Significancia. Tu capacidad para reconocer el impacto que tienes sobre la gente es evidente. Creas relaciones significativas y ejerces influencia de manera efectiva en todos los aspectos de tu vida, lo que contribuye significativamente a tu éxito personal y profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu microhabilidad de Significancia. Tu capacidad para reconocer el impacto que tienes sobre la gente es excepcional. Esto te brinda una gran ventaja en tu capacidad para crear relaciones significativas y para influir en tu entorno tanto personal como profesionalmente."
+        }
+    ],
+    "autoconocimiento" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Autoconocimiento. En este nivel, puede que enfrentes desafíos para reconocer tu propia individualidad, tus pensamientos, emociones y conductas. Esto puede afectar tu capacidad de comprender tus capacidades y limitaciones en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Autoconocimiento. En este nivel, es posible que estés en proceso de mejorar tu capacidad para reconocer tu propia individualidad, pensamientos, emociones y conductas. Esto puede reflejarse en desafíos ocasionales al comprender tus capacidades y limitaciones en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Autoconocimiento. En este nivel, vemos que tienes habilidades sólidas para reconocer tu propia individualidad, pensamientos, emociones y conductas. Esto se traduce en una mayor comprensión de tus capacidades y limitaciones en tu vida diaria, lo que contribuye a un mayor equilibrio personal y profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Autoconocimiento. Tu capacidad para reconocer tu propia individualidad, pensamientos, emociones y conductas es evidente. Esto se refleja en una sólida comprensión de tus capacidades y limitaciones en tu vida diaria, lo que contribuye a un mayor autoequilibrio y toma de decisiones más conscientes."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Autoconocimiento. Tu habilidad para reconocer tu propia individualidad, pensamientos, emociones y conductas es excepcional, lo que se refleja en una profunda comprensión de tus capacidades y limitaciones en tu vida diaria. Esto te capacita para tomar decisiones informadas y mantener un alto grado de equilibrio en todas las áreas de tu vida. Tu autoconocimiento es una valiosa fortaleza personal y profesional."
+        }
+    ],
+    "comunicacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Comunicación. En este nivel, es posible que enfrentes desafíos para lograr un intercambio efectivo de información. Puede que tengas dificultades para considerar las particularidades de las partes y transmitir mensajes claros en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Comunicación. En este nivel, es posible que estés en proceso de mejorar tu capacidad para lograr un intercambio efectivo de información. Esto puede reflejarse en ocasiones en las que enfrentas dificultades para considerar las particularidades de las partes y transmitir mensajes claros en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Comunicación. En este nivel, vemos que tienes habilidades sólidas para lograr un intercambio efectivo de información. Puedes considerar las particularidades de las partes y transmitir mensajes claros en tu vida diaria, lo que contribuye a relaciones más armoniosas y una comunicación efectiva en todos los ámbitos."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Comunicación. Tu capacidad para lograr un intercambio efectivo de información es evidente. Puedes considerar las particularidades de las partes y transmitir mensajes claros en tu vida diaria, lo que contribuye a relaciones sólidas y una comunicación efectiva en todos los ámbitos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Comunicación. Tu habilidad para lograr un intercambio efectivo de información es excepcional, lo que se refleja en relaciones fluidas y una comunicación efectiva en todos los ámbitos de tu vida. Tu capacidad para considerar las particularidades de las partes y transmitir mensajes claros es una valiosa fortaleza personal y profesional."
+        }
+    ],
+    "liderazgo" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Liderazgo. En este nivel, es posible que enfrentes desafíos al supervisar, dirigir, guiar e influenciar a individuos y grupos para la realización de tareas y el cumplimiento de objetivos comunes. Puede que te resulte complicado asumir un papel de liderazgo efectivo en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Liderazgo. En este nivel, es posible que estés en proceso de mejorar tu capacidad para supervisar, dirigir, guiar e influenciar a otros en la realización de tareas y el cumplimiento de objetivos comunes. Esto puede reflejarse en ocasiones en las que enfrentas desafíos para asumir un papel de liderazgo efectivo en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Liderazgo. En este nivel, vemos que tienes habilidades sólidas para supervisar, dirigir, guiar e influenciar a individuos y grupos en la realización de tareas y el cumplimiento de objetivos comunes. Puedes desempeñar un papel de liderazgo eficaz en tu vida diaria, lo que contribuye al éxito tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Liderazgo. Tu capacidad para supervisar, dirigir, guiar e influenciar a otros es evidente. Puedes asumir un papel de liderazgo efectivo en tu vida diaria, lo que contribuye al éxito tanto personal como profesional. Tus habilidades de liderazgo son valiosas y se reconocen como un activo."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Liderazgo. Tu habilidad para supervisar, dirigir, guiar e influenciar a individuos y grupos es excepcional, lo que se refleja en un liderazgo sólido y efectivo en todos los aspectos de tu vida. Tus habilidades de liderazgo son una valiosa fortaleza tanto personal como profesional y contribuyen de manera significativa al éxito y la colaboración en equipos y proyectos."
+        }
+    ],
+    "manejodeconflicto" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Manejo de Conflicto. En este nivel, es posible que enfrentes dificultades al reaccionar ante dificultades internas o externas. Puede que tengas desafíos en evitar una escalada de tensiones y en buscar un equilibrio en situaciones conflictivas. Esto puede afectar tu capacidad para lidiar con los conflictos en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Manejo de Conflicto. En este nivel, es posible que estés en proceso de mejorar tu capacidad para reaccionar ante dificultades internas o externas. A veces, puedes enfrentar desafíos en evitar una escalada de tensiones y en buscar un equilibrio en situaciones conflictivas en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Manejo de Conflicto. En este nivel, vemos que tienes habilidades sólidas para reaccionar ante dificultades internas o externas. Puedes evitar una escalada de tensiones y buscar un equilibrio en situaciones conflictivas de manera efectiva. Esto contribuye a relaciones más armoniosas y a la resolución positiva de conflictos tanto en tu vida personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Manejo de Conflicto. Tu capacidad para reaccionar ante dificultades internas o externas es evidente. Puedes evitar una escalada de tensiones y buscar un equilibrio en situaciones conflictivas de manera efectiva. Esto contribuye a relaciones sólidas y a la resolución constructiva de conflictos tanto en tu vida personal como profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Manejo de Conflicto. Tu habilidad para reaccionar ante dificultades internas o externas es excepcional, lo que se refleja en una resolución eficaz y equilibrada de conflictos en todos los aspectos de tu vida. Tu capacidad para evitar tensiones y buscar soluciones constructivas es una valiosa fortaleza tanto personal como profesional y contribuye de manera significativa a la armonía y el éxito en tus relaciones y proyectos."
+        }
+    ],
+    "mentalidaddediversidad" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Mentalidad de Diversidad. En este nivel, es posible que enfrentes dificultades para reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas. Esto puede limitar tu capacidad para impulsar la creatividad y el crecimiento colectivo en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Mentalidad de Diversidad. En este nivel, es posible que estés en proceso de mejorar tu capacidad para reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas. A veces, puedes enfrentar desafíos en impulsar la creatividad y el crecimiento colectivo en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Mentalidad de Diversidad. En este nivel, vemos que tienes habilidades sólidas para reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas. Puedes impulsar la creatividad y el crecimiento colectivo de manera efectiva en tu vida diaria, lo que contribuye a un entorno más inclusivo y enriquecedor tanto personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Mentalidad de Diversidad. Tu capacidad para reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas es evidente. Puedes impulsar la creatividad y el crecimiento colectivo de manera efectiva en tu vida diaria, lo que contribuye a un entorno más inclusivo y enriquecedor tanto personal como profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Mentalidad de Diversidad. Tu habilidad para reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas es excepcional, lo que se refleja en un ambiente altamente inclusivo y en un crecimiento colectivo significativo en todos los aspectos de tu vida. Tu mentalidad de diversidad es una valiosa fortaleza tanto personal como profesional y contribuye de manera significativa a la creatividad y la colaboración en equipos y proyectos diversos."
+        }
+    ],
+    "negociacion" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Negociación. En este nivel, es posible que enfrentes dificultades en el proceso de deliberación para llegar a acuerdos aceptables para todas las partes. Esto puede afectar tu capacidad para negociar de manera efectiva en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Negociación. En este nivel, es posible que estés en proceso de mejorar tu capacidad para negociar y llegar a acuerdos aceptables para todas las partes. A veces, puedes enfrentar desafíos en este proceso en tu vida diaria, lo que puede reflejarse en situaciones donde la comunicación se vuelve complicada y es difícil llegar a acuerdos mutuamente beneficiosos."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Negociación. En este nivel, vemos que tienes habilidades adecuadas para el proceso de deliberación y la capacidad de llegar a acuerdos aceptables para todas las partes. Esto se traduce en una negociación efectiva en tu vida diaria, lo que contribuye a relaciones más armoniosas y a la consecución de objetivos compartidos, ya sea en tu entorno personal o profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Negociación. Tu capacidad para el proceso de deliberación y la negociación es evidente. Puedes llegar a acuerdos aceptables para todas las partes de manera efectiva en tu vida diaria, lo que se traduce en relaciones sólidas y al éxito en la consecución de objetivos compartidos, tanto en tu vida personal como profesional."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Negociación. Tu habilidad para el proceso de deliberación y la capacidad de llegar a acuerdos aceptables para todas las partes es excepcional. Esto se refleja en una negociación efectiva y en relaciones armoniosas en todos los aspectos de tu vida. Tu capacidad de negociación es una valiosa fortaleza tanto personal como profesional y contribuye de manera significativa al éxito en la resolución de conflictos y en la consecución de metas compartidas, haciendo que tu día a día sea más fluido y exitoso."
+        }
+    ],
+    "regulacionemocional" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Regulación Emocional. En este nivel, es posible que enfrentes dificultades en la identificación y comprensión de tus propias emociones, así como en reconocer su conexión con tus pensamientos y conductas. Esto puede manifestarse en situaciones donde te resulta complicado gestionar tus emociones de manera saludable en tu vida diaria, lo que podría afectar tus relaciones y bienestar personal y profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Regulación Emocional. En este nivel, es posible que estés en proceso de mejorar tu capacidad para identificar y comprender tus propias emociones, así como reconocer su conexión con tus pensamientos y conductas. A veces, puedes enfrentar desafíos en gestionar tus emociones de manera saludable en situaciones cotidianas."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Regulación Emocional. En este nivel, vemos que tienes habilidades adecuadas para identificar y comprender tus propias emociones, así como para reconocer su conexión con tus pensamientos y conductas. Puedes gestionar tus emociones de manera saludable en tu vida diaria, lo que contribuye a un mayor bienestar emocional y relaciones más armoniosas, tanto en tu vida personal como profesional."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Regulación Emocional. Tu capacidad para identificar y comprender tus emociones, así como para reconocer su conexión con tus pensamientos y conductas, es evidente. Puedes gestionar tus emociones de manera saludable en tu vida diaria, lo que contribuye a un mayor bienestar emocional y relaciones más armoniosas y efectivas en todos los ámbitos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Regulación Emocional. Tu habilidad para identificar y comprender tus emociones, así como para reconocer su conexión con tus pensamientos y conductas, es excepcional. Esto se refleja en un alto nivel de bienestar emocional y en relaciones saludables y efectivas en todos los aspectos de tu vida. Tu capacidad de regulación emocional es una valiosa fortaleza tanto personal como profesional y contribuye de manera significativa a tu éxito y equilibrio en situaciones emocionales diversas en tu día a día."
+        }
+    ],
+    "relacionesinterpersonales" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Relaciones Interpersonales. En este nivel, es posible que enfrentes dificultades en la generación de habilidades sociales que faciliten una interacción y convivencia sana entre personas. Puede que te resulte complicado adaptarte a distintos tipos de vínculos y contextos, lo que podría afectar tus relaciones personales y profesionales en tu vida diaria."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Relaciones Interpersonales. En este nivel, es posible que estés en proceso de mejorar tus habilidades sociales para facilitar una interacción y convivencia sana entre personas. A veces, puedes enfrentar desafíos en la adaptación a distintos tipos de vínculos y contextos en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Relaciones Interpersonales. En este nivel, vemos que tienes habilidades sólidas para generar relaciones interpersonales saludables y facilitar una interacción armoniosa en diversos contextos y vínculos. Puedes adaptarte eficazmente a distintos tipos de relaciones y contextos, lo que contribuye a relaciones personales y profesionales exitosas en tu vida diaria."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Relaciones Interpersonales. Tu capacidad para generar relaciones interpersonales saludables y facilitar la interacción en diversos contextos y vínculos es evidente. Puedes adaptarte eficazmente a distintos tipos de relaciones y contextos, lo que contribuye a relaciones personales y profesionales sólidas y exitosas en todos los ámbitos de tu vida."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Relaciones Interpersonales. Tu habilidad para generar relaciones interpersonales saludables y facilitar la interacción en diversos contextos y vínculos es excepcional. Esto se refleja en relaciones personales y profesionales altamente exitosas y armoniosas en todos los aspectos de tu vida. Tu capacidad en relaciones interpersonales es una valiosa fortaleza tanto personal como profesional, y contribuye de manera significativa a tu éxito y bienestar en tu día a día."
+        }
+    ],
+    "resolucionproblemas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Resolución de Problemas. En este nivel, es posible que enfrentes dificultades al abordar situaciones y tomar decisiones usando estrategias de razonamiento. Puede que te resulte complicado tener en cuenta las limitaciones y mantenerte enfocado en los resultados en tu vida diaria, tanto personal como profesional."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Resolución de Problemas. En este nivel, es posible que estés en proceso de mejorar tu capacidad para abordar situaciones y tomar decisiones utilizando estrategias de razonamiento. A veces, puedes enfrentar desafíos en tener en cuenta las limitaciones y mantener el enfoque en los resultados en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Resolución de Problemas. En este nivel, vemos que tienes habilidades adecuadas para abordar situaciones y tomar decisiones usando estrategias de razonamiento. Puedes tener en cuenta las limitaciones y mantenerte enfocado en los resultados de manera efectiva en tu vida diaria, lo que contribuye al éxito en la solución de problemas en diferentes contextos."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Resolución de Problemas. Tu capacidad para abordar situaciones y tomar decisiones utilizando estrategias de razonamiento es evidente. Puedes tener en cuenta las limitaciones y mantenerte enfocado en los resultados de manera efectiva en tu vida diaria, lo que contribuye a una resolución de problemas sólida y eficiente en distintos ámbitos."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Resolución de Problemas. Tu habilidad para abordar situaciones y tomar decisiones usando estrategias de razonamiento es excepcional, lo que se refleja en una resolución de problemas eficaz y enfocada en los resultados en todos los aspectos de tu vida. Tu capacidad en resolución de problemas es una valiosa fortaleza tanto personal como profesional y contribuye de manera significativa a tu éxito y eficiencia en la toma de decisiones en tu día a día."
+        }
+    ],
+    "sentidopertenencia" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu sentido de pertenencia. En este nivel, tu sentido de pertenencia podría sentirse un poco bajo. Puede que te sientas en las primeras etapas de familiarización con los valores de la empresa. Esto puede influir en tu satisfacción en el trabajo y en cómo te relacionas con tu equipo en tu vida diaria en la empresa."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu sentido de pertenencia. En este nivel, estamos conscientes de que tu sentido de pertenencia está en desarrollo. Puede que estés dando tus primeros pasos hacia una mayor identificación con nuestros valores y cultura. Esto puede impactar tu interacción con colegas y tu satisfacción en el día a día en la empresa."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu sentido de pertenencia. En este nivel, estamos viendo un crecimiento en tu conexión con nuestros valores y cultura. Tu identificación con el equipo es más sólida, lo que puede reflejarse en una mayor armonía en tus interacciones diarias y un mayor bienestar laboral."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu sentido de pertenencia. Tu identificación con nuestros valores y tu satisfacción personal son evidentes, y esto es un activo para nuestro equipo. Este sentimiento puede traducirse en relaciones más fuertes y un impacto positivo en tu vida diaria en la empresa."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu sentido de pertenencia. Tu sentido de pertenencia es excepcional, lo que se refleja en relaciones sólidas y un alto bienestar en tu vida diaria en la empresa. Tu profunda identificación con nuestros valores y tu satisfacción personal son un testimonio de tu compromiso."
+        }
+    ],
+    "trabajoenequipo" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu macrohabilidad de Trabajo en Equipo. En este nivel, puede que tengas dificultades en la interacción y los acuerdos con tu equipo para alcanzar objetivos en común. Esto podría afectar tu colaboración y la consecución de metas conjuntas en tu vida laboral."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu macrohabilidad de Trabajo en Equipo. En este nivel, es posible que estés en proceso de mejorar tu interacción y acuerdos con el equipo para lograr objetivos en común. Esto puede reflejarse en desafíos ocasionales en tu colaboración con el equipo y en la consecución de metas compartidas en tu vida laboral."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tu macrohabilidad de Trabajo en Equipo. En este nivel, vemos que tienes habilidades sólidas de interacción y acuerdos con tu equipo para alcanzar objetivos en común. Esto se traduce en una colaboración efectiva y en el logro de metas compartidas en tu vida laboral."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tu macrohabilidad de Trabajo en Equipo. Tu capacidad para interactuar y llegar a acuerdos con el equipo para lograr objetivos en común es evidente. Esto contribuye a una colaboración efectiva y al logro constante de metas compartidas en tu vida laboral."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tu macrohabilidad de Trabajo en Equipo. Tu habilidad para interactuar y llegar a acuerdos con el equipo es excepcional, lo que se refleja en una colaboración altamente efectiva y en el logro sobresaliente de metas compartidas en tu vida laboral. Tu contribución al trabajo en equipo es valiosa y se reconoce como un activo en la empresa."
+        }
+    ],
+    "fisicas" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tus Habilidades Físicas. En este nivel, es posible que enfrentes dificultades en el establecimiento de hábitos saludables en áreas como el sueño, la alimentación, el ejercicio y el descanso. Esto puede afectar tu bienestar físico en tu vida diaria, lo que podría generar preocupaciones sobre tu salud."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tus Habilidades Físicas. En este nivel, es posible que estés en proceso de mejorar tus hábitos saludables en áreas como el sueño, la alimentación, el ejercicio y el descanso. A veces, puedes enfrentar desafíos para mantener un equilibrio saludable en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tus Habilidades Físicas. En este nivel, vemos que tienes habilidades sólidas para establecer hábitos saludables en áreas como el sueño, la alimentación, el ejercicio y el descanso. Puedes mantener un equilibrio saludable en tu vida diaria, lo que contribuye a tu bienestar físico."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tus Habilidades Físicas. Tu capacidad para establecer hábitos saludables en áreas como el sueño, la alimentación, el ejercicio y el descanso es evidente. Puedes mantener un alto nivel de bienestar físico en tu vida diaria, lo que contribuye a tu salud y calidad de vida."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tus Habilidades Físicas. Tu habilidad para establecer hábitos saludables en áreas como el sueño, la alimentación, el ejercicio y el descanso es excepcional. Esto se refleja en un excelente estado de bienestar físico en todos los aspectos de tu vida. Tus Habilidades Físicas son una valiosa fortaleza que te ayuda a mantener una vida saludable y activa, lo que contribuye de manera significativa a tu calidad de vida en tu día a día."
+        }
+    ],
+    "financieras" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 40,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tus Habilidades Financieras. En este nivel, es posible que enfrentes dificultades en cómo calculas y das seguimiento a tus ingresos y gastos, a tus ahorros e inversiones, y en la determinación de estrategias financieras efectivas. Esto puede afectar tu capacidad para manejar tus finanzas de manera saludable en tu vida diaria, lo que podría generar preocupaciones financieras."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 41,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tus Habilidades Financieras. En este nivel, es posible que estés en proceso de mejorar cómo calculas y das seguimiento a tus ingresos y gastos, a tus ahorros e inversiones, y en la determinación de estrategias financieras efectivas. A veces, puedes enfrentar desafíos financieros en tu vida diaria."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Estamos felices de anunciarte que has obtenido un puntaje de XXX en tus Habilidades Financieras. En este nivel, vemos que tienes habilidades sólidas para calcular y dar seguimiento a tus ingresos y gastos, a tus ahorros e inversiones, y para determinar estrategias financieras efectivas. Puedes manejar tus finanzas de manera saludable en tu vida diaria, lo que contribuye a tu bienestar financiero."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 80,
+            "description": "Nos complace comunicarte que has obtenido un puntaje de XXX en tus Habilidades Financieras. Tu capacidad para calcular y dar seguimiento a tus ingresos y gastos, a tus ahorros e inversiones, y para determinar estrategias financieras efectivas es evidente. Puedes gestionar tus finanzas de manera saludable en tu vida diaria, lo que contribuye a tu bienestar financiero y a la toma de decisiones financieras sólidas."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 81,
+            "valueMax": 100,
+            "description": "Es un logro destacable haber obtenido un puntaje de XXX en tus Habilidades Financieras. Tu habilidad para calcular y dar seguimiento a tus ingresos y gastos, a tus ahorros e inversiones, y para determinar estrategias financieras efectivas es excepcional. Esto se refleja en un excelente manejo de tus finanzas en todos los aspectos de tu vida. Tus Habilidades Financieras son una valiosa fortaleza que te ayuda a asegurar tu futuro financiero y a tomar decisiones financieras acertadas en tu día a día."
+        }
+    ],
+    "burnout" : [
+        {
+            "level": "Muy Bajo",
+            "valueMin": 0,
+            "valueMax": 30,
+            "description": "Queremos informarte que has obtenido un puntaje de XXX en tu nivel de Burnout. Esto significa que sientes energía, motivación y satisfacción en tu vida diaria. No te ves afectado negativamente por el agotamiento relacionado con el trabajo o el estrés, lo que te permite mantener una buena productividad y mantener un equilibrio en tu vida personal y laboral."
+        },
+        {
+            "level": "Bajo",
+            "valueMin": 31,
+            "valueMax": 50,
+            "description": "Te informamos que has obtenido un puntaje de XXX en tu nivel de Burnout. Esto significa que todavía mantienes un nivel positivo de energía y satisfacción en tu vida. Experimentas un bajo nivel de agotamiento relacionado con el trabajo o el estrés, lo que no es crítico, y logras mantener un equilibrio entre tu vida personal y laboral, pero con algunos momentos de mayor tensión."
+        },
+        {
+            "level": "Medio",
+            "valueMin": 51,
+            "valueMax": 60,
+            "description": "Has obtenido un puntaje de XXX en tu nivel de Burnout. Esto significa que puedes sentir agotamiento o estrés al tener momentos en los que no sabes cómo equilibrar tu vida personal y laboral, llegando a generar algunos conflictos. Sin embargo, en su mayoría, sientes motivación y satisfacción en tu vida diaria."
+        },
+        {
+            "level": "Medio Alto",
+            "valueMin": 61,
+            "valueMax": 70,
+            "description": "Has obtenido un puntaje de XXX en tu nivel de Burnout. Esto significa que experimentas con cierta frecuencia agotamiento emocional relacionado con el trabajo o con el estrés en algunos momentos, lo que no te está permitiendo tener un buen equilibrio entre tu vida personal y laboral. Es posible que tengas la sensación frecuente de falta de realización personal y que te sientas ajeno a ti mismo."
+        },
+        {
+            "level": "Alto",
+            "valueMin": 71,
+            "valueMax": 100,
+            "description": "Es importante informarte que has obtenido un puntaje de XXX en tu nivel de Burnout, por lo que es muy probable que experimentes un alto grado de agotamiento relacionado con el trabajo o el estrés en tu vida diaria. Esto puede afectar negativamente tu bienestar y salud, por lo que puede que tengas constantemente la sensación de falta de realización personal y te sientas ajeno a ti mismo."
+        }
+    ]
+}

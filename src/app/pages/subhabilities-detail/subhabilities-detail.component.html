@@ -1,0 +1,11 @@
+<p class="title">{{extras.name}}, ¡estas son tus Micro Habilidades!</p>
+<section>
+    Las Micro Habilidades son un pequeño aspecto de una habilidad grande (Macro) que nos ayuda a relacionarnos mejor con los demás y a gestionarnos en diferentes situaciones. Son como piezas pequeñas de un rompecabezas que, cuando las juntas, te ayudan a tener éxito en tu rol e interacciones diarias.
+</section>
+<div class="container" *ngFor="let item of extras.sub">
+    <div>
+        <p>{{item.name}}</p>
+        <app-badge [isLabel]="false" [percent]="item.visualPercent" *ngIf="item.visualPercent"/>
+    </div>
+    <p><strong>Tu resultado:</strong> {{item.descripcion}}</p>
+</div>

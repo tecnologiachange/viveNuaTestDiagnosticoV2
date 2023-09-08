@@ -5,5 +5,9 @@
 </div>
 <p style="text-align: center;">Las Micro Habilidades de {{item.name}}</p>
 <div class="container">
-    <app-category *ngFor="let subhability of getSubhabilidades()" [percent]="subhability.percent" [description]="subhability.descripcion" [tittle]="subhability.name"></app-category>
+    <app-category *ngFor="let subhability of getSubhabilidades()" 
+        [percent]="subhability.visualPercent || 0" 
+        [description]="subhability.descripcion" 
+        [tittle]="subhability.name"
+        [isLabel]="false"></app-category>
 </div>

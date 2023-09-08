@@ -12,7 +12,7 @@ export class GetService {
   private firestore: Firestore = inject(Firestore);
 
   constructor(){
-    const load: LoadService = new LoadService();
+    const load: LoadService = new LoadService(this);
   }
 
   public get(collectionName: string){
