@@ -1,0 +1,738 @@
+[
+  {
+    "id": "64zcu2Rh6XR7FcrG1uKt",
+    "name": "BURNOUT",
+    "types": [{ "descripcion": "", "weigh": 1, "name": "BURNOUT" }],
+    "isGraphic": false,
+    "descripcion": "El burnout es la sensación de agotamiento físico y mental tras un esfuerzo continuo y demandante en el área laboral, llevando a perder el disfrute de actividades previas. Prevenirlo implica escuchar las señales del cuerpo y la mente, otorgando tiempo para descansar y cuidarnos en lugar de exigirnos constantemente."
+  },
+  {
+    "id": "C6aFzXBAy0NtIu5h3cZ8",
+    "name": "NEGOCIACIÓN",
+    "isGraphic": true,
+    "types": [
+      {
+        "weigh": 0.071,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.057,
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "name": "ANALÍTICO"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.071,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "weigh": 0.057,
+        "descripcion": "Detectan rápidamente los patrones y problemas relevantes en un contexto y genera un plan para solucionarlos de manera eficiente.",
+        "name": "ESTRATÉGICO"
+      },
+      {
+        "descripcion": "Capacidad para generar ideas novedosas, encontrando conexiones entre fenónemos aparentemente dispares. ",
+        "weigh": 0.057,
+        "name": "GENERAR IDEAS"
+      },
+      {
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "weigh": 0.071,
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "weigh": 0.029,
+        "descripcion": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos.",
+        "name": "INCLUYENTE"
+      },
+      {
+        "descripcion": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva.",
+        "weigh": 0.057,
+        "name": "INDIVIDUALIZADOR"
+      },
+      {
+        "weigh": 0.086,
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "weigh": 0.029,
+        "descripcion": "Dirigir acciones y esfuerzos hacia lo que se quiere conseguir, desarrollar estrategias para alcanzarlas, y ser constantes y persistentes.",
+        "name": "PONER METAS"
+      },
+      {
+        "descripcion": "Ordenar una lista de actividades según la importancia buscando lograr un objetivo.",
+        "weigh": 0.029,
+        "name": "PRIORIZACIÓN"
+      },
+      {
+        "descripcion": "Reunir información de diversas fuentes a fin de obtener un panorama completo y preciso de una zona de interés.",
+        "weigh": 0.029,
+        "name": "RECOLECTAR INFO"
+      },
+      {
+        "descripcion": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida",
+        "weigh": 0.071,
+        "name": "RESILIENCIA"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "name": "RETROALIMENTACIÓN"
+      }
+    ],
+    "descripcion": "Proceso de deliberación que se establece entre las partes, cuyo objetivo es el de llegar a un acuerdo aceptable para todos."
+  },
+  {
+    "id": "EfLr0GTuf0Cxr8BAwUFP",
+    "isGraphic": true,
+    "descripcion": "Conjunto de habilidades para supervisar, dirigir, guiar e influenciar a individuos y grupos en la realización de tareas y cumplimiento de objetivos comunes.",
+    "name": "LIDERAZGO",
+    "types": [
+      {
+        "weigh": 0.065,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.032,
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "name": "ANALÍTICO"
+      },
+      {
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "weigh": 0.054,
+        "name": "APRENDIENTE"
+      },
+      {
+        "descripcion": "El grado de esfuerzo que realmente hace para cumplir una obligación que ha asumido.",
+        "weigh": 0.054,
+        "name": "COMPROMISO"
+      },
+      {
+        "descripcion": "Valores de las personas de los que surge un propósito definido para sus vidas.",
+        "weigh": 0.043,
+        "name": "CREENCIA"
+      },
+      { "weigh": 0.022, "descripcion": "", "name": "DELEGACIÓN DE TAREAS" },
+      {
+        "weigh": 0.032,
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "weigh": 0.043,
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.032,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "weigh": 0.032,
+        "descripcion": "Detectan rápidamente los patrones y problemas relevantes en un contexto y genera un plan para solucionarlos de manera eficiente.",
+        "name": "ESTRATÉGICO"
+      },
+      {
+        "descripcion": "Capacidad para generar ideas novedosas, encontrando conexiones entre fenónemos aparentemente dispares. ",
+        "weigh": 0.032,
+        "name": "GENERAR IDEAS"
+      },
+      {
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "weigh": 0.032,
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "descripcion": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos.",
+        "weigh": 0.043,
+        "name": "INCLUYENTE"
+      },
+      {
+        "weigh": 0.065,
+        "descripcion": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva.",
+        "name": "INDIVIDUALIZADOR"
+      },
+      {
+        "weigh": 0.043,
+        "descripcion": "Son optimistas y pueden hacer que los demás se entusiasmen con lo que van a hacer.",
+        "name": "INSPIRADOR"
+      },
+      {
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "weigh": 0.065,
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "weigh": 0.032,
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "descripcion": "Toma de decisiones para alcanzar un futuro deseado.​",
+        "weigh": 0.022,
+        "name": "PLANEACIÓN"
+      },
+      {
+        "descripcion": "Dirigir acciones y esfuerzos hacia lo que se quiere conseguir, desarrollar estrategias para alcanzarlas, y ser constantes y persistentes.",
+        "weigh": 0.022,
+        "name": "PONER METAS"
+      },
+      {
+        "weigh": 0.022,
+        "descripcion": "Ordenar una lista de actividades según la importancia buscando lograr un objetivo.",
+        "name": "PRIORIZACIÓN"
+      },
+      {
+        "weigh": 0.043,
+        "descripcion": "Encuentra una profunda satisfacción en trabajar con otros para lograr una meta.",
+        "name": "RELACIONADOR"
+      },
+      {
+        "descripcion": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida",
+        "weigh": 0.065,
+        "name": "RESILIENCIA"
+      },
+      {
+        "weigh": 0.054,
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "name": "RETROALIMENTACIÓN"
+      },
+      {
+        "weigh": 0.054,
+        "descripcion": "Impacto que tienen sobre la gente.",
+        "name": "SIGNIFICANCIA"
+      }
+    ]
+  },
+  {
+    "id": "GdgTphRH4SRUFyZS1ew4",
+    "name": "REGULACIÓN EMOCIONAL",
+    "types": [
+      {
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "weigh": 0.116,
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.07,
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "name": "ANALÍTICO"
+      },
+      {
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "weigh": 0.116,
+        "name": "APRENDIENTE"
+      },
+      {
+        "weigh": 0.14,
+        "descripcion": "Reflexión, aceptación y valoración de uno mismo.",
+        "name": "AUTO VALORACIÓN "
+      },
+      {
+        "weigh": 0.14,
+        "descripcion": "Valores de las personas de los que surge un propósito definido para sus vidas.",
+        "name": "CREENCIA"
+      },
+      {
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "weigh": 0.07,
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "weigh": 0.14,
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "weigh": 0.07,
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "descripcion": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida",
+        "weigh": 0.14,
+        "name": "RESILIENCIA"
+      }
+    ],
+    "descripcion": "Identificación y comprensión de las emociones propias, reconociendo su conexión con los pensamientos y las conductas.",
+    "isGraphic": true
+  },
+  {
+    "id": "JwFG3XhTSBTYyCJnpiAF",
+    "descripcion": "Capacidad de reacción ante dificultades internas o externas procurando evitar una escalada de tensiones con el objetivo de llegar a un equilibrio.",
+    "types": [
+      {
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "weigh": 0.089,
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "name": "ANALÍTICO"
+      },
+      {
+        "weigh": 0.107,
+        "descripcion": "Reflexión, aceptación y valoración de uno mismo.",
+        "name": "AUTO VALORACIÓN "
+      },
+      {
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "weigh": 0.089,
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "weigh": 0.071,
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.036,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "descripcion": "Detectan rápidamente los patrones y problemas relevantes en un contexto y genera un plan para solucionarlos de manera eficiente.",
+        "weigh": 0.071,
+        "name": "ESTRATÉGICO"
+      },
+      {
+        "descripcion": "Capacidad para generar ideas novedosas, encontrando conexiones entre fenónemos aparentemente dispares. ",
+        "weigh": 0.036,
+        "name": "GENERAR IDEAS"
+      },
+      {
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "weigh": 0.036,
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "weigh": 0.107,
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "weigh": 0.036,
+        "descripcion": "Toma de decisiones para alcanzar un futuro deseado.​",
+        "name": "PLANEACIÓN"
+      },
+      {
+        "descripcion": "Ordenar una lista de actividades según la importancia buscando lograr un objetivo.",
+        "weigh": 0.071,
+        "name": "PRIORIZACIÓN"
+      },
+      {
+        "weigh": 0.036,
+        "descripcion": "Reunir información de diversas fuentes a fin de obtener un panorama completo y preciso de una zona de interés.",
+        "name": "RECOLECTAR INFO"
+      },
+      {
+        "weigh": 0.107,
+        "descripcion": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida",
+        "name": "RESILIENCIA"
+      },
+      {
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "weigh": 0.036,
+        "name": "RETROALIMENTACIÓN"
+      }
+    ],
+    "name": "MANEJO DE CONFLICTO",
+    "isGraphic": true
+  },
+  {
+    "id": "L1IZVX3A5OycQeut7PRk",
+    "descripcion": "Abordar situaciones y tomar decisiones usando estrategias de razonamiento, teniendo en cuenta las limitaciones, enfocado en el resultado.",
+    "name": "RESOLUCIÓN PROBLEMAS",
+    "isGraphic": true,
+    "types": [
+      {
+        "weigh": 0.154,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "weigh": 0.103,
+        "name": "ANALÍTICO"
+      },
+      {
+        "weigh": 0.103,
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "name": "APRENDIENTE"
+      },
+      {
+        "weigh": 0.128,
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "weigh": 0.103,
+        "descripcion": "Detectan rápidamente los patrones y problemas relevantes en un contexto y genera un plan para solucionarlos de manera eficiente.",
+        "name": "ESTRATÉGICO"
+      },
+      {
+        "weigh": 0.077,
+        "descripcion": "Capacidad para generar ideas novedosas, encontrando conexiones entre fenónemos aparentemente dispares. ",
+        "name": "GENERAR IDEAS"
+      },
+      {
+        "weigh": 0.103,
+        "descripcion": "Toma de decisiones para alcanzar un futuro deseado.​",
+        "name": "PLANEACIÓN"
+      },
+      {
+        "weigh": 0.077,
+        "descripcion": "Dirigir acciones y esfuerzos hacia lo que se quiere conseguir, desarrollar estrategias para alcanzarlas, y ser constantes y persistentes.",
+        "name": "PONER METAS"
+      },
+      {
+        "descripcion": "Ordenar una lista de actividades según la importancia buscando lograr un objetivo.",
+        "weigh": 0.077,
+        "name": "PRIORIZACIÓN"
+      },
+      {
+        "weigh": 0.077,
+        "descripcion": "Reunir información de diversas fuentes a fin de obtener un panorama completo y preciso de una zona de interés.",
+        "name": "RECOLECTAR INFO"
+      }
+    ]
+  },
+  {
+    "id": "LRp82FaLigyt8zRZRFmg",
+    "isGraphic": true,
+    "descripcion": "Intercambio de información entre dos o más participantes con el fin de transmitir o recibir información, considerando las particularidades de las partes para lograr un mensaje efectivo y claro.",
+    "name": "COMUNICACIÓN",
+    "types": [
+      {
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "weigh": 0.09,
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "weigh": 0.09,
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.2727,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "weigh": 0.2727,
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "weigh": 0.09,
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "weigh": 0.1818,
+        "name": "RETROALIMENTACIÓN"
+      }
+    ]
+  },
+  {
+    "id": "NphZXRVwCllI319hptDy",
+    "descripcion": "Habilidades sociales que genera facilita la interacción y convivencia sana entre personas, teniendo en cuenta los distintios tipos de vínculos y contextos.",
+    "name": "RELACIONES INTERPERSONALES",
+    "types": [
+      {
+        "weigh": 0.079,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.158,
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.105,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "weigh": 0.105,
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "descripcion": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos.",
+        "weigh": 0.079,
+        "name": "INCLUYENTE"
+      },
+      {
+        "weigh": 0.079,
+        "descripcion": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva.",
+        "name": "INDIVIDUALIZADOR"
+      },
+      {
+        "descripcion": "Son optimistas y pueden hacer que los demás se entusiasmen con lo que van a hacer.",
+        "weigh": 0.053,
+        "name": "INSPIRADOR"
+      },
+      {
+        "weigh": 0.079,
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "weigh": 0.105,
+        "name": "RETROALIMENTACIÓN"
+      },
+      {
+        "descripcion": "Impacto que tienen sobre la gente.",
+        "weigh": 0.158,
+        "name": "SIGNIFICANCIA"
+      }
+    ],
+    "isGraphic": true
+  },
+  {
+    "id": "PvtN5kIuOhozyr4tzRX5",
+    "isGraphic": true,
+    "types": [
+      {
+        "weigh": 0.059,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.059,
+        "descripcion": "Tienen la capacidad de pensar en todos los factores que podrían afectar una situación.",
+        "name": "ANALÍTICO"
+      },
+      {
+        "weigh": 0.118,
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "name": "APRENDIENTE"
+      },
+      {
+        "descripcion": "Reflexión, aceptación y valoración de uno mismo.",
+        "weigh": 0.176,
+        "name": "AUTO VALORACIÓN "
+      },
+      {
+        "weigh": 0.176,
+        "descripcion": "Valores de las personas de los que surge un propósito definido para sus vidas.",
+        "name": "CREENCIA"
+      },
+      {
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "weigh": 0.118,
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "descripcion": "Percepción que se tiene sobre cosas que se pueden controlar o intervenir",
+        "weigh": 0.176,
+        "name": "LOCUS DE CONTROL"
+      },
+      {
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "weigh": 0.059,
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "descripcion": "Hacer frente a eventos estresantes o difíciles y reorganizar la vida",
+        "weigh": 0.056,
+        "name": "RESILIENCIA"
+      }
+    ],
+    "descripcion": "Capacidad de reconocer la propia invidivualidad, los pensamientos, las emociones y las conductas, teniendo en cuenta las capacidades y limitaciones.",
+    "name": "AUTOCONOCIMIENTO"
+  },
+  {
+    "id": "UdjzKJ2DHqVga5CGjNKI",
+    "name": "MENTALIDAD DE DIVERSIDAD",
+    "descripcion": "Capacidad de reconocer, valorar y fomentar la inclusión de diferentes perspectivas, experiencias y culturas para impulsar la creatividad y el crecimiento colectivo.",
+    "isGraphic": true,
+    "types": [
+      {
+        "weigh": 0.12,
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "weigh": 0.2,
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "name": "APRENDIENTE"
+      },
+      {
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "weigh": 0.2,
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos.",
+        "weigh": 0.24,
+        "name": "INCLUYENTE"
+      },
+      {
+        "weigh": 0.24,
+        "descripcion": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva.",
+        "name": "INDIVIDUALIZADOR"
+      }
+    ]
+  },
+  {
+    "id": "XFIrTgmRq8K1Urd0v3fR",
+    "descripcion": "",
+    "name": "FINANCIERAS",
+    "isGraphic": false,
+    "types": [{ "descripcion": "", "weigh": 1, "name": "FINANCIERAS" }]
+  },
+  {
+    "id": "eqSWRKKBqV08Allt9xoe",
+    "isGraphic": true,
+    "descripcion": "Habilidad de interacción y acuerdos entre un grupo de personas para lograr un objetivo en común.",
+    "types": [
+      {
+        "descripcion": "Capacidad de modificar los planes debido a cambios internos o externos sin que repercuta negativamente en la persona o el objetivo",
+        "weigh": 0.069,
+        "name": "ADAPTABILIDAD"
+      },
+      {
+        "descripcion": "El proceso de aprendizaje, más que el resultado, los emociona.",
+        "weigh": 0.028,
+        "name": "APRENDIENTE"
+      },
+      {
+        "descripcion": "El grado de esfuerzo que realmente hace para cumplir una obligación que ha asumido.",
+        "weigh": 0.028,
+        "name": "COMPROMISO"
+      },
+      {
+        "weigh": 0.028,
+        "descripcion": "Valores de las personas de los que surge un propósito definido para sus vidas.",
+        "name": "CREENCIA"
+      },
+      { "weigh": 0.056, "descripcion": "", "name": "DELEGACIÓN DE TAREAS" },
+      {
+        "weigh": 0.056,
+        "descripcion": "Tomar una decisión después de un detenido análisis de los pros y los contras.",
+        "name": "DELIBERACIÓN"
+      },
+      {
+        "descripcion": "Sienten los sentimientos de otros al imaginarse a sí mismos en las vidas o situaciones de otros.",
+        "weigh": 0.083,
+        "name": "EMPATÍA"
+      },
+      {
+        "descripcion": "Escuchar con conciencia plena el mensaje para entender lo que está se diciendo, de manera enfocada y empática.",
+        "weigh": 0.083,
+        "name": "ESCUCHA ACTIVA"
+      },
+      {
+        "descripcion": "Comunicar el mensaje de tal forma que la persona entienda lo que se quiere transmitir. ",
+        "weigh": 0.083,
+        "name": "HABLAR EFECTIVAMENTE"
+      },
+      {
+        "descripcion": "Mostrar conciencia de aquellos que se sienten excluidos y se esfuerzan por incluirlos.",
+        "weigh": 0.083,
+        "name": "INCLUYENTE"
+      },
+      {
+        "weigh": 0.083,
+        "descripcion": "Descubrir cómo diferentes personas pueden trabajar juntas de manera productiva.",
+        "name": "INDIVIDUALIZADOR"
+      },
+      {
+        "descripcion": "Son optimistas y pueden hacer que los demás se entusiasmen con lo que van a hacer.",
+        "weigh": 0.014,
+        "name": "INSPIRADOR"
+      },
+      {
+        "descripcion": "Saber recibir retroalimentaciones.",
+        "weigh": 0.069,
+        "name": "MANEJO DE CRÍTICAS"
+      },
+      {
+        "descripcion": "Planificación, organización y control de tiempo para actividades de la empresa.",
+        "weigh": 0.014,
+        "name": "MANEJO DE TIEMPO"
+      },
+      {
+        "weigh": 0.028,
+        "descripcion": "Toma de decisiones para alcanzar un futuro deseado.​",
+        "name": "PLANEACIÓN"
+      },
+      {
+        "descripcion": "Dirigir acciones y esfuerzos hacia lo que se quiere conseguir, desarrollar estrategias para alcanzarlas, y ser constantes y persistentes.",
+        "weigh": 0.028,
+        "name": "PONER METAS"
+      },
+      {
+        "weigh": 0.069,
+        "descripcion": "Encuentra una profunda satisfacción en trabajar con otros para lograr una meta.",
+        "name": "RELACIONADOR"
+      },
+      {
+        "weigh": 0.083,
+        "descripcion": "Saber dar opiniones para actuar sobre las acciones futuras, ya sea manteniéndolas o reforzándolas, o modificándolas o corrigiéndolas.",
+        "name": "RETROALIMENTACIÓN"
+      },
+      {
+        "descripcion": "Impacto que tienen sobre la gente.",
+        "weigh": 0.014,
+        "name": "SIGNIFICANCIA"
+      }
+    ],
+    "name": "TRABAJO EN EQUIPO "
+  },
+  {
+    "id": "f2izJ3WTwqZlSs2YNTh7",
+    "isGraphic": true,
+    "name": "SENTIDO PERTENENCIA",
+    "descripcion": "Sentimiento de identificación con los valores de la empresa que le permite la satisfacción personal de formar parte de un grupo o equipo.",
+    "types": [
+      {
+        "descripcion": "El grado de esfuerzo que realmente hace para cumplir una obligación que ha asumido.",
+        "weigh": 0.25,
+        "name": "COMPROMISO"
+      },
+      {
+        "weigh": 0.4,
+        "descripcion": "Valores de las personas de los que surge un propósito definido para sus vidas.",
+        "name": "CREENCIA"
+      },
+      {
+        "weigh": 0.35,
+        "descripcion": "Atadura emocional, satisfacción y comprimiso con la empresa que genera el querer hacer las cosas.",
+        "name": "LEALTAD"
+      }
+    ]
+  },
+  {
+    "id": "zgJdKQoFiTfuLIi6xxp6",
+    "name": "FISÍCAS",
+    "isGraphic": false,
+    "types": [{ "descripcion": "", "weigh": 1, "name": "FISÍCAS" }],
+    "descripcion": ""
+  }
+]

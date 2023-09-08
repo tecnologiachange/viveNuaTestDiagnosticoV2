@@ -1,0 +1,37 @@
+@import '../../../styles.scss';
+
+.title{
+    font-weight: 700;
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 1fr;
+    margin: 1rem;
+    background: #f7f6f6;
+    padding: 1rem;
+    border-radius: 15px;
+
+    div{
+        font-weight: 700;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        p {
+            text-align: center;
+        }
+        app-badge{
+            margin: auto;
+        }
+    }
+    p{
+        text-align: justify;
+        margin:0
+    }
+
+}

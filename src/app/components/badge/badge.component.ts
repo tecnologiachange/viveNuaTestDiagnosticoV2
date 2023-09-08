@@ -12,11 +12,11 @@ export class BadgeComponent {
   @Input() isLabel: boolean = false;
 
   private round(number: number): number {
-    return Math.round(number* 100);
+    number = (number >= 0 && number <= 1 ) ? number * 100 : number;
+    return Math.round(number);
   }
 
   public element(): { text: string, color: string, background: string}{
-    if (!this.isLabel) return { text: this.round(this.percent)+'%' , color: 'white' , background:'rgba(159, 126, 238, 0.5)' };
-    return Utils.getStatus( this.round(this.percent) );
+    return Utils.getStatus( this.round(this.percent) , this.isLabel );
   }
 }

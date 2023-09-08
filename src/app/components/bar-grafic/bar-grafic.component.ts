@@ -33,37 +33,13 @@ export class BarGraficComponent {
   ];
 
   ngOnInit(): void {
-    console.log('habilities' , this.habilities);
-    // this.radarChartLabels = [];
     this.radarChartDatasets[0].data = [];
     this.habilities.forEach((hability: Hability) => {
       this.radarChartLabels.push(hability.name);
       this.radarChartDatasets[0].data?.push(hability.percent *100);
-      // this.radarChartDatasets.push({  
-      //   data: [hability.percent *100] , 
-      //   label: hability.name , 
-      //   backgroundColor: this.backgroundColor[0], 
-      //   borderColor: this.backgroundColor[1]
-      // });
     });
     this.chart?.update();
   }
-
-  // ngOnChanges(changes: SimpleChanges): void {
-  //   this.radarChartLabels = [];
-  //   this.radarChartDatasets[0].data = [];
-  //   this.habilities.forEach((hability: Hability) => {
-  //     this.radarChartLabels.push(hability.name);
-  //     this.radarChartDatasets[0].data?.push(hability.percent *100);
-  //     // this.radarChartDatasets.push({  
-  //     //   data: [hability.percent *100] , 
-  //     //   label: hability.name , 
-  //     //   backgroundColor: this.backgroundColor[0], 
-  //     //   borderColor: this.backgroundColor[1]
-  //     // });
-  //   });
-  //   this.chart?.update();
-  // }
 
   public chartClicked($event: any) { 
     this.onElementSelect.emit(this.habilities[$event.active[0].index]);

@@ -35,7 +35,7 @@ p{
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     display: grid;
-    grid-template-columns: 3.4rem 1fr 2.6rem;
+    grid-template-columns: 5.4rem 1fr 2.6rem;
     grid-template-rows: 1fr;
 }
 
@@ -59,16 +59,16 @@ img{
 }
 
 .button{
-    height: 3rem;
-    margin: auto;
-    width: 18rem;
-    border: 2px solid #5326a0;
-    font-size: 18px;
-    font-family: 'Raleway';
     background: #5326a0;
+    width: 280px;
+    height: 40px;
+    font-size: 18px;
     font-weight: 500;
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
+    display: block;
+    margin: auto;
+    border-radius: 10rem;
     color: white;
+    border: 0px;
+    font-family: "Raleway";
     cursor: pointer;
 }

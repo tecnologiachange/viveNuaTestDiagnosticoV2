@@ -22,7 +22,6 @@ export class ProcessService {
             let results = this.setMacroHability(macro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
             const _env: any = environment;
-            console.log(resultTest.area);
             const area = Utils.standartText( resultTest.area );
             const recommend = await this.getDefinitionRecommend( _env.homologo[area] );
             return {results , name: resultTest.name , email: resultTest.email , recommend: recommend , id: id};
@@ -46,6 +45,7 @@ export class ProcessService {
             const parent: any = sub.find((item: IType) => Utils.transformCapitalizeToString(item.name) === subhability.name);
             objectHabilies.type.forEach((type: IType) => {
                 const trans: ITransformResponseTransform | any = values.find( (value: ITransformResponseTransform) =>  value.name === type.question);
+                subhability.visualPercent = (trans.value / 5 ) * 100;
                 subhability.percent += ((trans.value / 5 ) * type.weigh)*parent.weigh; 
             });
             return subhability;
@@ -114,12 +114,9 @@ export class ProcessService {
     }
 
     public async getDefinitionScore( data: { burnout: Hability , financieras: Hability , fisicas: Hability}): Promise<{ burnout: Hability , financieras: Hability , fisicas: Hability}>{
-        let resultsBurnout: IScoreItem = (await this.getService.getOne(environment.storage.score , 'burnout')).data() as any;
-        let resultsFinancieras: IScoreItem = (await this.getService.getOne(environment.storage.score , 'financial')).data() as any;
-        let resultsFisicas: IScoreItem = (await this.getService.getOne(environment.storage.score , 'physical')).data() as any;
-        data.burnout.aditionalDescription = Utils.getvalueByScore(data.burnout , resultsBurnout);
-        data.financieras.description = Utils.getvalueByScore(data.financieras , resultsFinancieras);
-        data.fisicas.description = Utils.getvalueByScore(data.fisicas , resultsFisicas);
+        data.burnout.aditionalDescription = Utils.getvalueByScore(data.burnout , { low: '' , medium: '' , high: ''});
+        data.financieras.description = Utils.getvalueByScore(data.financieras , { low: '' , medium: '' , high: ''});
+        data.fisicas.description = Utils.getvalueByScore(data.fisicas , { low: '' , medium: '' , high: ''});
         return data;
     }
 

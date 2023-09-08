@@ -12,6 +12,7 @@ export class Utils {
             obs.subscribe((res: any) => {
                 resolve(res);
             }, (err: any) => {
+                console.error('err', err);
                 reject(err);
             });
         });
@@ -35,11 +36,15 @@ export class Utils {
         return false;
     }
 
-    public static getStatus( percent: number): { text: string, color: string , background: string}{
-        if (percent < 0 && percent > 100) return { text: 'N.E.', color: '#311868', background: '#319ea2'};
-        if( percent >=0 && percent <= 30 ) return { text: 'Bajo', color: '#311868', background: '#92d5ce'};
-        if( percent >=31  && percent <= 70 ) return { text: 'Medio', color: 'white', background: '#9f7eee'};
-        return { text: 'Alto', color: 'white', background: '#311868'};
+    public static getStatus( percent: number , isLabel: boolean = false): { text: string, color: string , background: string}{
+        percent = (percent >= 0 && percent <= 1 ) ? percent * 100 : percent;
+        // if (percent < 0 && percent > 100) return { text: 'N.E.', color: '#311868', background: '#319ea2'};
+        if( percent >=0 && percent <= 40 ) return { text: ( isLabel ? 'Muy Bajo' :percent +'%') , color: '#311868', background: '#92d5ce'};
+        if( percent >=41 && percent <= 50 ) return { text: ( isLabel ? 'Bajo' :percent +'%') , color: '#311868', background: '#2f9ea2'};
+        if( percent >=51 && percent <= 60 ) return { text: ( isLabel ? 'Medio' :percent +'%') , color: 'white', background: '#9f7eee'};
+        if( percent >=61  && percent <= 80 ) return { text: ( isLabel ? 'Medio Alto' :percent +'%') , color: 'white', background: '#5325a0'};
+
+        return { text: ( isLabel ? 'Alto' :percent +'%') , color: 'white', background: '#311868'};
     }
 
     public static getvalueByScore( hability: Hability, score: IScoreItem): string{
@@ -61,7 +66,7 @@ export class Utils {
         text = text.replace('ú', 'u');
         text = text.replace('\n', '');
         text = text.replace('\t', '');
-        text = text.replace(' ', '');
+        text = text.replace(/\s/g, '');
         text = text.replace('.', '');
         text = text.replace(',', '');
         text = text.replace(';', '');

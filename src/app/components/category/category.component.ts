@@ -10,5 +10,6 @@ export class CategoryComponent {
     @Input() percent: number = 0;
     @Input() tittle: string = '';
     @Input() description: string = '';
+    @Input() isLabel: boolean = false;
 
 }

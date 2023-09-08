@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { Hability } from 'src/app/models/i.models';
+import { Hability, Subhability } from 'src/app/models/i.models';
 
 @Component({
   selector: 'app-accordion-category',
@@ -10,8 +10,10 @@ import { Hability } from 'src/app/models/i.models';
 export class AccordionCategoryComponent {
 
   @Input() habilities: Hability[] = [];
+  @Input() subhalities: Subhability[] = [];
   @Input() extras: any;
   @Output() event = new EventEmitter<any>();
+  @Output() buttonEvent = new EventEmitter<any>();
 
   constructor( private router: Router ) {}
 
@@ -31,4 +33,7 @@ export class AccordionCategoryComponent {
     this.event.emit(item);
   }
 
+  openModal(){
+    this.buttonEvent.emit();
+  }
 }
