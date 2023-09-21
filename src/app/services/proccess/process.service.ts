@@ -2,8 +2,9 @@ import { Injectable } from "@angular/core";
 import { HttpService } from "../api/http.service";
 import { GetService } from "../firebase/get.service";
 import { Utils } from "../utils/utils.service";
-import { Answer, Hability,  IHability,IRecommend,IScore, IScoreItem, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
+import { Answer, Hability,  IDefinitionRecommend,  IHability,IRecommend, ITransformResponseTransform, IType, Item, Subhability, TypeFormResponse } from "src/app/models/i.models";
 import { environment } from "src/environments/environment";
+import { UtilsSpecific } from "../utils/utils.specific.service";
 
 @Injectable({
     providedIn: 'root'
@@ -23,8 +24,14 @@ export class ProcessService {
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
             const _env: any = environment;
             const area = Utils.standartText( resultTest.area );
-            const recommend = await this.getDefinitionRecommend( _env.homologo[area] );
-            return {results , name: resultTest.name , email: resultTest.email , recommend: recommend , id: id};
+            const recommend = await this.getDefinitionRecommend( _env.homologo[area] , results);
+            return { 
+                results ,
+                name: resultTest.name ,
+                email: resultTest.email ,
+                recommend: recommend ,
+                id: id
+            };
         }catch(_e){
             console.error(_e);
         }
@@ -120,12 +127,53 @@ export class ProcessService {
         return data;
     }
 
-    public async getDefinitionRecommend(profile: string): Promise<IRecommend>{
+    public async getDefinitionRecommend(profile: string , results: Hability[]): Promise<IRecommend>{
         try{
-            if(profile) return (await this.getService.getOne(environment.storage.recommend , profile)).data() as IRecommend;
-            return { cursos : [] , habilidades: [] , herramientas: [] };
+            if(profile && environment.isHomologo) 
+                return (await this.getService.getOne(environment.storage.recommend , profile)).data() as IRecommend;
+            return this.processRecommendWithDetails(results);
         }catch(_e){
-            return { cursos : [] , habilidades: [] , herramientas: [] };
+            return { cursos : [] , habilidades: [] , herramientas: [] , coaches: []};
         }
+    }
+
+    private async processRecommendWithDetails(results: Hability[]): Promise<IRecommend>{
+        let cursos: IDefinitionRecommend[] = [];
+        let herramientas: IDefinitionRecommend[] = [];
+        let coaches: IDefinitionRecommend[] = [];
+        let habilidades: { name: string , value: number}[] = [];
+        
+        let temp: Hability[] = JSON.parse(JSON.stringify( results ));
+        const dataRecomendByHability: IRecommend[] = await Utils.transformObservableToPromise( this.getService.get(environment.storage.recommendByHability) );
+        temp = (temp.sort( (a , b) => a.percent - b.percent )).filter( item => item.isGraphic );
+        let recommend = temp.slice(0,3);
+        let habilities = temp.slice ( temp.length - 3 , temp.length );
+
+        recommend.forEach( habilities => {
+            let filter = dataRecomendByHability.filter( filter => Utils.standartText(filter.id || '') == Utils.standartText(habilities.name) );
+            if(filter && filter.length > 0 ){
+                const response = UtilsSpecific.getRecommendTohability( filter , habilities);
+                habilidades = habilidades.concat(response.cursos.map( item => { return { name: habilities.name , value: item.value } }));
+                cursos = cursos.concat(response.cursos );
+                herramientas = herramientas.concat(response.herramientas);
+                coaches = coaches.concat(response.coaches || [] );
+            } else {
+                throw new Error('Fallo al mapear las habilidades de ' +Utils.standartText(habilities.name));
+            }
+        });
+
+        habilities.forEach( habilities => {
+            let filter = dataRecomendByHability.filter( filter => Utils.standartText(filter.id || '') == Utils.standartText(habilities.name) );
+            if(filter && filter.length > 0 ){
+                const response = UtilsSpecific.getRecommendTohability( filter , habilities);
+                habilidades = habilidades.concat(response.cursos.map( item => { return { name: habilities.name , value: item.value } }));
+                cursos = cursos.concat(response.cursos );
+                herramientas = herramientas.concat(response.herramientas);
+                coaches = coaches.concat(response.coaches || [] );
+            } else {
+                throw new Error('Fallo al mapear las habilidades de ' +Utils.standartText(habilities.name));
+            }
+        });
+        return { cursos , habilidades , herramientas , coaches}; 
     }
 }

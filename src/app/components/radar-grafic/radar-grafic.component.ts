@@ -24,12 +24,13 @@ export class RadarGraficComponent implements AfterViewInit , OnInit{
         ticks: {
           stepSize: 20,
         }
-      }
+      },
     },
     maintainAspectRatio: false,
     font : {
-      size: 14,
-      family: 'Raleway'
+      size: 24,
+      family: 'Raleway',
+      weight: '600'
     },
     layout:{
       autoPadding: false,
@@ -40,6 +41,13 @@ export class RadarGraficComponent implements AfterViewInit , OnInit{
       legend: {
         display: false,
       },
+      datalabels: {
+        font : {
+          family: 'Raleway',
+          size: 24,
+          weight: 'bold'
+        }
+      }
     }
   };
   public backgroundColor : string[] = ["rgba(47, 158, 162 , 0.2)","#2f9ea2", "#9f7eee", "#5325a0", "#311868"] 

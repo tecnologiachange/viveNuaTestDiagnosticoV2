@@ -3,13 +3,19 @@
 
 body {
     font-family : 'Raleway' !important;
+    margin: 0px;
+    width: 103vw;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width: 600px) {
     body{
         height: 80vh;
+        width: 99vw;
     }
 }
+
+
 
 .base-container{
     background: #f7f6f6;

@@ -103,13 +103,24 @@ export interface Hability {
   }
 
   export interface IRecommend{
-    cursos: string[];
-    herramientas: string[];
+    cursos: IDefinitionRecommend[];
+    herramientas: IDefinitionRecommend[];
     habilidades: { name: string , value: number}[];
+    coaches ?: IDefinitionRecommend[];
+    id ?: string;
   }
 
   export interface IScoreItem{
     low: string; 
     high: string; 
     medium: string
+  }
+
+  export interface IDefinitionRecommend{
+    name : string;
+    rule : string;
+    value: number;
+    frecuency ?: string;
+    type ?: string;
+    time ?: string;
   }

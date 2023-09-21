@@ -8,11 +8,14 @@
         grid-template-columns: 30% 1fr 30%;
         width: 70rem;
         margin: auto;
-        padding: 1rem;
+        height: auto;
         .col-1{
             text-align: center;
             font-weight: 600;
             padding-top: 1rem;
+            p {
+                margin: 0.2rem;
+            }
         }
         .col-2{
             text-align: center;
@@ -22,6 +25,7 @@
                 p{
                     color: white;
                     text-decoration: none;
+                    margin: 0.2rem;
                 }
                 img{
                     width: 99px;
@@ -42,7 +46,8 @@
                 grid-template-columns: 33% 33% 33%;
                 grid-gap: 0.2rem;
                 padding: 2rem;
-                padding-top: 1rem;
+                padding-top: 0.2rem;
+                padding-bottom: 1rem;
                 a {
                     img {
                         width: 2.2rem;
@@ -57,7 +62,7 @@
     .footer {
         width: 100% !important;
         grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: auto;
         margin-left: -1rem !important;
     }
 }

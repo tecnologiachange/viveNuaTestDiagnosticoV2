@@ -51,11 +51,13 @@ export const environment = {
     micro : 'microhabilities',
     macro : 'macrohabilities',
     score : 'score',
-    recommend : 'recommend'
+    recommend : 'recommend',
+    recommendByHability : 'recommend_hability'
   },
   homologo: {
     'servicioalcliente':'servicioAlCliente',
     'tecnologia':'tecnologias',
     'ventas':'ventas'
-  }
+  },
+  isHomologo: false
 };
