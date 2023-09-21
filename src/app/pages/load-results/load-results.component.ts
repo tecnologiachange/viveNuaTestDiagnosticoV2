@@ -61,11 +61,11 @@ export class LoadResultsComponent implements OnInit{
             burnout = hability;
           }
           if(hability.name == 'Financieras') {
-            hability.description = this.getDescription(textToDescribe, hability);
+            hability.aditionalDescription = this.getDescription(textToDescribe, hability);
             financieras = hability;
           }
           if(hability.name == 'Fisicas' || hability.name == 'Fisícas' || hability.name == 'Físicas') {
-            hability.description = this.getDescription(textToDescribe, hability);
+            hability.aditionalDescription = this.getDescription(textToDescribe, hability);
             fisicas = hability;
           }
         }

@@ -1,0 +1,622 @@
+[
+  {
+    "id": "Autoconocimiento",
+    "cursos": [
+      {
+        "name": "Desarrollando los Power Skills: Atención plena",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Botiquín de la Buena Actitud",
+        "rule": "Menor",
+        "value": 70
+      },
+      {
+        "name": "PROPOSITO Y PROYECTO DE VIDA: IKIGAI",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Gestiona exitosamente tus emociones con la llave maestra de los valores",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "No hagas aquello que te apasiona. Haz aquello para lo que eres talentoso o talentosa.",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Si quieres una vida más saludable, comienza a trabajar en tu interior",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Innovación para la vida",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Crea un Estilo Poderoso basado en el Autoconocimiento",
+        "rule": "Menor",
+        "value": 50
+      }
+    ],
+    "coaches": [
+      {
+        "name": "Liderazgo Consciente",
+        "rule": "Menor",
+        "value": 50
+      },
+      {
+        "name": "Crea un estilo poderoso basado en el Autonocimiento",
+        "rule": "Menor",
+        "value": 80
+      },
+      {
+        "name": "Self Care Basics",
+        "rule": "Menor",
+        "value": 80
+      },
+      {
+        "name": "El Proceso Creativo de Renovarte",
+        "rule": "Menor",
+        "value": 80
+      },
+      {
+        "name": "Imagen y Autoconocimiento 360",
+        "rule": "Menor",
+        "value": 80
+      }
+    ],
+    "herramientas": [
+      {
+        "name": "Meditación para principiantes",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Aprendible",
+        "frecuency": "3 veces max",
+        "time": "Aprender y practicar primeros pasos"
+      },
+      {
+        "name": "Meditación para concentrarte",
+        "rule": "Menor",
+        "value": 60,
+        "type": "Aprendible",
+        "frecuency": "3 veces max",
+        "time": "Aprender y practicar primeros pasos"
+      },
+      {
+        "name": "Señalar y nombrar",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      {
+        "name": "Exhalación prolongada",
+        "rule": "Menor",
+        "value": 60,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      {
+        "name": "Practica la felicidad",
+        "rule": "Menor",
+        "value": 60,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      {
+        "name": "Defusión (Quitándole poder a mis pensamientos)",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      {
+        "name": "Trampas de pensamiento (Aceptando mis sesgos)",
+        "rule": "Menor",
+        "value": 50,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      {
+        "name": "Check in corporal",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ]
+  },
+  {
+    "id": "Regulación emocional",
+    "cursos": [
+      { 
+          "name" : "Desarrollando los Power Skills: Atención plena",
+          "rule": "Menor",
+          "value":50
+      },
+      { 
+          "name" : "MEDITA, LIBERA Y LIDERA TU VIDA",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Gestiona exitosamente tus emociones con la llave maestra de los valores",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Mindfulness para el éxito",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Neurofelicidad para una vida plena",
+          "rule": "Menor",
+          "value":50
+      },
+      { 
+          "name" : "Liderazgo Consciente",
+          "rule": "Menor",
+          "value":50
+      }
+    ],
+    "coaches": [
+      { 
+        "name" : "Botiquin de la buena actitud; 7 Mitos al rededor del cambio",
+        "rule": "Menor",
+        "value":50
+      },
+      { 
+        "name" : "Gestiona exitosamente tus emociones con la llave maestra de los valores",
+        "rule": "Menor",
+        "value":80
+      },
+      { 
+        "name" : "Mindfulness para el éxito",
+        "rule": "Menor",
+        "value":60
+      },
+      { 
+        "name" : "Trabajo interior para una vida saludable",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Desarrollando los Powerskills: Atención plena",
+        "rule": "Menor",
+        "value":60
+      },
+      { 
+        "name" : "Medita, lidera y libera tu vida. Futuros: Técnicas de respiración consciente, El Poder de la gratitud, Respiración Terapéutica, Liderando desde el Poder de los hábitos. El camino de la meditación para Líderes, entre otros.",
+        "rule": "Menor",
+        "value":70
+      }
+    ],
+    "herramientas":[
+      { 
+        "name": "Meditación para principiantes",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Aprendible",
+        "frecuency": "3 veces max",
+        "time": "Aprender y practicar primeros pasos"
+      },
+      { 
+        "name": "Meditación para concentrarte",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Aprendible",
+        "frecuency": "3 veces max",
+        "time": "Aprender y practicar primeros pasos"
+      },
+      { 
+        "name": "El arte de no hacer nada",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Señalar y nombrar",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Exhalación prolongada",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Practica la felicidad",
+        "rule": "Menor",
+        "value": 60,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Defusión (Quitándole poder a mis pensamientos)",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Desagüe cerebral",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ] 
+  },
+  {
+    "id": "Liderazgo",
+    "cursos": [
+      { 
+        "name" : "MEDITA, LIBERA Y LIDERA TU VIDA",
+        "rule": "Menor",
+        "value":50
+      },
+      { 
+        "name" : "Liderazgo Consciente",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Liderazgo Consciente: El Poder de Guiar con Integridad",
+        "rule": "Menor",
+        "value":60
+      }
+    ],
+    "coaches": [
+      { 
+        "name" : "Haz aquello para lo que eres talentoso (Guido Sacconi)",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Liderazgo Consciente",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Innovación para la vida",
+        "rule": "Menor",
+        "value":60
+      },
+      { 
+        "name" : "Liderazgo Explosivo",
+        "rule": "Menor",
+        "value":80
+      },
+      { 
+        "name" : "Sororidad y Talento femenino en las organizaciones",
+        "rule": "Menor",
+        "value":80
+      }
+    ],
+    "herramientas":[
+      { 
+        "name": "Reconociendo mi impostor",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Aprendible",
+        "frecuency": "Una sóla vez",
+        "time": "Aprender herramienta técnica"
+      }
+    ]
+  },
+  {
+    "id": "Comunicación",
+    "cursos": [
+      { 
+          "name" : "Botiquín de la Buena Actitud",
+          "rule": "Menor",
+          "value":50
+      },
+      { 
+          "name" : "Domina el lenguaje para tener una vida laboral y personal más próspera",
+          "rule": "Menor",
+          "value":80
+      }
+    ],
+    "coaches": [
+      { 
+          "name" : "Haz aquello para lo que eres talentoso (Guido Sacconi)",
+          "rule": "Menor",
+          "value":60
+      },
+      { 
+          "name" : "Botiquin de la buena actitud; 7 Mitos al rededor del cambio",
+          "rule": "Menor",
+          "value":60
+      },
+      { 
+          "name" : "Mindfulness para el éxito",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Sororidad y Talento femenino en las organizaciones",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Medita, lidera y libera tu vida. Futuros: Técnicas de respiración consciente, El Poder de la gratitud, Respiración Terapéutica, Liderando desde el Poder de los hábitos. El camino de la meditación para Líderes, entre otros.",
+          "rule": "Menor",
+          "value":50
+      },
+      { 
+          "name" : "Crea un estilo poderoso basado en el Autonocimiento",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Self Care Basics",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "El Proceso Creativo de Renovarte",
+          "rule": "Menor",
+          "value":70
+      },
+      { 
+          "name" : "Imagen y Autoconocimiento 360",
+          "rule": "Menor",
+          "value":70
+      }
+    ],
+    "herramientas":[
+      { 
+        "name": "El sanduche: transmitiendo un mensaje de forma efectiva",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Aprendible",
+        "frecuency": "Una sóla vez",
+        "time": "Aprender herramienta técnica"
+      }
+    ]
+  },
+  {
+    "id": "Mentalidad de diversidad",
+    "cursos": [
+      { 
+        "name" : "Qué es la sororidad y cómo impulsa el talento femenino en las organizaciones",
+        "rule": "Menor",
+        "value":70
+      }
+    ],
+    "coaches": [],
+    "herramientas":[
+      { 
+        "name": "Explorando otras perspectivas",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Repetible",
+        "frecuency": "1 x mes",
+        "time": ""
+      }
+    ]
+  },
+  {
+    "id": "Sentido pertenencia",
+    "cursos": [
+      {
+        "name": "Qué es la sororidad y cómo impulsa el talento femenino en las organizaciones",
+        "rule": "Menor",
+        "value":70
+      }
+    ],
+    "coaches": [],
+    "herramientas":[
+      {
+        "name": "Reconociendo mi impostor",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Aprendible",
+        "frecuency": "Una sóla vez",
+        "time": "Aprender herramienta técnica"
+      }
+    ]
+  },
+  {
+    "id": "Físicas",
+    "cursos": [
+      {
+        "name": "Si quieres una vida más saludable, comienza a trabajar en tu interior",
+        "rule": "Menor",
+        "value":80
+      }
+    ],
+    "coaches": [
+      {
+        "name": "Trabajo interior para una vida saludable",
+        "rule": "Menor",
+        "value":60
+      }
+    ],
+    "herramientas":[
+      {
+        "name": "Pausa activa: descansando mi cuerpo",
+        "rule": "Menor",
+        "value": 90,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ]
+  },
+  {
+    "id": "Negociación",
+    "cursos": [
+      {
+        "name": "Negociación Ganar-Ganar: Estrategias para la Paz en el Conflicto",
+        "rule": "Menor",
+        "value":70
+      }
+    ],
+    "coaches": [],
+    "herramientas":[
+      {
+        "name": "Trampas de pensamiento (Aceptando mis sesgos)",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ]
+  },
+  {
+    "id": "Manejo de conflicto",
+    "cursos": [
+      { 
+        "name" : "Domina el lenguaje para tener una vida laboral y personal más próspera",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Negociación Ganar-Ganar: Estrategias para la Paz en el Conflicto",
+        "rule": "Menor",
+        "value":50
+      }
+    ],
+    "coaches": [
+      { 
+        "name" : "Innovación para la vida",
+        "rule": "Menor",
+        "value":50
+      },
+      { 
+        "name" : "Gestiona exitosamente tus emociones con la llave maestra de los valores",
+        "rule": "Menor",
+        "value":60
+      }
+    ],
+    "herramientas":[
+      {
+        "name": "Desagüe cerebral",
+        "rule": "Menor",
+        "value": 60,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ]
+  },
+  {
+    "id": "Relaciones interpersonales",
+    "cursos": [
+      {
+        "name" : "Relaciones Resilientes: El Puente hacia la Empatía",
+        "rule": "Menor",
+        "value":80
+      }
+    ],
+    "coaches": [],
+    "herramientas":[
+      { 
+        "name": "Practica la gratitud",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "El sanduche: transmitiendo un mensaje de forma efectiva",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Aprendible",
+        "frecuency": "Una sóla vez",
+        "time": "Aprender herramienta técnica"
+      }
+    ]
+  },
+  {
+    "id": "Trabajo en equipo",
+    "cursos": [],
+    "coaches": [],
+    "herramientas":[
+      {
+        "name": "Practica la gratitud",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      }
+    ]
+  },
+  {
+    "id": "Financieras",
+    "cursos": [],
+    "coaches": [],
+    "herramientas":[
+      {
+        "name": "Proyectando mis metas financieras",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Repetible",
+        "frecuency": "1 x semestre",
+        "time": "Organizar finanzas"
+      }
+    ]
+  },
+  {
+    "id": "Resolución Problemas",
+    "cursos": [],
+    "coaches": [
+      { 
+        "name" : "Liderazgo Explosivo",
+        "rule": "Menor",
+        "value":70
+      },
+      { 
+        "name" : "Desarrollando los Powerskills: Atención plena",
+        "rule": "Menor",
+        "value":50
+      }
+    ],
+    "herramientas":[
+      { 
+        "name": "Trampas de pensamiento (Aceptando mis sesgos)",
+        "rule": "Menor",
+        "value": 70,
+        "type": "Repetible",
+        "frecuency": "1 - 5 x semana",
+        "time": "Día a día; practicar herramienta"
+      },
+      { 
+        "name": "Optimiza tu tiempo con la técnica pomodoro",
+        "rule": "Menor",
+        "value": 80,
+        "type": "Aprendible",
+        "frecuency": "Una sóla vez",
+        "time": "Aprender herramienta técnica"
+      }
+    ]
+  }
+]
