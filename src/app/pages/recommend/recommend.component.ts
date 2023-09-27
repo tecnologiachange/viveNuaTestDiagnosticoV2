@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { find } from 'rxjs';
+import { Location } from '@angular/common'
+import { IDefinitionRecommend } from 'src/app/models/i.models';
 import { Utils } from 'src/app/services/utils/utils.service';
 
 @Component({
@@ -15,7 +16,7 @@ export class RecommendComponent implements OnInit{
   public dataValuesActual: number[] = [];
   public dataValuesExpected: number[] = [];
 
-  constructor(private router: Router) { 
+  constructor(private router: Router, private location: Location  ) { 
     this.extras = (this.router.getCurrentNavigation()!.extras.state as any).extras;
   }
 
@@ -31,5 +32,15 @@ export class RecommendComponent implements OnInit{
       this.dataValuesActual.push( valueActual );
       this.dataValuesExpected.push((item.value >= valueActual) ? item.value : valueActual);
     });
+  }
+
+  public getValue( value: string | IDefinitionRecommend , isExtend: boolean = false): string{
+    if (typeof value == 'string') return value;
+    if (!isExtend) return value.name;
+    return value.name + '<br>'+ value.frecuency + '<br>'+value.time; 
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 }

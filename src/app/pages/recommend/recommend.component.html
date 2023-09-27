@@ -1,4 +1,7 @@
-<div class="title-recommend">{{extras.name}}, aca esta tu plan de desarrollo</div>
+<div class="title-recommend">
+    <img src="assets/imgs/right-arrow.svg" alt="right-down" (click)="goBack()" class="arrow-down"/>
+    <p>{{extras.name}}, aca esta tu plan de desarrollo</p>
+</div>
 <div class="container">
     <section>
         <p class="title-bar">Plan de desarrollo: Tus habilidades primordiales</p>
@@ -11,14 +14,14 @@
         <p class="title-bar">Tu plan recomendado</p>
         Te recomendamos ver los siguientes Programas en linea:
         <div class="course" *ngFor="let course of extras.recommend.cursos">
-            <img src="assets/imgs/study.svg">
-            <p>{{course}}</p>
+            <img style="margin: auto;" src="assets/imgs/study.svg">
+            <p [innerHTML]="getValue( course )"></p>
         </div>
         <hr/>
         <p class="title-bar">Utiliza estas herramientas Esenciales</p>
         <div class="course" *ngFor="let gear of extras.recommend.herramientas">
-            <img src="assets/imgs/paper_study.svg">
-            <p>{{gear}}</p>
+            <img style="margin: auto;" src="assets/imgs/paper_study.svg">
+            <p [innerHTML]="getValue( gear , true )"></p>
         </div>
     </section>
 </div>

@@ -31,12 +31,12 @@
         </div>
         <div>
             <div class="container-dual__title">
-                <p style="text-align: center;">Analiza tus macro y micro habilidades a detalle</p>
+                <p style="text-align: center;">Analiza tus Macro y Micro habilidades a detalle</p>
                 <section>
                     Una <strong>Macro Habilidad</strong> es una habilidad general que abarca varias acciones y comportamientos relacionados. Imagina que es como una caja que contiene distintas pequeñas habilidades blandas dentro (Micro Habilidades). Estas habilidades grandes nos ayudan a ser exitosos en la forma en que interactuamos con los demás y enfrentamos los desafíos de la vida. 
                     <br><br>
                     En cada Macro Habilidad encontrarás sus respectivas <strong>Micro Habilidades</strong>, son un pequeño aspecto de una habilidad grande (Macro) que nos ayuda a relacionarnos mejor con los demás y a gestionarnos en diferentes situaciones. Son como piezas pequeñas de un rompecabezas que, cuando las juntas, te ayudan a tener éxito en tu rol e interacciones diarias.
-                    <!-- <button class="button" style="margin-bottom: 0px;" *ngIf="isCurriculum()" (click)="nextPage()">Curriculum Inteligente</button> -->
+                    <button class="button" style="margin-bottom: 0px;" *ngIf="isCurriculum()" (click)="nextPage()">Curriculum Inteligente</button>
                 </section>
             </div>
             <app-accordion-category [extras]="extras" [habilities]="results" (event)="sendEmit($event)" (buttonEvent)="mySubhabilities()"></app-accordion-category>
@@ -57,7 +57,7 @@
             </div>
             <div class="container-extra-habilities">
                 <button class="button right" (click)="sendMail()">Enviamelo por correo</button>
-                <button class="button left" (click)="sendSubscription()">Quiero Suscribirme!</button>
+                <button class="button left" (click)="sendSubscription()">¡Quiero Suscribirme!</button>
             </div>
         </div>
     </div>

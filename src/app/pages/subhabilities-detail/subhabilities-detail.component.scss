@@ -35,3 +35,22 @@
     }
 
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        div {
+            grid-template-columns: 70% 1fr;
+            grid-template-rows: 1fr;
+            p{
+                margin-top: 0.8rem;
+                text-align: start;
+            }
+            app-badge{
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
+            }
+        }
+    }
+}

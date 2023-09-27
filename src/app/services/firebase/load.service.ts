@@ -7,6 +7,7 @@ import * as dataMicroHabilidades from './../../../assets/static/microhabilidades
 import * as dataMacroHabilidades from './../../../assets/static/macrohabilidades.json';
 import * as recommend from './../../../assets/static/recommend.json';
 import * as score from './../../../assets/static/score.json';
+import * as recommendByHability from './../../../assets/static/recommend_by_hability.json'
 
 import * as dataMacroJSON from './../../../assets/static/data_macro.json';
 import * as dataPreguntasJSON from './../../../assets/static/id_preguntas.json';
@@ -33,7 +34,8 @@ export class LoadService{
         // const _collectionMicro = collection(this.firestore, environment.storage.micro);
         // const _collectionMacro = collection(this.firestore, environment.storage.micro);
         // const _collectionRecommend = collection(this.firestore, environment.storage.recommend);
-        const _collectionScore = collection(this.firestore, environment.storage.score);
+        //const _collectionScore = collection(this.firestore, environment.storage.score);
+        const _collectionRecommendByHability = collection(this.firestore, environment.storage.recommendByHability);
 
         // (dataMicroHabilidades as any).default.forEach( async (item: any) => {
         //     await this.setDocumentToCollection(_collectionMicro, item);
@@ -44,10 +46,15 @@ export class LoadService{
         // (recommend as any).default.forEach( async (item: any) => {
         //     await this.setDocumentToCollection(_collectionRecommend, item);
         // });
-        const objectScore = (score as any).default;
-        Object.keys( objectScore ).forEach( async (key: any) => {
-            const item = { id: key , ...objectScore[key] };
-            await this.setDocumentToCollection(_collectionScore, item);
+        // const objectScore = (score as any).default;
+        // Object.keys( objectScore ).forEach( async (key: any) => {
+        //     const item = { id: key , ...objectScore[key] };
+        //     await this.setDocumentToCollection(_collectionScore, item);
+        // });
+        const objectRecommendByHability = (recommendByHability as any).default;
+        Object.keys( objectRecommendByHability ).forEach( async (key: any) => {
+            const item = { id: key , ...objectRecommendByHability[key] };
+            await this.setDocumentToCollection(_collectionRecommendByHability, item);
         });
     }
 
