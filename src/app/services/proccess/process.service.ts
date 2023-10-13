@@ -107,7 +107,8 @@ export class ProcessService {
                     email = answer.email;
                 }
                 if (answer.field.ref === environment.fields.cargo){
-                    area = answer.choice!.label;
+                    area = (answer.choice!.label) ? answer.choice!.label : answer.choice!.other;
+                    area = (area)? area : 'No Encontrado';
                 }
                 if(answer.type === 'number'){
                     response.push({
