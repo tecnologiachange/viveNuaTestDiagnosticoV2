@@ -19,7 +19,6 @@ export class LoadResultsComponent implements OnInit{
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id')!;
     this.getInformationToResults(this.id).then( (res: any) => {  
-      console.log(res);
       this.router.navigateByUrl ('/results' , { state: res } );
     }).catch( _error => {
       console.error(_error);

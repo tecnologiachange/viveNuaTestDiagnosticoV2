@@ -68,6 +68,7 @@ export interface Hability {
       id: string;
       ref: string;
       label: string;
+      other: string;
     }
   };
 
