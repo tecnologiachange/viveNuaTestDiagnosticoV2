@@ -6,22 +6,53 @@
     <section>
         <p class="title-bar">Plan de desarrollo: Tus habilidades primordiales</p>
         <app-horizontal-barchar-stacked 
-            [dataLabels]="dataLabels" 
-            [dataValuesActual]="dataValuesActual" 
-            [dataValuesExpected]="dataValuesExpected"/>
+            [dataLabels]="dataLabels.slice(0,3)" 
+            [dataValuesActual]="dataValuesActual.slice(0,3)" 
+            [dataValuesExpected]="dataValuesExpected.slice(0,3)"/>
+        <!-- <button class="button" style="margin-bottom: 0px;" (click)="createCurriculum()">Crea tu propio Curriculium</button> -->
     </section>
     <section>
         <p class="title-bar">Tu plan recomendado</p>
         Te recomendamos ver los siguientes Programas en linea:
-        <div class="course" *ngFor="let course of extras.recommend.cursos">
+        <div class="course" *ngFor="let course of recommendCursos">
             <img style="margin: auto;" src="assets/imgs/study.svg">
             <p [innerHTML]="getValue( course )"></p>
         </div>
         <hr/>
         <p class="title-bar">Utiliza estas herramientas Esenciales</p>
-        <div class="course" *ngFor="let gear of extras.recommend.herramientas">
+        <div class="course" *ngFor="let gear of recommendHerramientas">
             <img style="margin: auto;" src="assets/imgs/paper_study.svg">
             <p [innerHTML]="getValue( gear , true )"></p>
         </div>
     </section>
 </div>
+
+
+<ng-template #detailContent>
+
+    <div class="mmodal">
+        <div class="mmodal-body">
+            <div class="mmodal-title">
+                <p>Selecciona en lo que deseas trabajar</p>
+                <img src="assets/imgs/close.svg" alt="close" (click)="close()" class="close-style"/>
+            </div>
+            <div class="mmodal-body" style="height: 50vh; overflow-x:hidden;">
+                <h3 style="text-align: start;">Tus Planes</h3>
+                <div class="item-modal-selection" *ngFor="let course of extras.recommend.cursos">
+                    <input class="checkbox" type="checkbox" [id]="course" [value]="course" (change)="intoCourse($event , course, true)"/>
+                    <label style="margin-top: 5px;" [for]="course" [innerHTML]="getValue( course )"></label>
+                </div>
+                <hr/>
+                <h3>Utiliza estas herramientas Esenciales</h3>
+                <div class="item-modal-selection" *ngFor="let gear of extras.recommend.herramientas">
+                    <input class="checkbox" type="checkbox" [id]="gear" [value]="gear" (change)="intoCourse($event , gear, false)" />
+                    <label [for]="gear" [innerHTML]="getValue( gear , true )"></label>
+                </div>
+            </div>
+            <button class="button" style="margin-bottom: 0px;" (click)="create()">Crear</button>
+        </div>
+    </div>
+    <div class="mmodal-background"></div>
+</ng-template>
+
+<app-modal #modal [content]="detailContent" [title]="'Ola'"></app-modal>

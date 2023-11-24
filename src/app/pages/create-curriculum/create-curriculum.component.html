@@ -1,0 +1,28 @@
+<div class="title-recommend">
+    <img src="assets/imgs/right-arrow.svg" alt="right-down" (click)="goBack()" class="arrow-down"/>
+    <p>{{extras.name}}, aca puedes crear tú plan de desarrollo</p>
+</div>
+
+<div class="container">
+    <section>
+        <p  *ngIf="listHabilities.length > 0">Coloca las habilidades que quieres reforzar</p>
+        <p  *ngIf="listHabilities.length === 0">Adiciona las habilidades</p>
+        <button class="button" (click)="add()">Agregar</button>
+    </section>
+    <section *ngFor="let item of listHabilities">
+        <input type="text" [(ngModel)]="item.hability" placeholder="Digita la habilidad en la cual te enfocarás"/>
+        <select class="form-control" [(ngModel)]="item.time">
+            <option value="" disabled selected="selected">Selecciona el tiempo que dedicarás</option>
+            <option value="1S">1 vez por semana</option>
+            <option value="3S">3 veces por semana</option>
+            <option value="1M">1 vez por mes</option>
+            <option value="4M">4 veces por mes</option>
+            <option value="1DS">1er dia de la semana</option>
+            <option value="1DM">1er dia del mes</option>
+          </select>
+    </section>
+    <section *ngIf="listHabilities.length > 0">
+        <p></p>
+        <button [disabled]="!isValidate()" class="button" (click)="save()">Guardar y enviar</button>
+    </section>
+</div>

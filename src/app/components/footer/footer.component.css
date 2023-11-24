@@ -1,0 +1,66 @@
+.container-footer {
+  background-color: #5326a0;
+  color: white;
+  font-family: "Raleway";
+  font-size: 14px;
+}
+.container-footer .footer {
+  display: grid;
+  grid-template-columns: 30% 1fr 30%;
+  width: 70rem;
+  margin: auto;
+  height: auto;
+}
+.container-footer .footer .col-1 {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.container-footer .footer .col-1 p {
+  margin: 0.2rem;
+}
+.container-footer .footer .col-2 {
+  text-align: center;
+}
+.container-footer .footer .col-2 a {
+  color: white;
+  text-decoration: none;
+}
+.container-footer .footer .col-2 a p {
+  color: white;
+  text-decoration: none;
+  margin: 0.2rem;
+}
+.container-footer .footer .col-2 a img {
+  width: 99px;
+  margin-top: 1rem;
+}
+.container-footer .footer .col-3 {
+  text-align: center;
+  font-weight: 600;
+}
+.container-footer .footer .col-3 p {
+  margin-bottom: 0px;
+}
+.container-footer .footer .col-3 div {
+  width: 7rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-gap: 0.2rem;
+  padding: 2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 1rem;
+}
+.container-footer .footer .col-3 div a img {
+  width: 2.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    width: 100% !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto;
+    margin-left: -1rem !important;
+  }
+}/*# sourceMappingURL=footer.component.css.map */
