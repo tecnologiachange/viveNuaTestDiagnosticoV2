@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Raleway" !important;
+  margin: 0px;
+  width: 103vw;
+  overflow-x: hidden;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    height: 80vh;
+    width: 99vw;
+  }
+}
+.base-container, .container {
+  background: #f7f6f6;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  font-size: 14px;
+}
+
+.container {
+  cursor: pointer;
+}
+
+img {
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+  display: block;
+}/*# sourceMappingURL=brain-card.component.css.map */

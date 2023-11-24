@@ -151,7 +151,7 @@ export class ProcessService {
         let habilities = temp.slice ( temp.length - 3 , temp.length );
 
         recommend.forEach( habilities => {
-            let filter = dataRecomendByHability.filter( filter => Utils.standartText(filter.id || '') == Utils.standartText(habilities.name) );
+            let filter = dataRecomendByHability.filter( (filter:any) => Utils.standartText(filter.id) == Utils.standartText(habilities.name) );
             if(filter && filter.length > 0 ){
                 const response = UtilsSpecific.getRecommendTohability( filter , habilities);
                 habilidades = habilidades.concat(response.cursos.map( item => { return { name: habilities.name , value: item.value } }));
@@ -164,7 +164,7 @@ export class ProcessService {
         });
 
         habilities.forEach( habilities => {
-            let filter = dataRecomendByHability.filter( filter => Utils.standartText(filter.id || '') == Utils.standartText(habilities.name) );
+            let filter = dataRecomendByHability.filter( (filter:any) => Utils.standartText(filter.id) == Utils.standartText(habilities.name) );
             if(filter && filter.length > 0 ){
                 const response = UtilsSpecific.getRecommendTohability( filter , habilities);
                 habilidades = habilidades.concat(response.cursos.map( item => { return { name: habilities.name , value: item.value } }));
@@ -175,6 +175,12 @@ export class ProcessService {
                 throw new Error('Fallo al mapear las habilidades de ' +Utils.standartText(habilities.name));
             }
         });
-        return { cursos , habilidades , herramientas , coaches}; 
+
+        return {
+            cursos: Utils.validateDuplicate(cursos),
+            habilidades: Utils.validateDuplicate(habilidades),
+            herramientas: Utils.validateDuplicate(herramientas),
+            coaches:Utils.validateDuplicate(coaches)
+        }; 
     }
 }

@@ -1,0 +1,20 @@
+.subheader {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  grid-template-rows: 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.subheader p {
+  margin: 1.01rem;
+}
+.subheader img {
+  width: 2.5rem;
+  margin: auto;
+}
+
+p {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0.5rem;
+}/*# sourceMappingURL=category.component.css.map */

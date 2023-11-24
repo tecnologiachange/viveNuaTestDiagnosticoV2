@@ -88,4 +88,9 @@ export class ResultTestComponent implements OnInit{
     console.log(this.extras);
     this.router.navigateByUrl('/recommend', { state: { extras: this.extras } });
   }
+
+  public createCurriculum(): void{
+    console.log(this.extras);
+    this.router.navigateByUrl('/create-curriculum', { state: { extras: this.extras } });
+  }
 }

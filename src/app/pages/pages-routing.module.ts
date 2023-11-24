@@ -6,6 +6,7 @@ import { LoadResultsComponent } from './load-results/load-results.component';
 import { ResultTestComponent } from './result-test/result-test.component';
 import { RecommendComponent } from './recommend/recommend.component';
 import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabilities-detail.component';
+import { CreateCurriculumComponent } from './create-curriculum/create-curriculum.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,11 @@ const routes: Routes = [
   {
     path: 'subhabilities',
     component: SubhabilitiesDetailComponent,
+    data: { animationState: 'Two' },
+  },
+  {
+    path: 'create-curriculum',
+    component: CreateCurriculumComponent,
     data: { animationState: 'Two' },
   },
   {

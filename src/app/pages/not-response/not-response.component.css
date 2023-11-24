@@ -1,0 +1,17 @@
+.container {
+  padding: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.alert {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: #5326a0;
+  font-weight: 600;
+}/*# sourceMappingURL=not-response.component.css.map */
