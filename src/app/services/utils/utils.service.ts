@@ -73,4 +73,12 @@ export class Utils {
         text = text.replace(':', '');
         return text;
     }
+
+    public static validateDuplicate( array: any[]): any[]{
+        let temporalSet = new Set();
+        array.forEach( (item)=> {
+            temporalSet.add(item);
+        })
+        return Array.from(temporalSet);
+    }
 }

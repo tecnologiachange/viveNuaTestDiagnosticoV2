@@ -8,6 +8,9 @@ import { NotResponseComponent } from './not-response/not-response.component';
 import { LoadResultsComponent } from './load-results/load-results.component';
 import { RecommendComponent } from './recommend/recommend.component';
 import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabilities-detail.component';
+import { CreateCurriculumComponent } from './create-curriculum/create-curriculum.component';
+import { FormsModule } from '@angular/forms';
+import { ReportCurriculumComponent } from './report-curriculum/report-curriculum.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +19,15 @@ import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabiliti
     NotResponseComponent,
     LoadResultsComponent,
     RecommendComponent,
-    SubhabilitiesDetailComponent
+    SubhabilitiesDetailComponent,
+    CreateCurriculumComponent,
+    ReportCurriculumComponent
   ],
   imports: [
     CommonModule,
     ComponentsModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule
   ]
 })
 export class PagesModule { }
