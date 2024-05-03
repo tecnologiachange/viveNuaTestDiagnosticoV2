@@ -10,6 +10,7 @@ import { RecommendComponent } from './recommend/recommend.component';
 import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabilities-detail.component';
 import { CreateCurriculumComponent } from './create-curriculum/create-curriculum.component';
 import { FormsModule } from '@angular/forms';
+import { ReportCurriculumComponent } from './report-curriculum/report-curriculum.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     LoadResultsComponent,
     RecommendComponent,
     SubhabilitiesDetailComponent,
-    CreateCurriculumComponent
+    CreateCurriculumComponent,
+    ReportCurriculumComponent
   ],
   imports: [
     CommonModule,

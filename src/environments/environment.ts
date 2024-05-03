@@ -30,5 +30,8 @@ export const environment = {
     'tecnologia':'tecnologias',
     'ventas':'ventas'
   },
-  isHomologo: false
+  isHomologo: false,
+  api : {
+    host: 'http://localhost:8000'
+  }
 };

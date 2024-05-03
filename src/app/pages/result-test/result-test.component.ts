@@ -65,10 +65,13 @@ export class ResultTestComponent implements OnInit{
 
   public sendMail(){
     const body = {
-      email: this.email, 
-      name: this.name,
-      reportId: this.id
-    }
+      to: [ this.email ],
+      subject: "Diagnóstico Completado",
+      template: "HDl287yVO7n6Mq7dk6l1mSN1vRLe9x",
+      replace: {
+          url: "https://check.vivenua.com/results?id="+this.id
+      }
+  }
     this.http.post(body).subscribe( res => console.log(res));
   }
 

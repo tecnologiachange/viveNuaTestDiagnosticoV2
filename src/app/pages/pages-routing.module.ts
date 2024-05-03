@@ -7,6 +7,7 @@ import { ResultTestComponent } from './result-test/result-test.component';
 import { RecommendComponent } from './recommend/recommend.component';
 import { SubhabilitiesDetailComponent } from './subhabilities-detail/subhabilities-detail.component';
 import { CreateCurriculumComponent } from './create-curriculum/create-curriculum.component';
+import { ReportCurriculumComponent } from './report-curriculum/report-curriculum.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,11 @@ const routes: Routes = [
     path: 'create-curriculum',
     component: CreateCurriculumComponent,
     data: { animationState: 'Two' },
+  },
+  {
+    path: 'report/:token',
+    component: ReportCurriculumComponent,
+    data: { animationState: 'One' },
   },
   {
     path: '**',

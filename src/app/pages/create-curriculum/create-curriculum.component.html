@@ -10,8 +10,8 @@
         <button class="button" (click)="add()">Agregar</button>
     </section>
     <section *ngFor="let item of listHabilities">
-        <input type="text" [(ngModel)]="item.hability" placeholder="Digita la habilidad en la cual te enfocarás"/>
-        <select class="form-control" [(ngModel)]="item.time">
+        <input type="text" [(ngModel)]="item.text" placeholder="Digita la habilidad en la cual te enfocarás"/>
+        <select class="form-control" [(ngModel)]="item.frecuency">
             <option value="" disabled selected="selected">Selecciona el tiempo que dedicarás</option>
             <option value="1S">1 vez por semana</option>
             <option value="3S">3 veces por semana</option>
