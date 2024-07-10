@@ -28,6 +28,7 @@ export class ResultTestComponent implements OnInit{
   @ViewChild('modal') modal!: ModalComponent;
   public isLoad = false;
   public extras!: any ;
+  public isCurriculumInteligente = false;
   public subhabilidades: Subhability[] = [];
 
   constructor( private router: Router ,  private http: HttpService) { 
@@ -44,6 +45,7 @@ export class ResultTestComponent implements OnInit{
     this.id = this.extras.id;
     this.subhabilidades = this.extras.subhabilities;
     this.burnout.name = '';
+    this.isCurriculumInteligente = this.email.indexOf('@nykgroup.com') > -1;
   }
 
   public sendEmit(_item: any){

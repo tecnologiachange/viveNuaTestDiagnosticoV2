@@ -11,9 +11,11 @@ export class AccordionCategoryComponent {
 
   @Input() habilities: Hability[] = [];
   @Input() subhalities: Subhability[] = [];
+  @Input() isCurriculumInteligente = false;
   @Input() extras: any;
   @Output() event = new EventEmitter<any>();
   @Output() buttonEvent = new EventEmitter<any>();
+  @Output() buttonCurriculum = new EventEmitter<any>();
 
   constructor( private router: Router ) {}
 
@@ -35,5 +37,9 @@ export class AccordionCategoryComponent {
 
   openModal(){
     this.buttonEvent.emit();
+  }
+
+  openCurriculum(){
+    this.buttonCurriculum.emit();
   }
 }

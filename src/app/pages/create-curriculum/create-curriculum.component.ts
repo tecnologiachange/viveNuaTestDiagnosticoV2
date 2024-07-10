@@ -12,9 +12,13 @@ export class CreateCurriculumComponent {
 
   public extras;
   public listHabilities: { text: string, frecuency: string }[] = [];
+  public isLoad = false;
 
   constructor(private router: Router, private location: Location, private service: HttpService) { 
     this.extras = (this.router.getCurrentNavigation()!.extras.state as any).extras;
+    this.extras.recommend.herramientas.forEach((element: { name: string, frecuency: string }) => {
+      this.listHabilities.push({text: element.name, frecuency: element.frecuency})
+    });
   }
 
   goBack(): void {
@@ -30,18 +34,21 @@ export class CreateCurriculumComponent {
   }
 
   public save(): void{
+    this.isLoad = true;
     const sendObject = {
       "nombre": this.extras.name,
-      "correo": 'adgsgutierrez@gmail.com',//this.extras.email,
+      "correo": this.extras.email,
       "curriculum": this.listHabilities
     };
     this.service.sendReport(sendObject).subscribe({
       next: (_response) => {
         console.log(_response);
+        this.isLoad = false;
         alert('Se guardó de forma exitosa')
       },
       error: (_erno) => {
         console.error(_erno);
+        this.isLoad = false;
         alert('Se presentó un error al guardar el curriculum');
       }
     })

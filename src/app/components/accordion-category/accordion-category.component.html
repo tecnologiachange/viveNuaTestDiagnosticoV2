@@ -4,5 +4,9 @@
         <p>{{ item.name}}</p>
         <img src="assets/imgs/right-arrow.svg" alt="right-down" (click)="onEmitEvent(item)" class="arrow-down"/>
     </div>
-    <button class="button" (click)="openModal()">Tus Micro habilidades</button>
+    <button *ngIf="!isCurriculumInteligente" class="button" (click)="openModal()">Tus Micro habilidades</button>
+    <div *ngIf="isCurriculumInteligente" class="container-extra-habilities"  style="margin-bottom: 0px;">
+        <button class="button right green" style="margin-bottom: 0px;" (click)="openCurriculum()">Curriculum Inteligente</button>
+        <button class="button left" style="margin-bottom: 0px;" (click)="openModal()">Tus Micro habilidades</button>
+    </div>
 </div>

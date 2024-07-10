@@ -26,8 +26,8 @@ export class RecommendComponent implements OnInit{
 
   constructor(private router: Router, private location: Location  ) { 
     this.extras = (this.router.getCurrentNavigation()!.extras.state as any).extras;
-    this.recommendCursos = this.extras.recommend.cursos.slice(0,3);
-    this.recommendHerramientas = this.extras.recommend.herramientas.slice(0,3);
+    this.recommendCursos = this.extras.recommend.cursos;
+    this.recommendHerramientas = this.extras.recommend.herramientas;
   }
 
   ngOnInit(): void {
@@ -77,5 +77,9 @@ export class RecommendComponent implements OnInit{
     this.recommendCursos = Array.from(this.setRecommendCourse);
     this.recommendHerramientas = Array.from(this.setRecommendGear);
     this.close();
+  }
+
+  public saveFollowUp(): void{
+    this.router.navigateByUrl('/create-curriculum', { state: { extras: this.extras } });
   }
 }

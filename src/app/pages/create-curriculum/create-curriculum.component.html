@@ -5,12 +5,12 @@
 
 <div class="container">
     <section>
-        <p  *ngIf="listHabilities.length > 0">Coloca las habilidades que quieres reforzar</p>
-        <p  *ngIf="listHabilities.length === 0">Adiciona las habilidades</p>
-        <button class="button" (click)="add()">Agregar</button>
+        <p  *ngIf="listHabilities.length > 0">Coloca la frecuencia con la que practicarás las habilidades que quieres reforzar</p>
+        <!-- <p  *ngIf="listHabilities.length === 0">Adiciona las habilidades</p> -->
+        <!-- <button class="button" (click)="add()">Agregar</button> -->
     </section>
     <section *ngFor="let item of listHabilities">
-        <input type="text" [(ngModel)]="item.text" placeholder="Digita la habilidad en la cual te enfocarás"/>
+        <input type="text" [(ngModel)]="item.text" disabled placeholder="Digita la habilidad en la cual te enfocarás"/>
         <select class="form-control" [(ngModel)]="item.frecuency">
             <option value="" disabled selected="selected">Selecciona el tiempo que dedicarás</option>
             <option value="1S">1 vez por semana</option>
@@ -23,6 +23,7 @@
     </section>
     <section *ngIf="listHabilities.length > 0">
         <p></p>
-        <button [disabled]="!isValidate()" class="button" (click)="save()">Guardar y enviar</button>
+        <button *ngIf="!isLoad" [disabled]="!isValidate()" class="button" (click)="save()">Guardar y enviar</button>
+        <app-load-minimal *ngIf="isLoad"></app-load-minimal>
     </section>
 </div>
