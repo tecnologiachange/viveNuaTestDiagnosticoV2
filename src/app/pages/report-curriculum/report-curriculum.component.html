@@ -17,6 +17,7 @@
         <button (click)="seleccionar(item)">{{getLabel(item)}}</button>
     </section>
     <section class="new-distribution">
-        <button [disabled]="!isValidate()" class="button" (click)="guardarCurriculum()">Guardar y enviar</button>
+        <app-load-minimal *ngIf="isLoad"></app-load-minimal>
+        <button *ngIf="!isLoad" [disabled]="!isValidate()" class="button" (click)="guardarCurriculum()">Guardar y enviar</button>
     </section>
 </div>

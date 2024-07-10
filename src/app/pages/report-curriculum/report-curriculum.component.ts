@@ -1,6 +1,5 @@
-import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { HttpService } from 'src/app/services/api/http.service';
 
 @Component({
@@ -12,8 +11,11 @@ export class ReportCurriculumComponent implements OnInit {
 
   public responseService:{ text:string, frecuency:string, report: string[] }[] = [];
   public sendReport: {token: string, curriculum: { text:string, frecuency:string, report: string[] }[]} = { token: '', curriculum: [] };
+  public isLoad = false;
+  public isSaved = false;
+  private retryErrors = 0;
 
-  constructor(private route: ActivatedRoute, private service: HttpService){
+  constructor(private route: ActivatedRoute, private service: HttpService, private readonly router: Router){
   }
 
   ngOnInit(): void {
@@ -24,18 +26,28 @@ export class ReportCurriculumComponent implements OnInit {
         this.responseService = _response;
       },
       error: (_erno) => {
+        this.router.navigate(['/not-response']);
         console.error(_erno);
       }
     });
   }
 
   public guardarCurriculum(){
+    this.isLoad = true;
     this.service.updateReport(this.sendReport).subscribe({
       next: (_response) => {
+        this.isLoad = false;
+        this.isSaved = true;
         console.log(_response);
       },
       error: (_erno) =>{
+        this.isLoad = false;
+        this.retryErrors += 1;
+        alert('Se presentó un error al guardar el avance');
         console.error(_erno);
+        if (this.retryErrors > 3) {
+          this.router.navigate(['/not-response']);
+        }
       }
     });
   }
@@ -54,6 +66,6 @@ export class ReportCurriculumComponent implements OnInit {
   }
   
   public isValidate() {
-    return (this.sendReport.curriculum.length > 0);
+    return (this.sendReport.curriculum.length > 0) && !this.isSaved;
   }
 }

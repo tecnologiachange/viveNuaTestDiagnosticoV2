@@ -23,8 +23,12 @@ export class ProcessService {
             let results = this.setMacroHability(macro);
             results = this.setValuePercent(results , micro , resultTest.transform, macro);
             const _env: any = environment;
-            const area = Utils.standartText( resultTest.area );
+            //const area = Utils.standartText( resultTest.area );
+            // Se condiciona el area para que se busque por correo segun si es nykgroup
+            const area = (resultTest.email.indexOf('@nykgroup.com') > -1) ? resultTest.email.toUpperCase() : Utils.standartText( resultTest.area );
+            console.log(`-${area}-` );
             const recommend = await this.getDefinitionRecommend( _env.homologo[area] , results);
+            console.log('recommend' ,recommend);
             return { 
                 results ,
                 name: resultTest.name ,
@@ -130,8 +134,12 @@ export class ProcessService {
 
     public async getDefinitionRecommend(profile: string , results: Hability[]): Promise<IRecommend>{
         try{
-            if(profile && environment.isHomologo) 
-                return (await this.getService.getOne(environment.storage.recommend , profile)).data() as IRecommend;
+            console.log('profile' , profile , environment.isHomologo);
+            if(profile && environment.isHomologo){
+                const data = (await this.getService.getOne(environment.storage.recommend , profile)).data() as IRecommend;
+                console.log('data' , data);
+                return data;
+            }
             return this.processRecommendWithDetails(results);
         }catch(_e){
             return { cursos : [] , habilidades: [] , herramientas: [] , coaches: []};
@@ -147,8 +155,11 @@ export class ProcessService {
         let temp: Hability[] = JSON.parse(JSON.stringify( results ));
         const dataRecomendByHability: IRecommend[] = await Utils.transformObservableToPromise( this.getService.get(environment.storage.recommendByHability) );
         temp = (temp.sort( (a , b) => a.percent - b.percent )).filter( item => item.isGraphic );
-        let recommend = temp.slice(0,3);
-        let habilities = temp.slice ( temp.length - 3 , temp.length );
+        // let recommend = temp.slice(0,3);
+        // let habilities = temp.slice ( temp.length - 3 , temp.length );
+
+        let recommend = temp;
+        let habilities = temp;
 
         recommend.forEach( habilities => {
             let filter = dataRecomendByHability.filter( (filter:any) => Utils.standartText(filter.id) == Utils.standartText(habilities.name) );

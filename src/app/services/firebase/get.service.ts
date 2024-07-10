@@ -25,7 +25,7 @@ export class GetService {
       const data = item.doc.data();
       const id = item.doc.id;
       return { id , ...data };
-    })
+    })  
   }
 
   public getOne(collectionName: string , id: string){

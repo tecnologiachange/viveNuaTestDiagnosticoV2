@@ -13,6 +13,7 @@ import { DetailContentComponent } from './detail-content/detail-content.componen
 import { LoadingComponent } from './loading/loading.component';
 import { FooterComponent } from './footer/footer.component';
 import { HorizontalBarcharStackedComponent } from './horizontal-barchar-stacked/horizontal-barchar-stacked.component';
+import { LoadMinimalComponent } from './load-minimal/load-minimal.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HorizontalBarcharStackedComponent } from './horizontal-barchar-stacked/
     DetailContentComponent,
     LoadingComponent,
     FooterComponent,
-    HorizontalBarcharStackedComponent
+    HorizontalBarcharStackedComponent,
+    LoadMinimalComponent
   ],
   imports: [
     CommonModule,
@@ -46,7 +48,8 @@ import { HorizontalBarcharStackedComponent } from './horizontal-barchar-stacked/
     DetailContentComponent,
     LoadingComponent,
     FooterComponent,
-    HorizontalBarcharStackedComponent
+    HorizontalBarcharStackedComponent,
+    LoadMinimalComponent
   ]
 })
 export class ComponentsModule { }
