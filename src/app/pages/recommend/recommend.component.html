@@ -4,11 +4,16 @@
 </div>
 <div class="container">
     <section>
-        <p class="title-bar">Plan de desarrollo: Tus habilidades primordiales</p>
+        <p class="title-bar">Utiliza estas herramientas Esenciales</p>
+        <div class="course" *ngFor="let gear of recommendHerramientas">
+            <img style="margin: auto;" src="assets/imgs/paper_study.svg">
+            <p [innerHTML]="getValue( gear , true )"></p>
+        </div>
+        <!-- <p class="title-bar">Plan de desarrollo: Tus habilidades primordiales</p>
         <app-horizontal-barchar-stacked 
             [dataLabels]="dataLabels.slice(0,3)" 
             [dataValuesActual]="dataValuesActual.slice(0,3)" 
-            [dataValuesExpected]="dataValuesExpected.slice(0,3)"/>
+            [dataValuesExpected]="dataValuesExpected.slice(0,3)"/> -->
         <!-- <button class="button" style="margin-bottom: 0px;" (click)="createCurriculum()">Crea tu propio Curriculium</button> -->
     </section>
     <section>
@@ -18,12 +23,8 @@
             <img style="margin: auto;" src="assets/imgs/study.svg">
             <p [innerHTML]="getValue( course )"></p>
         </div>
-        <hr/>
-        <p class="title-bar">Utiliza estas herramientas Esenciales</p>
-        <div class="course" *ngFor="let gear of recommendHerramientas">
-            <img style="margin: auto;" src="assets/imgs/paper_study.svg">
-            <p [innerHTML]="getValue( gear , true )"></p>
-        </div>
+        <!-- <hr/> -->
+        
         <button class="button" style="margin-bottom: 0px;" (click)="saveFollowUp()">Guardar Seguimiento </button>
     </section>
 </div>
