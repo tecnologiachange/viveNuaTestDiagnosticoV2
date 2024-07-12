@@ -45,7 +45,7 @@ export class ResultTestComponent implements OnInit{
     this.id = this.extras.id;
     this.subhabilidades = this.extras.subhabilities;
     this.burnout.name = '';
-    this.isCurriculumInteligente = this.email.indexOf('@nykgroup.com') > -1;
+    this.isCurriculumInteligente = this.email.toLowerCase().indexOf('@nykgroup.com') > -1;
   }
 
   public sendEmit(_item: any){
